@@ -1,0 +1,2954 @@
+{
+    "maquinarias": [
+        {
+        "idType": 1,
+        "idProduct": 1,
+        "nameProduct": "CAT 320",
+        "nameHref": "cat320",
+        "img": "/img/imagenesProductos/cat320.jpg",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 122,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 20300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,80-1,19 m3 (1,05-1,56 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cat® C4.4 de bajo consumo",
+            "description": "Hasta 25% menos consumo de combustible frente al modelo anterior, con cumplimiento Tier 4 Final / Stage V."
+            },
+            {
+            "title": "Cat Grade with 2D de serie",
+            "description": "Guiado en tiempo real de profundidad, pendiente y distancia a nivel para mejorar la precisión de excavación."
+            },
+            {
+            "title": "Cabina rediseñada",
+            "description": "Mayor cobertura de visibilidad y controles integrados en el asiento para reducir la fatiga del operador."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica 320 de CAT ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles de mediana a gran envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Prueba MainApllication",
+            "Construcción general",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 122,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 20300,
+        "unityweightOnWork": "Kg",
+        "payload": 21,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Obras viales",
+            "Saneamiento"
+        ],
+        "netPower": 162,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C4.4",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "0,80-1,19 m3 (1,05-1,56 yd3)",
+        "conveyorTurn": "11.5 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 410,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 436,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.72,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 9.86,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 6.79,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 150,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 45.3,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 2,
+        "nameProduct": "CAT 336",
+        "nameHref": "cat336",
+        "img": "/img/imagenesProductos/cat336.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 224,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 36600,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "1,40-2,40 m3 (1,83-3,14 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Tres modos de potencia",
+            "description": "Power, Smart y Eco ajustan automáticamente el motor y el sistema hidráulico según la exigencia de la excavación para ahorrar combustible."
+            },
+            {
+            "title": "Hasta 560 L/min de caudal hidráulico",
+            "description": "Ciclos de trabajo más rápidos y mayor fuerza de arranque de cucharón (210 kN)."
+            },
+            {
+            "title": "Intervalos de mantenimiento extendidos",
+            "description": "Hasta 20% menos costo de mantenimiento frente al modelo anterior, con puntos de servicio agrupados a nivel de suelo."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica 336 de CAT ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de excavación pesada, demolición y minería.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales",
+            "Obras de tunelería"
+        ],
+        "maximumBrutePower": 224,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 36600,
+        "unityweightOnWork": "Kg",
+        "payload": 37,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Industrial y desperdicios",
+            "Obras viales",
+            "Saneamiento"
+        ],
+        "netPower": 302,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C7.1",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "1,40-2,40 m3 (1,83-3,14 yd3)",
+        "conveyorTurn": "9.5 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 480,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 560,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 8.2,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 11.73,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 7.7,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 210,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 60,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 3,
+        "nameProduct": "CAT 323",
+        "nameHref": "cat323",
+        "img": "/img/imagenesProductos/cat323.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 134,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 23900,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,90-1,30 m3 (1,18-1,70 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Modo Smart automático",
+            "description": "Ajusta la potencia del motor y del sistema hidráulico a la condición de excavación para maximizar la eficiencia de combustible."
+            },
+            {
+            "title": "100% de puntos de mantenimiento a nivel de suelo",
+            "description": "Revisiones diarias más rápidas, seguras y sencillas."
+            },
+            {
+            "title": "Cat Grade with 2D de serie",
+            "description": "Guiado de profundidad, pendiente y distancia horizontal para excavar con mayor precisión desde la cabina."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica 323 de CAT ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles de mediana envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 134,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 23900,
+        "unityweightOnWork": "Kg",
+        "payload": 24,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Canteras y minería",
+            "Industrial y desperdicios"
+        ],
+        "netPower": 172,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C7.1",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "0,90-1,30 m3 (1,18-1,70 yd3)",
+        "conveyorTurn": "12 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 340,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 406,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.73,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 9.87,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 6.85,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 140,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.6,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 46,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage IV",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 4,
+        "nameProduct": "Volvo EC210",
+        "nameHref": "volvoec210",
+        "img": "/img/imagenesProductos/volvoec210.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 127,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 21500,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,50-1,50 m3 (0,65-1,96 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Volvo D5 Stage V",
+            "description": "Combina alto rendimiento con bajo consumo de combustible gracias a su ajuste fino con el sistema hidráulico."
+            },
+            {
+            "title": "Cabina Volvo Care Cab",
+            "description": "Certificada ROPS, con bajo nivel de ruido, buena visibilidad y controles ergonómicos para reducir la fatiga."
+            },
+            {
+            "title": "Estructura reforzada",
+            "description": "Tren de rodaje robusto pensado para maximizar la fiabilidad y la vida útil incluso en condiciones exigentes."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica EC210 de Volvo ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico Automatic Sensing Work Mode permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles de mediana envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 127,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 21500,
+        "unityweightOnWork": "Kg",
+        "payload": 22,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Obras viales",
+            "Saneamiento"
+        ],
+        "netPower": 159,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D5",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "0,50-1,50 m3 (0,65-1,96 yd3)",
+        "conveyorTurn": "12 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 140,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 200,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.83,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 10,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 6.9,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 128,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 45,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 5,
+        "nameProduct": "Volvo EC220",
+        "nameHref": "volvoec220",
+        "img": "/img/imagenesProductos/volvoec220.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 129,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 22300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,60-1,60 m3 (0,78-2,09 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Volvo D6 eficiente",
+            "description": "Buena relación potencia/consumo para trabajos de excavación y manejo de materiales de mediana envergadura."
+            },
+            {
+            "title": "Cabina Volvo Care Cab",
+            "description": "Diseño de baja vibración y sonido, con excelente visibilidad de 360°."
+            },
+            {
+            "title": "Sistema hidráulico de flujo compartido",
+            "description": "Movimientos simultáneos de brazo, pluma y giro más suaves y precisos."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica EC220 de Volvo ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles de mediana a gran envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 129,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 22300,
+        "unityweightOnWork": "Kg",
+        "payload": 23,
+        "unitypayload": "tons",
+        "industry": [
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Obras viales",
+            "Saneamiento"
+        ],
+        "netPower": 173,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D6",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "0,60-1,60 m3 (0,78-2,09 yd3)",
+        "conveyorTurn": "12 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 150,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 210,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.9,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 10.2,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 7,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 134,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 46,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 6,
+        "nameProduct": "Hyundai HX220",
+        "nameHref": "hyundaihx220",
+        "img": "/img/imagenesProductos/hyundaihx220.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 127,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 22800,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,60-1,34 m3 (0,78-1,75 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins B6.7 Stage V",
+            "description": "Cumple el estándar de emisiones Stage V / Tier 4 Final sin sacrificar potencia."
+            },
+            {
+            "title": "Estructura de bastidor reforzada",
+            "description": "Soporta cargas de trabajo e impactos externos durante miles de horas de operación."
+            },
+            {
+            "title": "Modo Eco Gauge",
+            "description": "Ayuda a mejorar la productividad y reducir el consumo de combustible en trabajos exigentes."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica HX220 de Hyundai ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles de mediana envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 127,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 22800,
+        "unityweightOnWork": "Kg",
+        "payload": 23,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Obras viales",
+            "Saneamiento"
+        ],
+        "netPower": 170,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins B6.7",
+        "countryProcedence": "Corea del Sur",
+        "bucketCapacities": "0,60-1,34 m3 (0,78-1,75 yd3)",
+        "conveyorTurn": "10.5 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 350,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 404,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.7,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 9.9,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 6.8,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 137,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 46,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 7,
+        "nameProduct": "Hyundai HX260",
+        "nameHref": "hyundaihx260",
+        "img": "/img/imagenesProductos/hyundaihx260.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 157,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 26000,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,75-1,78 m3 (0,98-2,33 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins B6.7 de alto rendimiento",
+            "description": "Entrega potencia adicional para excavaciones de mayor volumen manteniendo el estándar Stage V."
+            },
+            {
+            "title": "Cabina con aislamiento acústico",
+            "description": "Reduce el ruido y la fatiga del operador en jornadas largas."
+            },
+            {
+            "title": "Sistema hidráulico de alto caudal",
+            "description": "460 L/min para ciclos de excavación y carga más rápidos."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica HX260 de Hyundai ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de última generación permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de excavación pesada y construcción de mayor envergadura.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 157,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 26000,
+        "unityweightOnWork": "Kg",
+        "payload": 27,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Saneamiento"
+        ],
+        "netPower": 211,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins B6.7",
+        "countryProcedence": "Corea del Sur",
+        "bucketCapacities": "0,75-1,78 m3 (0,98-2,33 yd3)",
+        "conveyorTurn": "10 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 400,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 460,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 7.4,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 10.6,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 7.4,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 165,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 50,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 1,
+        "idProduct": 8,
+        "nameProduct": "XCMG XE215",
+        "nameHref": "xcmgxe215",
+        "img": "/img/imagenesProductos/xcmgxe215.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 128,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 21500,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidades de Cucharón",
+            "value": "0,50-1,20 m3 (0,65-1,57 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Sistema de control hidráulico inteligente XEICS",
+            "description": "Ajusta la presión de las bombas en tiempo real según la carga de trabajo, mejorando precisión y ahorro de combustible."
+            },
+            {
+            "title": "Cabina presurizada de bajo ruido",
+            "description": "Aire acondicionado multiflujo y pantalla de 8'' para monitoreo y diagnóstico."
+            },
+            {
+            "title": "Doble bomba independiente",
+            "description": "Reduce el consumo de combustible cerca de 10% y mejora la eficiencia operativa cerca de 7%."
+            }
+        ],
+        "generalDescription": "La Excavadora Hidráulica XE215 de XCMG ofrece una combinación óptima de fuerza de excavación, eficiencia de combustible y comodidad para el operador. Su sistema hidráulico de control inteligente permite ciclos de trabajo más rápidos y un control preciso del cucharón, ideal para proyectos de construcción, movimiento de tierras y obras civiles.",
+        "nameType": "Excavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Demolición",
+            "Excavación de zanjas",
+            "Manejo de materiales",
+            "Minería",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 128,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 21500,
+        "unityweightOnWork": "Kg",
+        "payload": 22,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción pesada",
+            "Industrial y desperdicios",
+            "Saneamiento"
+        ],
+        "netPower": 165,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB7",
+        "countryProcedence": "China",
+        "bucketCapacities": "0,50-1,20 m3 (0,65-1,57 yd3)",
+        "conveyorTurn": "11.8 rpm",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 400,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 466,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 6.68,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 9.94,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 6.78,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 149,
+        "unitytearOutForce": "kN",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 5.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 48.2,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 2,
+        "idProduct": 9,
+        "nameProduct": "CAT 950",
+        "nameHref": "cat950",
+        "img": "/img/imagenesProductos/cat950.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 158,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 19300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "2,50-4,50 m3 (3,27-5,88 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Linkage Cat Z-bar",
+            "description": "Alta fuerza de arranque y buena penetración en la pila de material."
+            },
+            {
+            "title": "Transmisión powershift electrónica",
+            "description": "Cambios de marcha suaves con sistema de flujo dividido para mayor eficiencia y durabilidad."
+            },
+            {
+            "title": "Cat Payload de serie",
+            "description": "Pesaje en tiempo real de la carga del cucharón para mejorar precisión y productividad."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal 950 de CAT está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 158,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 19300,
+        "unityweightOnWork": "Kg",
+        "payload": 19,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 212,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C9.3",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "2,50-4,50 m3 (3,27-5,88 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 300,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 220,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.79,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 155,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 12500,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 39.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.44,
+        "unityturningRadius": "m",
+        "drawbarPull": 165,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 5 velocidades"
+        },
+        {
+        "idType": 2,
+        "idProduct": 10,
+        "nameProduct": "CAT 966",
+        "nameHref": "cat966",
+        "img": "/img/imagenesProductos/cat966.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 202,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 22400,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "3,20-5,40 m3 (4,19-7,06 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor capacidad de carga útil",
+            "description": "Diseñado para manipulación de materiales a granel en gran volumen con alta productividad por ciclo."
+            },
+            {
+            "title": "Ventilador hidráulico de velocidad variable",
+            "description": "Se adapta a la demanda de refrigeración del motor para reducir el consumo de combustible."
+            },
+            {
+            "title": "Cabina con excelente visibilidad",
+            "description": "Vidrio hasta el piso de la cabina para ver claramente el cucharón y los neumáticos delanteros."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal 966 de CAT está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 202,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 22400,
+        "unityweightOnWork": "Kg",
+        "payload": 23,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 271,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C9.3",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "3,20-5,40 m3 (4,19-7,06 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 400,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 260,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.95,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 195,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 15800,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 38,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.9,
+        "unityturningRadius": "m",
+        "drawbarPull": 205,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 5 velocidades"
+        },
+        {
+        "idType": 2,
+        "idProduct": 11,
+        "nameProduct": "Volvo L120",
+        "nameHref": "volvol120",
+        "img": "/img/imagenesProductos/volvol120.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 173,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 17600,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "2,80-4,50 m3 (3,66-5,88 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Volvo D6 Stage V",
+            "description": "Rendimiento sólido con bajo consumo de combustible para manipulación de materiales a granel."
+            },
+            {
+            "title": "Sistema de frenos húmedos multidisco",
+            "description": "Mayor durabilidad y menores costos de mantenimiento frente a frenos convencionales."
+            },
+            {
+            "title": "Cabina Volvo Care Cab",
+            "description": "Baja vibración y ruido, con asiento ergonómico y excelente visibilidad."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal L120 de Volvo está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 173,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 17600,
+        "unityweightOnWork": "Kg",
+        "payload": 18,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 232,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D6",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "2,80-4,50 m3 (3,66-5,88 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 290,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 210,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.85,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 148,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 11800,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 37,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.2,
+        "unityturningRadius": "m",
+        "drawbarPull": 160,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 2,
+        "idProduct": 12,
+        "nameProduct": "Volvo L150",
+        "nameHref": "volvol150",
+        "img": "/img/imagenesProductos/volvol150.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 202,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 21800,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "3,20-5,00 m3 (4,19-6,54 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor fuerza de arranque",
+            "description": "178 kN de breakout force para trabajar en materiales densos y compactados."
+            },
+            {
+            "title": "Motor Volvo D6 de alto par",
+            "description": "Optimiza la relación potencia/consumo en ciclos de carga continuos."
+            },
+            {
+            "title": "Cabina Volvo Care Cab",
+            "description": "Diseño ergonómico con controles intuitivos y visibilidad de 360°."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal L150 de Volvo está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 202,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 21800,
+        "unityweightOnWork": "Kg",
+        "payload": 22,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 271,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D6",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "3,20-5,00 m3 (4,19-6,54 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 350,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 250,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.9,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 178,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 14500,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 36,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.6,
+        "unityturningRadius": "m",
+        "drawbarPull": 195,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 2,
+        "idProduct": 13,
+        "nameProduct": "LiuGong 856H",
+        "nameHref": "liugong856h",
+        "img": "/img/imagenesProductos/liugong856h.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 162,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 17300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "2,70-4,20 m3 (3,53-5,49 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins B6.7 confiable",
+            "description": "Buena disponibilidad de repuestos y soporte técnico a nivel regional."
+            },
+            {
+            "title": "Varillaje optimizado",
+            "description": "Ofrece fuerzas de desprendimiento superiores para carga de materiales a granel."
+            },
+            {
+            "title": "Cabina ergonómica y espaciosa",
+            "description": "Reduce la fatiga del operador durante jornadas largas de trabajo."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal 856H de LiuGong está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 162,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 17300,
+        "unityweightOnWork": "Kg",
+        "payload": 18,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 217,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins B6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "2,70-4,20 m3 (3,53-5,49 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 280,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 200,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.8,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 145,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 11200,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 36,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.1,
+        "unityturningRadius": "m",
+        "drawbarPull": 155,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 3 / Stage IIIA",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 2,
+        "idProduct": 14,
+        "nameProduct": "XCMG LW500FN",
+        "nameHref": "xcmglw500fn",
+        "img": "/img/imagenesProductos/xcmglw500fn.jpg",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 165,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 17800,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón",
+            "value": "2,80-4,30 m3 (3,66-5,62 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins de bajo consumo",
+            "description": "Buen equilibrio entre potencia y economía de combustible para uso continuo."
+            },
+            {
+            "title": "Sistema hidráulico de flujo positivo",
+            "description": "Respuesta rápida y buena sensibilidad de operación en carga y descarga."
+            },
+            {
+            "title": "Panel de instrumentos con pantalla táctil",
+            "description": "Facilita el monitoreo de parámetros clave de la máquina en tiempo real."
+            }
+        ],
+        "generalDescription": "El Cargador Frontal LW500FN de XCMG está diseñado para maximizar la productividad en la carga y manipulación de materiales a granel. Cuenta con un varillaje optimizado que brinda fuerzas de desprendimiento superiores, además de una cabina espaciosa y ergonómica que reduce la fatiga del operador durante largas jornadas de trabajo.",
+        "nameType": "Cargadores Frontales",
+        "mainApplication": [
+            "Agricultura",
+            "Construcción de edificios y viviendas",
+            "Manipulación de materiales a granel",
+            "Canteras y minería",
+            "Paisajismo",
+            "Manejo de troncos"
+        ],
+        "maximumBrutePower": 165,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 17800,
+        "unityweightOnWork": "Kg",
+        "payload": 18,
+        "unitypayload": "tons",
+        "industry": [
+            "Agricultura",
+            "Construcción",
+            "Canteras y minería",
+            "Industrial y desperdicios",
+            "Paisajismo y servicios municipales",
+            "Madera y papel"
+        ],
+        "netPower": 221,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "2,80-4,30 m3 (3,66-5,62 yd3)",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 300,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 210,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": 2.85,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": 150,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": 11500,
+        "unitytippingLoad": "Kg",
+        "travelSpeed": 36,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 6.2,
+        "unityturningRadius": "m",
+        "drawbarPull": 160,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 3,
+        "idProduct": 15,
+        "nameProduct": "CAT 420",
+        "nameHref": "cat420",
+        "img": "/img/imagenesProductos/cat420.jpg",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 74,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 8500,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón (Retro)",
+            "value": "0,24-1,03 m3 (0,31-1,35 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cat® C3.6",
+            "description": "Cumple Tier 4 Final / Stage V mediante reducción catalítica selectiva, con buen desempeño y bajo consumo."
+            },
+            {
+            "title": "Bomba de pistones de detección de carga",
+            "description": "Entrega toda la fuerza hidráulica de elevación y excavación a cualquier régimen del motor."
+            },
+            {
+            "title": "Transmisión Powershift AutoShift",
+            "description": "Cambios automáticos con convertidor de par bloqueable para desplazamientos más eficientes."
+            }
+        ],
+        "generalDescription": "La Retroexcavadora 420 de CAT combina la versatilidad de un cargador frontal con la capacidad de excavación de un brazo retro, siendo la solución ideal para trabajos de zanjeo, nivelación y servicios municipales. Su diseño compacto facilita la maniobrabilidad en espacios reducidos sin sacrificar potencia.",
+        "nameType": "Retroexcavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Excavación de zanjas",
+            "Servicios municipales",
+            "Paisajismo",
+            "Demolición ligera",
+            "Instalación de tuberías"
+        ],
+        "maximumBrutePower": 74,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 8500,
+        "unityweightOnWork": "Kg",
+        "payload": 9,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Servicios municipales",
+            "Paisajismo y servicios municipales",
+            "Agricultura"
+        ],
+        "netPower": 99,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C3.6",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "0,24-1,03 m3 (0,31-1,35 yd3)",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 152,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 150,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 4.3,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 6.7,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 2.6,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 62.7,
+        "unitytearOutForce": "kN",
+        "breakoutForce": 51.1,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 40,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 5.5,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 4 velocidades, convertidor de par"
+        },
+        {
+        "idType": 3,
+        "idProduct": 16,
+        "nameProduct": "CAT 430",
+        "nameHref": "cat430",
+        "img": "/img/imagenesProductos/cat430.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 85,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 8900,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón (Retro)",
+            "value": "0,29-1,10 m3 (0,38-1,44 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor potencia que el modelo 420",
+            "description": "Motor Cat® C4.4 con más reserva de par para trabajos exigentes de zanjeo y carga."
+            },
+            {
+            "title": "Brazo extensible opcional",
+            "description": "Aumenta el alcance y la profundidad de excavación sin cambiar de máquina."
+            },
+            {
+            "title": "Estabilizadores de alto rendimiento",
+            "description": "Mayor estabilidad durante la excavación en terrenos irregulares."
+            }
+        ],
+        "generalDescription": "La Retroexcavadora 430 de CAT combina la versatilidad de un cargador frontal con la capacidad de excavación de un brazo retro, siendo la solución ideal para trabajos de zanjeo, nivelación y servicios municipales. Su diseño compacto facilita la maniobrabilidad en espacios reducidos sin sacrificar potencia.",
+        "nameType": "Retroexcavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Excavación de zanjas",
+            "Servicios municipales",
+            "Paisajismo",
+            "Demolición ligera",
+            "Instalación de tuberías"
+        ],
+        "maximumBrutePower": 85,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 8900,
+        "unityweightOnWork": "Kg",
+        "payload": 9,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Servicios municipales",
+            "Paisajismo y servicios municipales",
+            "Agricultura"
+        ],
+        "netPower": 114,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C4.4",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "0,29-1,10 m3 (0,38-1,44 yd3)",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 160,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 160,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 4.5,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 6.9,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 2.7,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 68,
+        "unitytearOutForce": "kN",
+        "breakoutForce": 56,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 40,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 5.6,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 4 velocidades, convertidor de par"
+        },
+        {
+        "idType": 3,
+        "idProduct": 17,
+        "nameProduct": "Hyundai H940C",
+        "nameHref": "hyundaih940c",
+        "img": "/img/imagenesProductos/hyundaih940c.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 78,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 8400,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón (Retro)",
+            "value": "0,25-1,05 m3 (0,33-1,37 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins B6.7 confiable",
+            "description": "Buen soporte de repuestos y servicio a nivel regional."
+            },
+            {
+            "title": "Bastidor reforzado",
+            "description": "Soporta impactos externos y cargas de trabajo pesadas durante miles de horas."
+            },
+            {
+            "title": "Cabina con buena visibilidad",
+            "description": "Facilita el trabajo simultáneo de cargador frontal y retroexcavadora."
+            }
+        ],
+        "generalDescription": "La Retroexcavadora H940C de Hyundai combina la versatilidad de un cargador frontal con la capacidad de excavación de un brazo retro, siendo la solución ideal para trabajos de zanjeo, nivelación y servicios municipales. Su diseño compacto facilita la maniobrabilidad en espacios reducidos sin sacrificar potencia.",
+        "nameType": "Retroexcavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Excavación de zanjas",
+            "Servicios municipales",
+            "Paisajismo",
+            "Demolición ligera",
+            "Instalación de tuberías"
+        ],
+        "maximumBrutePower": 78,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 8400,
+        "unityweightOnWork": "Kg",
+        "payload": 8,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Servicios municipales",
+            "Paisajismo y servicios municipales",
+            "Agricultura"
+        ],
+        "netPower": 105,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins B6.7",
+        "countryProcedence": "Corea del Sur",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "0,25-1,05 m3 (0,33-1,37 yd3)",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 150,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 145,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 4.35,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 6.8,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 2.6,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 64,
+        "unitytearOutForce": "kN",
+        "breakoutForce": 52,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 39,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 5.5,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 3,
+        "idProduct": 18,
+        "nameProduct": "XCMG XC870HK",
+        "nameHref": "xcmgxc870hk",
+        "img": "/img/imagenesProductos/xcmgxc870hk.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 81,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 8600,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de Cucharón (Retro)",
+            "value": "0,26-1,08 m3 (0,34-1,41 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Diseño versátil 4 en 1",
+            "description": "Combina cargador frontal y retroexcavadora en una sola máquina para obras municipales."
+            },
+            {
+            "title": "Motor Cummins de bajo consumo",
+            "description": "Reduce el costo operativo en jornadas prolongadas."
+            },
+            {
+            "title": "Sistema hidráulico de alta precisión",
+            "description": "Mejora el control fino en zanjeo e instalación de tuberías."
+            }
+        ],
+        "generalDescription": "La Retroexcavadora XC870HK de XCMG combina la versatilidad de un cargador frontal con la capacidad de excavación de un brazo retro, siendo la solución ideal para trabajos de zanjeo, nivelación y servicios municipales. Su diseño compacto facilita la maniobrabilidad en espacios reducidos sin sacrificar potencia.",
+        "nameType": "Retroexcavadoras",
+        "mainApplication": [
+            "Construcción general",
+            "Excavación de zanjas",
+            "Servicios municipales",
+            "Paisajismo",
+            "Demolición ligera",
+            "Instalación de tuberías"
+        ],
+        "maximumBrutePower": 81,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 8600,
+        "unityweightOnWork": "Kg",
+        "payload": 9,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Servicios municipales",
+            "Paisajismo y servicios municipales",
+            "Agricultura"
+        ],
+        "netPower": 109,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "0,26-1,08 m3 (0,34-1,41 yd3)",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 155,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 150,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": 4.4,
+        "unitymaxDiggingDepth": "m",
+        "maxDiggingReach": 6.85,
+        "unitymaxDiggingReach": "m",
+        "maxDumpHeight": 2.65,
+        "unitymaxDumpHeight": "m",
+        "tearOutForce": 65,
+        "unitytearOutForce": "kN",
+        "breakoutForce": 53,
+        "unitybreakoutForce": "kN",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 38,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 5.6,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Powershift, 4 velocidades"
+        },
+        {
+        "idType": 4,
+        "idProduct": 19,
+        "nameProduct": "CAT 140K",
+        "nameHref": "cat140k",
+        "img": "/img/imagenesProductos/cat140k.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 130,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 15100,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Ancho de la Cuchilla",
+            "value": "3,7 m (12 ft)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Cat Grade with Cross Slope",
+            "description": "Ahorra hasta 40% de material al automatizar la pendiente transversal de la cuchilla."
+            },
+            {
+            "title": "Tracción a las cuatro ruedas opcional (AWD)",
+            "description": "Mejora la tracción y maniobrabilidad en condiciones de nieve o barro."
+            },
+            {
+            "title": "Modo Eco",
+            "description": "Reduce hasta 10% el consumo de combustible sin sacrificar productividad."
+            }
+        ],
+        "generalDescription": "La Motoniveladora 140K de CAT entrega un control de precisión milimétrica sobre la cuchilla, permitiendo terminaciones de alta calidad en la construcción y mantenimiento de vías. Su tren de potencia robusto y sistema de dirección articulada garantizan estabilidad incluso en las condiciones de trabajo más exigentes.",
+        "nameType": "Motoniveladoras",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Mantenimiento vial",
+            "Nivelación de terrenos",
+            "Minería",
+            "Agricultura",
+            "Urbanización"
+        ],
+        "maximumBrutePower": 130,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 15100,
+        "unityweightOnWork": "Kg",
+        "payload": 15,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Canteras y minería",
+            "Agricultura",
+            "Obras viales"
+        ],
+        "netPower": 174,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C9.3",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "3,7 m (12 ft)",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 300,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 170,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 41,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 7.6,
+        "unityturningRadius": "m",
+        "drawbarPull": 145,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 8 velocidades adelante / 6 atrás"
+        },
+        {
+        "idType": 4,
+        "idProduct": 20,
+        "nameProduct": "Volvo G940",
+        "nameHref": "volvog940",
+        "img": "/img/imagenesProductos/volvog940.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 135,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 15500,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Ancho de la Cuchilla",
+            "value": "3,7 m (12 ft)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Volvo D6 Stage V",
+            "description": "Buen equilibrio entre potencia y consumo de combustible en trabajos de nivelación continua."
+            },
+            {
+            "title": "Sistema de dirección articulada",
+            "description": "Mejora el radio de giro y la maniobrabilidad en espacios reducidos."
+            },
+            {
+            "title": "Cabina Volvo Care Cab",
+            "description": "Baja vibración y buena visibilidad hacia la cuchilla y el terreno."
+            }
+        ],
+        "generalDescription": "La Motoniveladora G940 de Volvo entrega un control de precisión milimétrica sobre la cuchilla, permitiendo terminaciones de alta calidad en la construcción y mantenimiento de vías. Su tren de potencia robusto y sistema de dirección articulada garantizan estabilidad incluso en las condiciones de trabajo más exigentes.",
+        "nameType": "Motoniveladoras",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Mantenimiento vial",
+            "Nivelación de terrenos",
+            "Minería",
+            "Agricultura",
+            "Urbanización"
+        ],
+        "maximumBrutePower": 135,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 15500,
+        "unityweightOnWork": "Kg",
+        "payload": 16,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Canteras y minería",
+            "Agricultura",
+            "Obras viales"
+        ],
+        "netPower": 181,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D6",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "3,7 m (12 ft)",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 310,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 175,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 42,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 7.7,
+        "unityturningRadius": "m",
+        "drawbarPull": 150,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Powershift, 8 velocidades adelante / 6 atrás"
+        },
+        {
+        "idType": 4,
+        "idProduct": 21,
+        "nameProduct": "XCMG GR215",
+        "nameHref": "xcmggr215",
+        "img": "/img/imagenesProductos/xcmggr215.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 132,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 15300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Ancho de la Cuchilla",
+            "value": "3,7 m (12 ft)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Motor Cummins confiable",
+            "description": "Buen soporte de repuestos y mantenimiento a nivel regional."
+            },
+            {
+            "title": "Bastidor articulado robusto",
+            "description": "Diseñado para mantener la estabilidad en trabajos de nivelación de alta exigencia."
+            },
+            {
+            "title": "Cabina con buena visibilidad frontal",
+            "description": "Facilita el control preciso de la cuchilla durante la nivelación."
+            }
+        ],
+        "generalDescription": "La Motoniveladora GR215 de XCMG entrega un control de precisión sobre la cuchilla, permitiendo terminaciones de buena calidad en la construcción y mantenimiento de vías. Su tren de potencia robusto y sistema de dirección articulada garantizan estabilidad incluso en condiciones de trabajo exigentes.",
+        "nameType": "Motoniveladoras",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Mantenimiento vial",
+            "Nivelación de terrenos",
+            "Minería",
+            "Agricultura",
+            "Urbanización"
+        ],
+        "maximumBrutePower": 132,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 15300,
+        "unityweightOnWork": "Kg",
+        "payload": 15,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Construcción pesada",
+            "Canteras y minería",
+            "Agricultura",
+            "Obras viales"
+        ],
+        "netPower": 177,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "3,7 m (12 ft)",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 300,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 165,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 40,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 7.5,
+        "unityturningRadius": "m",
+        "drawbarPull": 140,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Powershift, 8 velocidades adelante / 6 atrás"
+        },
+        {
+        "idType": 5,
+        "idProduct": 22,
+        "nameProduct": "Volvo SD110",
+        "nameHref": "volvosd110",
+        "img": "/img/imagenesProductos/volvosd110.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 99,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 11100,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Fuerza Centrífuga",
+            "value": "165-245 kN / 0-30 Hz",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor fuerza centrífuga de su clase",
+            "description": "Hasta 245 kN con doble amplitud para adaptarse a distintos tipos de suelo."
+            },
+            {
+            "title": "Frecuencia de vibración variable",
+            "description": "Ajuste continuo de 0 a 30 Hz para afinar la energía de compactación según el terreno."
+            },
+            {
+            "title": "Dirección articulada de alta maniobrabilidad",
+            "description": "±40° de articulación y ±17° de oscilación para terrenos irregulares."
+            }
+        ],
+        "generalDescription": "El Rodillo Compactador SD110 de Volvo está diseñado para lograr una compactación uniforme y eficiente en proyectos de pavimentación y movimiento de tierras. El sistema de vibración de doble amplitud y frecuencia variable permite adaptarse a distintos tipos de suelo, optimizando el rendimiento en cada pasada.",
+        "nameType": "Rodillos Compactadores",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Compactación de suelos",
+            "Pavimentación asfáltica",
+            "Urbanización",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 99,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 11100,
+        "unityweightOnWork": "Kg",
+        "payload": 11,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Obras viales",
+            "Pavimentación",
+            "Urbanización"
+        ],
+        "netPower": 133,
+        "unitynetPower": "hp",
+        "motorModel": "Volvo D5",
+        "countryProcedence": "Suecia",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "165-245 kN / 0-30 Hz",
+        "fuelTankCapacity": 196,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 120,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 12,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 3.85,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": 2134,
+        "unitydrumWidth": "mm",
+        "staticLinearLoad": 28.6,
+        "unitystaticLinearLoad": "kg/cm",
+        "amplitude": 1.9,
+        "unityamplitude": "mm",
+        "emissionStandard": "Stage V",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 5,
+        "idProduct": 23,
+        "nameProduct": "XCMG XS123",
+        "nameHref": "xcmgxs123",
+        "img": "/img/imagenesProductos/xcmgxs123.jpg",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 104,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 12300,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Fuerza Centrífuga",
+            "value": "160-280 kN / 1800-3400 vpm",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Sistema de doble amplitud",
+            "description": "Se adapta a distintos tipos de suelo optimizando el rendimiento en cada pasada."
+            },
+            {
+            "title": "Motor Cummins de bajo consumo",
+            "description": "Buen equilibrio entre potencia y economía de combustible."
+            },
+            {
+            "title": "Cabina ROPS con buena visibilidad",
+            "description": "Facilita el control del tambor y los bordes de compactación."
+            }
+        ],
+        "generalDescription": "El Rodillo Compactador XS123 de XCMG está diseñado para lograr una compactación uniforme y eficiente en proyectos de pavimentación y movimiento de tierras. El sistema de vibración de doble amplitud permite adaptarse a distintos tipos de suelo, optimizando el rendimiento en cada pasada.",
+        "nameType": "Rodillos Compactadores",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Compactación de suelos",
+            "Pavimentación asfáltica",
+            "Urbanización",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 104,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 12300,
+        "unityweightOnWork": "Kg",
+        "payload": 12,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Obras viales",
+            "Pavimentación",
+            "Urbanización"
+        ],
+        "netPower": 139,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "160-280 kN / 1800-3400 vpm",
+        "fuelTankCapacity": 220,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 130,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 12,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 4,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": 2130,
+        "unitydrumWidth": "mm",
+        "staticLinearLoad": 30,
+        "unitystaticLinearLoad": "kg/cm",
+        "amplitude": 1.8,
+        "unityamplitude": "mm",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 5,
+        "idProduct": 24,
+        "nameProduct": "XCMG XS143",
+        "nameHref": "xcmgxs143",
+        "img": "/img/imagenesProductos/xcmgxs143.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 112,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 14000,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Fuerza Centrífuga",
+            "value": "180-310 kN / 1700-3200 vpm",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor peso de operación de la serie",
+            "description": "Ideal para compactación de capas de mayor espesor en obras viales."
+            },
+            {
+            "title": "Doble amplitud de vibración",
+            "description": "Permite ajustar la energía de compactación según el material a trabajar."
+            },
+            {
+            "title": "Motor Cummins confiable",
+            "description": "Buen soporte de repuestos y bajo costo operativo."
+            }
+        ],
+        "generalDescription": "El Rodillo Compactador XS143 de XCMG está diseñado para lograr una compactación uniforme y eficiente en proyectos de pavimentación y movimiento de tierras. El sistema de vibración de doble amplitud permite adaptarse a distintos tipos de suelo, optimizando el rendimiento en cada pasada.",
+        "nameType": "Rodillos Compactadores",
+        "mainApplication": [
+            "Construcción de carreteras",
+            "Compactación de suelos",
+            "Pavimentación asfáltica",
+            "Urbanización",
+            "Obras viales"
+        ],
+        "maximumBrutePower": 112,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 14000,
+        "unityweightOnWork": "Kg",
+        "payload": 14,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción",
+            "Obras viales",
+            "Pavimentación",
+            "Urbanización"
+        ],
+        "netPower": 150,
+        "unitynetPower": "hp",
+        "motorModel": "Cummins QSB6.7",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "180-310 kN / 1700-3200 vpm",
+        "fuelTankCapacity": 260,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": 140,
+        "unityhydraulicSystemFlow": "L/min",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 11,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": "",
+        "unitygroundPressure": "",
+        "turningRadius": 4.2,
+        "unityturningRadius": "m",
+        "drawbarPull": "",
+        "unitydrawbarPull": "",
+        "bladeCapacity": "",
+        "unitybladeCapacity": "",
+        "drumWidth": 2130,
+        "unitydrumWidth": "mm",
+        "staticLinearLoad": 33,
+        "unitystaticLinearLoad": "kg/cm",
+        "amplitude": 1.9,
+        "unityamplitude": "mm",
+        "emissionStandard": "Stage V / Tier 4 Final",
+        "transmissionType": "Hidrostática"
+        },
+        {
+        "idType": 6,
+        "idProduct": 25,
+        "nameProduct": "CAT D6",
+        "nameHref": "catd6",
+        "img": "/img/imagenesProductos/catd6.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 160,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 22100,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de la Hoja Topadora",
+            "value": "3,3-4,4 m3 (4,3-5,8 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Hasta 20% más material por galón de combustible",
+            "description": "Comparado con el D6T de 3 velocidades, gracias al sistema powershift optimizado."
+            },
+            {
+            "title": "Diseño de hoja VPAT",
+            "description": "Rango de movimiento líder en su clase para zanjeo y relleno, manteniendo la hoja nivelada al angular."
+            },
+            {
+            "title": "Cat Grade with Slope Assist",
+            "description": "Mantiene automáticamente la posición de la hoja preestablecida, sin necesidad de señal GNSS/GPS."
+            }
+        ],
+        "generalDescription": "El Bulldozer D6 de CAT es la referencia en potencia y capacidad de empuje para las labores de movimiento de tierra más demandantes. Su tren de rodaje reforzado y sistema hidráulico de la hoja topadora permiten un control preciso, incluso en condiciones de terreno irregular.",
+        "nameType": "Bulldozers (Tractores de Cadenas)",
+        "mainApplication": [
+            "Movimiento de tierras",
+            "Minería",
+            "Construcción pesada",
+            "Desbroce de terrenos",
+            "Apertura de caminos",
+            "Canteras y minería"
+        ],
+        "maximumBrutePower": 160,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 22100,
+        "unityweightOnWork": "Kg",
+        "payload": 22,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción pesada",
+            "Canteras y minería",
+            "Minería",
+            "Movimiento de tierras"
+        ],
+        "netPower": 215,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C9.3B",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "Oruga de acero sellada y lubricada",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 410,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": "",
+        "unityhydraulicSystemFlow": "",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 11.7,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 65,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": 240,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": 4.4,
+        "unitybladeCapacity": "m3",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 3 velocidades (versión eléctrica D6 XE disponible)"
+        },
+        {
+        "idType": 6,
+        "idProduct": 26,
+        "nameProduct": "CAT D8",
+        "nameHref": "catd8",
+        "img": "/img/imagenesProductos/catd8.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 240,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 37500,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de la Hoja Topadora",
+            "value": "6,1-9,3 m3 (8,0-12,2 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Máxima capacidad de empuje de la línea media",
+            "description": "Pensado para las labores de movimiento de tierra más demandantes en minería y construcción pesada."
+            },
+            {
+            "title": "Tren de rodaje reforzado",
+            "description": "Zapatas extra anchas para mayor flotación y estabilidad en terrenos irregulares."
+            },
+            {
+            "title": "Sistema hidráulico de hoja de alta precisión",
+            "description": "Control fino incluso bajo cargas de empuje elevadas."
+            }
+        ],
+        "generalDescription": "El Bulldozer D8 de CAT es la referencia en potencia y capacidad de empuje para las labores de movimiento de tierra más demandantes. Su tren de rodaje reforzado y sistema hidráulico de la hoja topadora permiten un control preciso, incluso en condiciones de terreno irregular.",
+        "nameType": "Bulldozers (Tractores de Cadenas)",
+        "mainApplication": [
+            "Movimiento de tierras",
+            "Minería",
+            "Construcción pesada",
+            "Desbroce de terrenos",
+            "Apertura de caminos",
+            "Canteras y minería"
+        ],
+        "maximumBrutePower": 240,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 37500,
+        "unityweightOnWork": "Kg",
+        "payload": 38,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción pesada",
+            "Canteras y minería",
+            "Minería",
+            "Movimiento de tierras"
+        ],
+        "netPower": 322,
+        "unitynetPower": "hp",
+        "motorModel": "Cat® C15",
+        "countryProcedence": "Estados Unidos",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "Oruga de acero sellada y lubricada, zapatas extra anchas",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 750,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": "",
+        "unityhydraulicSystemFlow": "",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 10.8,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 85,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": 380,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": 9.3,
+        "unitybladeCapacity": "m3",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 4 Final / Stage V",
+        "transmissionType": "Powershift, 3 velocidades"
+        },
+        {
+        "idType": 6,
+        "idProduct": 27,
+        "nameProduct": "Shantui SD16",
+        "nameHref": "shantuisd16",
+        "img": "/img/imagenesProductos/shantuisd16.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 119,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 16800,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de la Hoja Topadora",
+            "value": "3,0-3,8 m3 (3,9-5,0 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Buena relación precio-productividad",
+            "description": "Alternativa económica para movimiento de tierras de mediana envergadura."
+            },
+            {
+            "title": "Tren de rodaje reforzado",
+            "description": "Mayor vida útil en condiciones de trabajo abrasivas."
+            },
+            {
+            "title": "Motor Shangchai confiable",
+            "description": "Diseñado para operar en condiciones de trabajo exigentes con buen soporte de repuestos."
+            }
+        ],
+        "generalDescription": "El Bulldozer SD16 de Shantui es una alternativa sólida en potencia y capacidad de empuje para las labores de movimiento de tierra de mediana envergadura. Su tren de rodaje reforzado y sistema hidráulico de la hoja topadora permiten un control preciso, incluso en condiciones de terreno irregular.",
+        "nameType": "Bulldozers (Tractores de Cadenas)",
+        "mainApplication": [
+            "Movimiento de tierras",
+            "Minería",
+            "Construcción pesada",
+            "Desbroce de terrenos",
+            "Apertura de caminos",
+            "Canteras y minería"
+        ],
+        "maximumBrutePower": 119,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 16800,
+        "unityweightOnWork": "Kg",
+        "payload": 17,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción pesada",
+            "Canteras y minería",
+            "Minería",
+            "Movimiento de tierras"
+        ],
+        "netPower": 160,
+        "unitynetPower": "hp",
+        "motorModel": "Shangchai SC11CB220G2B1",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "Oruga de acero sellada, tren de rodaje reforzado",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 350,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": "",
+        "unityhydraulicSystemFlow": "",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 11,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 72,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": 210,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": 3.8,
+        "unitybladeCapacity": "m3",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 3 / Stage IIIA",
+        "transmissionType": "Powershift, 3 velocidades"
+        },
+        {
+        "idType": 6,
+        "idProduct": 28,
+        "nameProduct": "Shantui SD22",
+        "nameHref": "shantuisd22",
+        "img": "/img/imagenesProductos/shantuisd22.webp",
+        "principalSpecifications": [
+            {
+            "nameSpecification": "Potencia Bruta Máxima",
+            "value": 162,
+            "unity": "KW"
+            },
+            {
+            "nameSpecification": "Peso en Orden de Trabajo",
+            "value": 22000,
+            "unity": "Kg"
+            },
+            {
+            "nameSpecification": "Capacidad de la Hoja Topadora",
+            "value": "4,3-5,5 m3 (5,6-7,2 yd3)",
+            "unity": ""
+            }
+        ],
+        "principalBenefits": [
+            {
+            "title": "Mayor capacidad de empuje de la serie Shantui",
+            "description": "Adecuado para movimiento de tierras de gran volumen en minería y canteras."
+            },
+            {
+            "title": "Tren de rodaje reforzado",
+            "description": "Diseñado para soportar cargas de trabajo elevadas y terrenos abrasivos."
+            },
+            {
+            "title": "Buen soporte de repuestos",
+            "description": "Red de distribución que facilita el mantenimiento en obra."
+            }
+        ],
+        "generalDescription": "El Bulldozer SD22 de Shantui es una alternativa robusta en potencia y capacidad de empuje para las labores de movimiento de tierra más demandantes. Su tren de rodaje reforzado y sistema hidráulico de la hoja topadora permiten un control preciso, incluso en condiciones de terreno irregular.",
+        "nameType": "Bulldozers (Tractores de Cadenas)",
+        "mainApplication": [
+            "Movimiento de tierras",
+            "Minería",
+            "Construcción pesada",
+            "Desbroce de terrenos",
+            "Apertura de caminos",
+            "Canteras y minería"
+        ],
+        "maximumBrutePower": 162,
+        "unitymaximumBrutePower": "KW",
+        "weightOnWork": 22000,
+        "unityweightOnWork": "Kg",
+        "payload": 22,
+        "unitypayload": "tons",
+        "industry": [
+            "Construcción pesada",
+            "Canteras y minería",
+            "Minería",
+            "Movimiento de tierras"
+        ],
+        "netPower": 217,
+        "unitynetPower": "hp",
+        "motorModel": "Shangchai SC11CB220G2B1",
+        "countryProcedence": "China",
+        "bucketCapacities": "",
+        "conveyorTurn": "",
+        "powerTrain": "Oruga de acero sellada, tren de rodaje reforzado",
+        "loaderCapacity": "",
+        "backhoeBucketCapacity": "",
+        "moldboardWidth": "",
+        "vibrationFrequency": "",
+        "fuelTankCapacity": 450,
+        "unityfuelTankCapacity": "L",
+        "hydraulicSystemFlow": "",
+        "unityhydraulicSystemFlow": "",
+        "maxDiggingDepth": "",
+        "unitymaxDiggingDepth": "",
+        "maxDiggingReach": "",
+        "unitymaxDiggingReach": "",
+        "maxDumpHeight": "",
+        "unitymaxDumpHeight": "",
+        "tearOutForce": "",
+        "unitytearOutForce": "",
+        "breakoutForce": "",
+        "unitybreakoutForce": "",
+        "tippingLoad": "",
+        "unitytippingLoad": "",
+        "travelSpeed": 10.5,
+        "unitytravelSpeed": "km/h",
+        "groundPressure": 78,
+        "unitygroundPressure": "kPa",
+        "turningRadius": "",
+        "unityturningRadius": "",
+        "drawbarPull": 260,
+        "unitydrawbarPull": "kN",
+        "bladeCapacity": 5.5,
+        "unitybladeCapacity": "m3",
+        "drumWidth": "",
+        "unitydrumWidth": "",
+        "staticLinearLoad": "",
+        "unitystaticLinearLoad": "",
+        "amplitude": "",
+        "unityamplitude": "",
+        "emissionStandard": "Tier 3 / Stage IIIA",
+        "transmissionType": "Powershift, 3 velocidades"
+        }
+    ]
+}

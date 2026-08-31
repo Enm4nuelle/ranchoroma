@@ -1,0 +1,767 @@
+{
+    "termsAndConditions":[
+        "El precio del paquete es por persona en habitación compartida.",
+        "No se acepta dinero en efectivo y no realizamos devoluciones de dinero.",
+        "Se aceptan pagos con tarjeta de crédito Visa, pero se aplica un recargo adicional del 5%.",
+        "En caso de realizar los pagos fuera del cronograma establecido, se podrán realizar cambios en el itinerario sin previo aviso.",
+        "La separación de un cupo se realiza con un depósito de USD 200. El segundo abono deberá efectuarse 15 días después.",
+        "Solo se emitirá un documento de cobranza por la compra del paquete. En caso de requerir factura, el cliente deberá adicionar el 18% del valor correspondiente al IGV.",
+        "El paquete no incluye traductor o intérprete personalizado. Todo el grupo será acompañado por un guía de habla hispana.",
+        "Se garantiza el transporte de 1 maleta en bodega de hasta 23 kg, 1 equipaje de mano de hasta 10 kg y 1 mochila o cartera. La logística interna está contemplada únicamente para estas unidades de equipaje. Si el pasajero lleva equipaje adicional, el transporte interno durante el viaje estará sujeto a cargos adicionales.",
+        "Todos los hoteles realizan el check-in a las 2:00 p. m. y el check-out a las 12:00 p. m.",
+        "El cliente es responsable de llegar puntualmente a los vuelos de salida, conexión y retorno, así como a todos los transportes internos programados.",
+        "No nos hacemos responsables de actividades, alojamientos o trámites de permisos que se realicen fuera del itinerario establecido o durante las escalas de los vuelos internacionales.",
+        "Todos los pasajes aéreos son emitidos a nombre del pasajero. En caso de que, por motivos personales, sea necesario realizar cambios o modificaciones, estos deberán ser gestionados por el pasajero y estarán sujetos a las condiciones de la aerolínea.",
+        "El paquete no incluye fotógrafo personalizado. Todas las fotografías tomadas por nuestra empresa durante el viaje podrán ser utilizadas con fines publicitarios. Si el pasajero no desea que su imagen aparezca en dichas fotografías, deberá evitar participar en las fotos grupales u otras imágenes tomadas por la empresa."
+    ],
+    "itinerarys":[
+        {
+            "active": true,
+            "idItinerary": 1,
+            "slug": "europa-magica",
+            "title": "Europa Mágica: Navidad y Año Nuevo",
+            "dateDuration": "Del 23 de diciembre al 09 de Enero",
+            "startDate": "23/12/2026",
+            "endDate": "09/01/2027",
+            "daysDuration": "18 Días / 16 Noches + 01 Noche a Bordo",
+            "pdfHref": "/img/imagenesItinerarios/europaNavidad/ItinerarioEuropaNavidad.pdf",
+            "namePdf": "Itinerario Europa Navidad.pdf",
+            "benefits": [
+                {
+                    "img": "/img/imagenesItinerarios/beneficio1.webp",
+                    "description": "Ticket Aéreo Internacional"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio2.webp",
+                    "description": "Alojamiento en Hotel 4 Estrellas"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio3.webp",
+                    "description": "Desayuno Buffet"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio4.webp",
+                    "description": "City Tours"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio5.webp",
+                    "description": "Traslados Internos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio6.webp",
+                    "description": "Recorrido en Buses Modernos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio7.webp",
+                    "description": "Guía de Habla Hispana"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio8.webp",
+                    "description": "Cobertura en Europa"
+                }
+            ],
+            "daysSchedule": [
+                {
+                    "date": "23/12/2026",
+                    "textActualLocation": "Salida hacia Madrid",
+                    "description": "Salida desde el Aeropuerto Jorge Chavéz para abordar el vuelo con destino a España. Durante ese día se realizará el viaje internacional rumbo a Madrid. La jornada transcurre a bordo del avión hasta la llegada al destino.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day1.webp"
+                },
+                {
+                    "date": "24/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Llegaremos a Madrid, donde nuestro representante nos recibirá para transladarnos al hotel. Después del registro, dispondremos de la tarde libre para realizar los primeros recorridos por la capital española antes del alojamiento.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day2.webp"
+                },
+                {
+                    "date": "25/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Después del desayuno, el día será completamente suyo para disfrutar Madrid a su propio ritmo. Los pasajeros podrán recorrer la ciudad según sus intereses. Alojamiento en Madrid.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day3.webp"
+                },
+                {
+                    "date": "26/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Tras el desayuno, se realizará una visita de medio día por los principales atractivos de Madrid. Por la tarde habrá tiempo libre o la posibilidad de realizar la visita opcional a Toledo. Al finalizar la jornada, alojamiento en Madrid.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day4.webp"
+                },
+                {
+                    "date": "27/12/2026",
+                    "textActualLocation": "Zaragoza - Barcelona",
+                    "description": "Salida hacia Zaragoza para conocer la Basílica del Pilar. Luego continuaremos hasta Barcelona, donde realizaremos un recorrido panorámico por sus principales atractivos y la famosa Sagrada Familia.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day5.webp"
+                },
+                {
+                    "date": "28/12/2026",
+                    "textActualLocation": "Barcelona - Costa Azul",
+                    "description": "Luego del desayuno, el viaje continuará desde Barcelona hacia Francia siguiendo la costa mediterránea. Llegada a la Costa Azul con posibilidad de realizar una excursión opcional al Principado de Mónaco. Alojamiento en la Costa Azul.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day6.webp"
+                },
+                {
+                    "date": "29/12/2026",
+                    "textActualLocation": "Pisa - Roma",
+                    "description": "Visitaremos la Plaza de los Milagros en Pisa para admirar sus principales monumentos. Posteriormente continuaremos el recorrido hacia Roma, donde finalizaremos la jornada con el alojamiento previsto.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day7.webp"
+                },
+                {
+                    "date": "30/12/2026",
+                    "textActualLocation": "Roma",
+                    "description": "Realizaremos una visita por la Roma Imperial y, si las condiciones lo permiten, asistiremos a la Audiencia Papal. Por la tarde podrán realizarse visitas opcionales a los Museos Vaticanos, la Capilla Sixtina o la Roma Barroca.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day8.webp"
+                },
+                {
+                    "date": "31/12/2026",
+                    "textActualLocation": "Roma",
+                    "description": "Después del desayuno, el día será libre para disfrutar de la ciudad. De manera opcional, se podrá elegir una excursión a Nápoles y Capri o visitar Pompeya. Al finalizar la jornada, alojamiento en Roma.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day9.webp"
+                },
+                {
+                    "date": "01/01/2027",
+                    "textActualLocation": "Florencia",
+                    "description": "Saldremos hacia la Toscana para llegar a Florencia, donde realizaremos un recorrido a pie por sus principales monumentos, descubriendo algunos de los lugares más emblemáticos de esta ciudad renacentista.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day10.webp"
+                },
+                {
+                    "date": "02/01/2027",
+                    "textActualLocation": "Florencia",
+                    "description": "Llegada a Venecia. Navegación hasta la Plaza San Marcos para conocer la Basílica y el Palacio Ducal. Opcional paseo en góndola por sus famosos canales.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day11.webp"
+                },
+                {
+                    "date": "03/01/2027",
+                    "textActualLocation": "Lucerna - Zurich",
+                    "description": "Cruce de los Alpes hacia Suiza. Visita a Lucerna y continuación hacia Zurich. Opcional ascenso al Monte Titlis para disfrutar de espectaculares paisajes alpinos.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day12.webp"
+                },
+                {
+                    "date": "04/01/2027",
+                    "textActualLocation": "Basilea - París",
+                    "description": "Realizaremos una breve parada en Basilea antes de continuar el recorrido hacia París. Al llegar, quienes lo deseen podrán participar en un recorrido nocturno opcional por la capital francesa.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day13.webp"
+                },
+                {
+                    "date": "05/01/2027",
+                    "textActualLocation": "París",
+                    "description": "Recorreremos algunos de los lugares más emblemáticos de París, como la Plaza de la Concordia, los Campos Elíseos, el Arco del Triunfo, Notre Dame y la Torre Eiffel. Por la tarde habrá una excursión opcional a Versalles.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day14.webp"
+                },
+                {
+                    "date": "06/01/2027",
+                    "textActualLocation": "París",
+                    "description": "Disfrutaremos de un día libre para recorrer París con tranquilidad. De forma opcional, será posible visitar Montmartre y el Barrio Latino o realizar una excursión de día completo a la ciudad de Brujas.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day15.webp"
+                },
+                {
+                    "date": "07/01/2027",
+                    "textActualLocation": "Valle del Loira - Burdeos",
+                    "description": "Saldremos hacia el Valle del Loira realizando una parada en Blois. Más tarde continuaremos hasta Burdeos, ciudad donde finalizaremos la jornada y disfrutaremos del alojamiento previsto.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day16.webp"
+                },
+                {
+                    "date": "08/01/2027",
+                    "textActualLocation": "Burdeos - Madrid",
+                    "description": "Emprenderemos el regreso hacia Madrid atravesando el norte de España. Será la última etapa del circuito terrestre antes de disfrutar de la noche de alojamiento en la capital española.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day17.webp"
+                },
+                {
+                    "date": "09/01/2027",
+                    "textActualLocation": "Madrid - Regreso",
+                    "description": "Desayuno y traslado al aeropuerto para abordar el vuelo de regreso a Lima. Finaliza una experiencia inolvidable recorriendo las ciudades más emblemáticas de Europa durante la temporada navideña. ¡Hasta un próximo viaje!",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day18.webp"
+                }
+            ],
+            "includes": [
+                "Boleto aéreo Lima - Madrid - Lima vía Air Europa.",
+                "01 bolso de mano 10kg + 01 equipaje de mano 10kg + 01 equipaje en bodega 23kg.",
+                "Traslado de llegada y salida del aeropuerto / hotel / aeropuerto.",
+                "Transporte terrestre durante todo el recorrido en vehículo con aire acondicionado.",
+                "3 noches de alojamiento en Madrid en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Barcelona en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Costa Azul en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Roma en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Florencia en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Venecia (Mestre) en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Zurich en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Paris en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Burdeos en los hoteles seleccionados o similares.",
+                "Incluimos desayunos buffet en todos los hoteles de 4 estrellas.",
+                "Tasas e impuestos incluidos en Barcelona, Francia e Italia",
+                "Guía de Habla Hispana durante todo el recorrido.",
+                "Visita con guía local en Madrid, Roma, Florencia, Venecia y Paris.",
+                "Tarjeta de Asistencia Assist Card, hasta los 85 años (cobertura US$ 60K).",
+                "Tarjeta eSIM Airalo con 5 GB de datos válidos por 30 días, cobertura en Europa."
+            ]
+        },
+        {
+            "active": true,
+            "idItinerary": 2,
+            "title": "Corea del Sur, China y Japón",
+            "slug": "coreadelsur-china-japon",
+            "dateDuration": "Del 11 de octubre al 06 de noviembre",
+            "startDate": "11/09/2026",
+            "endDate": "06/11/2026",
+            "daysDuration": "27 Días / 26 Noches",
+            "pdfHref": "/img/imagenesItinerarios/coreaChinaJapon/ItinerarioCoreaChinaJapon.pdf",
+            "namePdf": "Itinerario Corea China Japon.pdf",
+            "benefits": [
+                {
+                    "img": "/img/imagenesItinerarios/beneficio1.webp",
+                    "description": "Ticket Aéreo Internacional"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio2.webp",
+                    "description": "Alojamiento en Hotel 4 Estrellas"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio3.webp",
+                    "description": "Desayuno Buffet"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio4.webp",
+                    "description": "City Tours"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio5.webp",
+                    "description": "Traslados Internos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio6.webp",
+                    "description": "Recorrido en Buses Modernos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio7.webp",
+                    "description": "Guía de Habla Hispana"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio8.webp",
+                    "description": "Cobertura en Asia"
+                }
+            ],
+            "daysSchedule": [
+                {
+                    "date": "11/10/2026",
+                    "textActualLocation": "Salida de Perú",
+                    "description": "Salida desde Lima en el Aeropuerto Internacional Jorge Chávez.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day1.webp"
+                },
+                {
+                    "date": "12/10/2026",
+                    "textActualLocation": "Escala del Viaje",
+                    "description": "Nuestra escala será en Ámsterdam, París o Madrid.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day2.webp"
+                },
+                {
+                    "date": "13/10/2026",
+                    "textActualLocation": "Beijing",
+                    "description": "Llegaremos al aeropuerto de Beijing, China. Aparte, nos trasladaremos al hotel y alojamiento.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day3.webp"
+                },
+                {
+                    "date": "14/10/2026",
+                    "textActualLocation": "Recorrido en Pekín",
+                    "description": "Visitaremos la Ciudad Prohibida, el Palacio de Verano y una fábrica de perlas. También recorreremos el Mercado de la Seda y disfrutaremos de un almuerzo buffet y una cena de bienvenida con el tradicional pato pekinés.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day4.webp"
+                },
+                {
+                    "date": "15/10/2026",
+                    "textActualLocation": "La Gran Muralla China",
+                    "description": "Excursionaremos a la Gran Muralla China y visitaremos el Templo del Cielo. Durante el recorrido disfrutaremos de un almuerzo y una degustación de té tradicional.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day5.webp"
+                },
+                {
+                    "date": "16/10/2026",
+                    "textActualLocation": "Pekín - Xi'an",
+                    "description": "Viajaremos en tren de alta velocidad hacia Xi’an, donde nos trasladaremos al hotel para iniciar nuestra estadía en la ciudad.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day6.webp"
+                },
+                {
+                    "date": "17/10/2026",
+                    "textActualLocation": "Tour por Xi'an",
+                    "description": "Visitaremos el famoso Museo de los Guerreros de Terracota, una fábrica de terracota, la Pequeña Pagoda del Ganso Salvaje y el Barrio Musulmán, donde conoceremos también su histórica mezquita.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day7.webp"
+                },
+                {
+                    "date": "18/10/2026",
+                    "textActualLocation": "Xi'an – Chengdu",
+                    "description": "Viajaremos en tren de alta velocidad hacia Chengdu, donde nos trasladaremos al hotel para comenzar nuestra visita a la ciudad.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day8.webp"
+                },
+                {
+                    "date": "19/10/2026",
+                    "textActualLocation": "Tour en Chengdu",
+                    "description": "Visitaremos la Base de Investigación de Pandas para conocer el cuidado de estos emblemáticos animales. Luego recorreremos los Callejones Kuanzhai y disfrutaremos de una experiencia cultural inspirada en las tradiciones de Chengdu.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day9.webp"
+                },
+                {
+                    "date": "20/10/2026",
+                    "textActualLocation": "Chengdu – Chongqing",
+                    "description": "Viajaremos en tren bala hacia Chongqing, donde conoceremos el famoso metro que atraviesa un edificio, el Monumento de la Liberación y Hongyadong. Finalizaremos el día con una tradicional cena Hot Pot.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day10.webp"
+                },
+                {
+                    "date": "21/10/2026",
+                    "textActualLocation": "Chongqing - Zhangjiajie",
+                    "description": "Viajaremos en tren hacia Zhangjiajie, donde nos trasladaremos al hotel para iniciar nuestra estadía en esta impresionante región natural.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day11.webp"
+                },
+                {
+                    "date": "22/10/2026",
+                    "textActualLocation": "Zhangjiajie",
+                    "description": "Recorreremos el Parque Nacional Yuanjiajie, ascenderemos en el Elevador Bailong y conoceremos las famosas Montañas Avatar. También visitaremos la Montaña Tianzi, el Gran Valle y su espectacular Puente de Cristal.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day12.webp"
+                },
+                {
+                    "date": "23/10/2026",
+                    "textActualLocation": "Zhangjiajie - Shanghái",
+                    "description": "Visitaremos la Plaza Tiananmén antes de tomar un vuelo hacia Shanghái, donde nos trasladaremos al hotel para continuar nuestro recorrido.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day13.webp"
+                },
+                {
+                    "date": "24/10/2026",
+                    "textActualLocation": "Shanghái",
+                    "description": "Conoceremos el Jardín Yu Yuan, el Templo del Buda de Jade y el famoso Malecón de Shanghái. Además, dispondremos de tiempo libre para realizar compras o recorrer la ciudad.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day14.webp"
+                },
+                {
+                    "date": "25/10/2026",
+                    "textActualLocation": "Shanghái - Osaka",
+                    "description": "Nos trasladaremos hacia Osaka, ciudad que marcará el inicio de nuestra experiencia en Japón.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day15.webp"
+                },
+                {
+                    "date": "26/10/2026",
+                    "textActualLocation": "Recorrido por Osaka",
+                    "description": "Recorreremos algunos de los lugares más representativos de Osaka, combinando historia, cultura y la reconocida gastronomía de la ciudad.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day16.webp"
+                },
+                {
+                    "date": "27/10/2026",
+                    "textActualLocation": "Cultura de Osaka",
+                    "description": "Visitaremos el Castillo de Osaka, el tradicional barrio Shinsekai, la zona de Namba y el animado distrito de Dotonbori, famoso por su comida callejera.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day17.webp"
+                },
+                {
+                    "date": "28/10/2026",
+                    "textActualLocation": "Universal Studios Japan",
+                    "description": "Disfrutaremos de un día completo en Universal Studios Japan, incluyendo el ingreso a la popular zona de Super Nintendo World.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day18.webp"
+                },
+                {
+                    "date": "29/10/2026",
+                    "textActualLocation": "Osaka - Monte Fuji",
+                    "description": "Viajaremos en el tren bala Shinkansen hacia Mishima para visitar el Santuario Fujisan Hongu Sengen Taisha y las Cataratas Shiraito. Finalizaremos el día alojándonos en un tradicional onsen de cuatro estrellas.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day19.webp"
+                },
+                {
+                    "date": "30/10/2026",
+                    "textActualLocation": "Monte Fuji - Tokio",
+                    "description": "Visitaremos la Quinta Estación del Monte Fuji, el pintoresco pueblo de Oshino Hakkai y la icónica Pagoda Chureito antes de continuar nuestro viaje hacia Tokio.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day20.webp"
+                },
+                {
+                    "date": "31/10/2026",
+                    "textActualLocation": "Tour en Tokio",
+                    "description": "Recorreremos el Mercado Exterior de Tsukiji, los Jardines Hamarikyu, el barrio de Asakusa y el Templo Senso-ji. Además, conoceremos el Puente Nijubashi y dispondremos de tiempo libre para almorzar.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day21.webp"
+                },
+                {
+                    "date": "01/11/2026",
+                    "textActualLocation": "Busan",
+                    "description": "Visitaremos el colorido Gamcheon Culture Village, disfrutaremos del Busan Air Cruise y recorreremos Taejongdae Park, BIFF Square y el pintoresco Tren Danubi.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day22.webp"
+                },
+                {
+                    "date": "02/11/2026",
+                    "textActualLocation": "Tour en Busan",
+                    "description": "Visitaremos el Templo Haedong Yonggungsa, recorreremos el Cheongsapo Daritdol Skywalk y el Haeundae Blue Line Park. También tendremos tiempo libre para disfrutar de Gwangalli Beach.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day23.webp"
+                },
+                {
+                    "date": "03/11/2026",
+                    "textActualLocation": "Busan - Seúl",
+                    "description": "Visitaremos el histórico Templo Beomeosa y recorreremos la Playa de Haeundae antes de viajar en tren hacia Seúl para continuar nuestro recorrido.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day24.webp"
+                },
+                {
+                    "date": "04/11/2026",
+                    "textActualLocation": "Historia de Corea",
+                    "description": "Visitaremos el War Memorial of Korea y realizaremos una excursión a la Zona Desmilitarizada, donde conoceremos el Parque Imjingak, el Tercer Túnel de Infiltración y el Observatorio Dora. Finalizaremos el día recorriendo el barrio de Hongdae.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day25.webp"
+                },
+                {
+                    "date": "05/11/2026",
+                    "textActualLocation": "Tradición en Seúl",
+                    "description": "Recorreremos el Palacio Gyeongbokgung, Bukchon Hanok Village, el Templo Jogyesa y el tradicional barrio de Insadong. Finalmente ascenderemos en el Teleférico de Namsan para disfrutar de una vista panorámica de Seúl.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day26.webp"
+                },
+                {
+                    "date": "06/11/2026",
+                    "textActualLocation": "Retorno a Perú",
+                    "description": "Nos trasladaremos al aeropuerto de Seúl para iniciar nuestro viaje de regreso al Perú.",
+                    "img": "/img/imagenesItinerarios/coreaChinaJapon/day27.webp"
+                }
+            ],
+            "includes": [
+                "Asistencia en el encuentro en el aeropuerto/hotel con nuestro representante/conductor.",
+                "25 noches de alojamiento en hotel según lo indicado.",
+                "Desayunos diarios en el hotel.",
+                "Comidas según programa.",
+                "Guía de habla hispana.",
+                "Pasaje aéreo en clase económica de Osaka a Seúl con 20 kg de equipaje facturado y 8 kg de equipaje de mano.",
+                "Entradas a monumentos.",
+                "Visita a Universal Estudios Japan y tambien a Super Nintendo World (Incluye traslados + entrada).",
+                "Todos los traslados, visitas turísticas, excursiones y viajes terrestres según el itinerario en un vehículo con aire acondicionado.",
+                "Transporte, estacionamiento, gasolina y peajes.",
+                "Todos los impuestos.",
+                "Tickets aereos"
+            ]
+        },
+        {
+            "active": true,
+            "idItinerary": 3,
+            "title": "Europa de Ensueño",
+            "slug": "europa-ensueno",
+            "dateDuration": "Del 12 al 28 de Noviembre",
+            "startDate": "12/11/2026",
+            "endDate": "28/11/2026",
+            "daysDuration": "17 Días / 15 Noches + 01 Noche a Bordo",
+            "pdfHref": "/img/imagenesItinerarios/europaEnsueno/ItinerarioEuropaEnsueno.pdf",
+            "namePdf": "Itinerario Europa de Ensueño.pdf",
+            "benefits": [
+                {
+                    "img": "/img/imagenesItinerarios/beneficio1.webp",
+                    "description": "Ticket Aéreo Internacional"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio2.webp",
+                    "description": "Alojamiento en Hotel 4 Estrellas"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio3.webp",
+                    "description": "Desayuno Buffet"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio4.webp",
+                    "description": "City Tours"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio5.webp",
+                    "description": "Traslados Internos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio6.webp",
+                    "description": "Recorrido en Buses Modernos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio7.webp",
+                    "description": "Guía de Habla Hispana"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio8.webp",
+                    "description": "Cobertura en Europa"
+                }
+            ],
+            "daysSchedule": [
+                {
+                    "date": "12/11/2026",
+                    "textActualLocation": "Salida hacia Lima - Madrid",
+                    "description": "A la hora indicada en el aeropuerto internacional Jorge Chávez saldremos hacia un viaje de sueños por europa.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day1.webp"
+                },
+                {
+                    "date": "13/11/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Aterrizaremos en la ciudad de Madrid, corazón vibrante de España, donde cada avenida combina historia, cultura y energía cosmopolita. Nuestro representante los recibirá y conducirá hacia su hotel. La tarde se abre como un lienzo en blanco, invitando a los primeros paseos por avenidas donde la historia se confunde con la vida contemporánea.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day2.webp"
+                },
+                {
+                    "date": "14/11/2026",
+                    "textActualLocation": "Madrid, entre Reyes, Plazas y Leyendas",
+                    "description": "Visita de medio día en la capital que se revelara en toda su grandeza: plazas donde el tiempo se detiene, avenidas que respiran modernidad y palacios que custodian siglos de memoria. Tarde libre y visita opcional a la ciudad imperial de Toledo, cuna de culturas entrelazadas",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day3.webp"
+                },
+                {
+                    "date": "15/11/2026",
+                    "textActualLocation": "Madrid - Zaragoza - Barcelona",
+                    "description": "Salida rumbo a la ciudad de Zaragoza. Admiraremos la Basílica del Pilar, guardiana del Ebro y del espíritu hispano. Luego, a Barcelona, donde la imaginación de Gaudí crea una ciudad que parece soñada. Recorrido para conocer sus edificios más representativos, Casas Batlló, Amatller, Morera, Milá, Sagrada Familia.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day4.webp"
+                },
+                {
+                    "date": "16/11/2026",
+                    "textActualLocation": "Barcelona - Costa Azul",
+                    "description": "El Mediterráneo nos acompaña hasta cruzar a Francia. La Provenza, abre paso a la Costa Azul, donde Niza brilla entre montañas y mar. Posibilidad de participar en una excursión opcional para conocer el Principado de Mónaco.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day5.webp"
+                },
+                {
+                    "date": "17/11/2026",
+                    "textActualLocation": "Costa Azul - Pisa - Roma",
+                    "description": "Desayuno. En Pisa, la Plaza de los Milagros despliega su belleza: la Catedral, el Baptisterio y la Torre que desafía la verticalidad. El camino prosigue hacia Roma, la ciudad eterna, donde cada piedra evoca la remembranza de los siglos. Alojamiento en Roma.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day6.webp"
+                },
+                {
+                    "date": "18/11/2026",
+                    "textActualLocation": "Roma, el Eco del Imperio",
+                    "description": "Roma Imperial nos recibe con el Coliseo, los arcos triunfales y las termas de antaño. Al finalizar, si el Santo Padre se encuentra en el Vaticano, asistiremos a la Audiencia Papal. Opcionalmente sigue la visita a los Museos Vaticanos , la Capilla Sixtina y la Roma Barroca.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day7.webp"
+                },
+                {
+                    "date": "19/11/2026",
+                    "textActualLocation": "Roma, la Campania esperándonos",
+                    "description": "Día libre a su disposición o la posibilidad de elegir una visita opcional entre la vibrante Nápoles y la idílica Capri o la legendaria Pompeya, sepultada bajo las cenizas del Vesubio y detenida en el tiempo. Alojamiento en Roma.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day8.webp"
+                },
+                {
+                    "date": "20/11/2026",
+                    "textActualLocation": "Roma, Florencia",
+                    "description": "Desayuno y salida hacia la Toscana. Llegada a Florencia, joya del Renacimiento. Un paseo a pie nos permite descubrir la Catedral, el Campanile, el Baptisterio y el Ponte Vecchio, mientras la Plaza de la Signoria se muestra como un museo vivo al aire libre.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day9.webp"
+                },
+                {
+                    "date": "21/11/2026",
+                    "textActualLocation": "Florencia - Venecia",
+                    "description": "El día nos conduce a Venecia, ciudad suspendida sobre el agua. Navegamos en Tronchetto hacia San Marcos, donde la Basílica y el Palacio Ducal narran historias de esplendor. Puentes y canales tejen el escenario más romántico. La experiencia se eleva aún más con la posibilidad de un paseo opcional en góndola.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day10.webp"
+                },
+                {
+                    "date": "22/11/2026",
+                    "textActualLocation": "Venecia - Lucerna - Zurich",
+                    "description": "Los Alpes nos abren sus brazos en Suiza. Llegada a Lucerna, con su lago y su puente de madera, se muestra como un refugio medieval enmarcado en paisajes de ensueño. Opcionalmente, para los más audaces, un ascenso al Monte Titlis. En la tarde, Zúrich nos recibe.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day11.webp"
+                },
+                {
+                    "date": "23/11/2026",
+                    "textActualLocation": "Zurich – Basilea – París",
+                    "description": "Desayuno. Un breve alto en Basilea, a orillas del Rin, y luego Francia nos abre las puertas hacia París. A la llegada a la capital francesa, posibilidad de realizar de forma opcional un recorrido nocturno por la ciudad iluminada. Alojamiento en Paris.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day12.webp"
+                },
+                {
+                    "date": "24/11/2026",
+                    "textActualLocation": "París, Torre Eiffel",
+                    "description": "La Ciudad Luz despliega todo su esplendor: la Concordia, los Campos Elíseos, el Arco del Triunfo, Notre Dame, el Palacio Nacional de los Inválidos y finalmente, la gran Torre Eiffel. Luego, excursión opcional al Palacio de Versalles y su Palacio deslumbrante.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day13.webp"
+                },
+                {
+                    "date": "25/11/2026",
+                    "textActualLocation": "París, bohemia y romántica",
+                    "description": "Día libre para deambular por elegantes galerías, descubrir boutiques y dejar que los cafés parisinos inviten a la inspiración. Opcional, una visita al barrio bohemio de Montmartre y el intelectual Barrio Latino o una excursión de día completo hacia la romántica ciudad de Brujas, ciudad de canales y suspiros detenidos en el tiempo",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day14.webp"
+                },
+                {
+                    "date": "26/11/2026",
+                    "textActualLocation": "París – Blois – Valle de Loira – Burdeos,",
+                    "description": "Salida de París rumbo al Valle del Loira, donde castillos renacentistas se alzan como guardianes del tiempo. Parada en Blois, donde la piedra renacentista susurra secretos reales e historia. Llegada a Burdeos que nos recibe con sus vinos y su título de Patrimonio de la Humanidad.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day15.webp"
+                },
+                {
+                    "date": "27/11/2026",
+                    "textActualLocation": "Burdeos - Madrid, grandes recuerdos",
+                    "description": "Atravesamos el norte de España, entre paisajes verdes y ciudades cargadas de tradición, hasta regresar a Madrid, donde todo comenzó. El viaje ya no es el mismo: cada paso deja huella y cada mirada trae consigo recuerdos imborrables.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day16.webp"
+                },
+                {
+                    "date": "28/11/2026",
+                    "textActualLocation": "Madrid - Regreso",
+                    "description": "Desayuno y traslado de salida al aeropuerto de Madrid. El retorno no es un final, sino el inicio de una nueva mirada sobre lo vivido. Fin de los servicios.",
+                    "img": "/img/imagenesItinerarios/europaEnsueno/day17.webp"
+                }
+            ],
+            "includes": [
+                "Boleto aéreo Lima – Madrid – Lima vía Air Europa.",
+                "01 bolso de mano 10kg + 01 equipaje de mano 10kg + 01 equipaje en bodega 23kg.",
+                "Traslado de llegada y salida del aeropuerto / hotel / aeropuerto.",
+                "Transporte terrestre durante todo el recorrido en vehículo con aire acondicionado.",
+                "3 noches de alojamiento en Madrid en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Barcelona en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Costa Azul en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Roma en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Florencia en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Venecia (Mestre) en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Zurich en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Paris en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Burdeos en los hoteles seleccionados o similares.",
+                "Incluimos desayunos buffet en todos los hoteles de 4 estrellas.",
+                "Tasas e impuestos incluidos en Barcelona, Francia e Italia",
+                "Guía acompañante de habla hispana durante todo el recorrido.",
+                "Visita con guía local en Madrid, Roma, Florencia, Venecia y Paris.",
+                "Tarjeta de Asistencia Assist Card, hasta los 85 años (cobertura US$ 60K).",
+                "Tarjeta eSIM Airalo con 5 GB de datos válidos por 30 días, cobertura en Europa."
+            ]
+        },
+        {"active": false,
+            "idItinerary": 4,
+            "title": "Panamá Año Nuevo",
+            "slug": "panama",
+            "dateDuration": "Del 23 de diciembre al 09 de Enero",
+            "startDate": "23/12/2026",
+            "endDate": "09/01/2027",
+            "daysDuration": "18 Días / 16 Noches + 01 Noche a Bordo",
+            "pdfHref": "/img/imagenesItinerarios/europaNavidad/ItinerarioEuropaNavidad.pdf",
+            "namePdf": "Itinerario Europa Navidad.pdf",
+            "benefits": [
+                {
+                    "img": "/img/imagenesItinerarios/beneficio1.webp",
+                    "description": "Ticket Aéreo Internacional"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio2.webp",
+                    "description": "Alojamiento en Hotel 4 Estrellas"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio3.webp",
+                    "description": "Desayuno Buffet"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio4.webp",
+                    "description": "City Tours"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio5.webp",
+                    "description": "Traslados Internos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio6.webp",
+                    "description": "Recorrido en Buses Modernos"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio7.webp",
+                    "description": "Guía de Habla Hispana"
+                },
+                {
+                    "img": "/img/imagenesItinerarios/beneficio8.webp",
+                    "description": "Cobertura en Europa"
+                }
+            ],
+            "daysSchedule": [
+                {
+                    "date": "23/12/2026",
+                    "textActualLocation": "Salida hacia Madrid",
+                    "description": "Salida desde el Aeropuerto Jorge Chavéz para abordar el vuelo con destino a España. Durante ese día se realizará el viaje internacional rumbo a Madrid. La jornada transcurre a bordo del avión hasta la llegada al destino.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day1.webp"
+                },
+                {
+                    "date": "24/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Llegaremos a Madrid, donde nuestro representante nos recibirá para transladarnos al hotel. Después del registro, dispondremos de la tarde libre para realizar los primeros recorridos por la capital española antes del alojamiento.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day2.webp"
+                },
+                {
+                    "date": "25/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Después del desayuno, el día será completamente suyo para disfrutar Madrid a su propio ritmo. Los pasajeros podrán recorrer la ciudad según sus intereses. Alojamiento en Madrid.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day3.webp"
+                },
+                {
+                    "date": "26/12/2026",
+                    "textActualLocation": "Madrid",
+                    "description": "Tras el desayuno, se realizará una visita de medio día por los principales atractivos de Madrid. Por la tarde habrá tiempo libre o la posibilidad de realizar la visita opcional a Toledo. Al finalizar la jornada, alojamiento en Madrid.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day4.webp"
+                },
+                {
+                    "date": "27/12/2026",
+                    "textActualLocation": "Zaragoza - Barcelona",
+                    "description": "Salida hacia Zaragoza para conocer la Basílica del Pilar. Luego continuaremos hasta Barcelona, donde realizaremos un recorrido panorámico por sus principales atractivos y la famosa Sagrada Familia.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day5.webp"
+                },
+                {
+                    "date": "28/12/2026",
+                    "textActualLocation": "Barcelona - Costa Azul",
+                    "description": "Luego del desayuno, el viaje continuará desde Barcelona hacia Francia siguiendo la costa mediterránea. Llegada a la Costa Azul con posibilidad de realizar una excursión opcional al Principado de Mónaco. Alojamiento en la Costa Azul.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day6.webp"
+                },
+                {
+                    "date": "29/12/2026",
+                    "textActualLocation": "Pisa - Roma",
+                    "description": "Visitaremos la Plaza de los Milagros en Pisa para admirar sus principales monumentos. Posteriormente continuaremos el recorrido hacia Roma, donde finalizaremos la jornada con el alojamiento previsto.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day7.webp"
+                },
+                {
+                    "date": "30/12/2026",
+                    "textActualLocation": "Roma",
+                    "description": "Realizaremos una visita por la Roma Imperial y, si las condiciones lo permiten, asistiremos a la Audiencia Papal. Por la tarde podrán realizarse visitas opcionales a los Museos Vaticanos, la Capilla Sixtina o la Roma Barroca.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day8.webp"
+                },
+                {
+                    "date": "31/12/2026",
+                    "textActualLocation": "Roma",
+                    "description": "Después del desayuno, el día será libre para disfrutar de la ciudad. De manera opcional, se podrá elegir una excursión a Nápoles y Capri o visitar Pompeya. Al finalizar la jornada, alojamiento en Roma.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day9.webp"
+                },
+                {
+                    "date": "01/01/2027",
+                    "textActualLocation": "Florencia",
+                    "description": "Saldremos hacia la Toscana para llegar a Florencia, donde realizaremos un recorrido a pie por sus principales monumentos, descubriendo algunos de los lugares más emblemáticos de esta ciudad renacentista.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day10.webp"
+                },
+                {
+                    "date": "02/01/2027",
+                    "textActualLocation": "Florencia",
+                    "description": "Llegada a Venecia. Navegación hasta la Plaza San Marcos para conocer la Basílica y el Palacio Ducal. Opcional paseo en góndola por sus famosos canales.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day11.webp"
+                },
+                {
+                    "date": "03/01/2027",
+                    "textActualLocation": "Lucerna - Zurich",
+                    "description": "Cruce de los Alpes hacia Suiza. Visita a Lucerna y continuación hacia Zurich. Opcional ascenso al Monte Titlis para disfrutar de espectaculares paisajes alpinos.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day12.webp"
+                },
+                {
+                    "date": "04/01/2027",
+                    "textActualLocation": "Basilea - París",
+                    "description": "Realizaremos una breve parada en Basilea antes de continuar el recorrido hacia París. Al llegar, quienes lo deseen podrán participar en un recorrido nocturno opcional por la capital francesa.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day13.webp"
+                },
+                {
+                    "date": "05/01/2027",
+                    "textActualLocation": "París",
+                    "description": "Recorreremos algunos de los lugares más emblemáticos de París, como la Plaza de la Concordia, los Campos Elíseos, el Arco del Triunfo, Notre Dame y la Torre Eiffel. Por la tarde habrá una excursión opcional a Versalles.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day14.webp"
+                },
+                {
+                    "date": "06/01/2027",
+                    "textActualLocation": "París",
+                    "description": "Disfrutaremos de un día libre para recorrer París con tranquilidad. De forma opcional, será posible visitar Montmartre y el Barrio Latino o realizar una excursión de día completo a la ciudad de Brujas.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day15.webp"
+                },
+                {
+                    "date": "07/01/2027",
+                    "textActualLocation": "Valle del Loira - Burdeos",
+                    "description": "Saldremos hacia el Valle del Loira realizando una parada en Blois. Más tarde continuaremos hasta Burdeos, ciudad donde finalizaremos la jornada y disfrutaremos del alojamiento previsto.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day16.webp"
+                },
+                {
+                    "date": "08/01/2027",
+                    "textActualLocation": "Burdeos - Madrid",
+                    "description": "Emprenderemos el regreso hacia Madrid atravesando el norte de España. Será la última etapa del circuito terrestre antes de disfrutar de la noche de alojamiento en la capital española.",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day17.webp"
+                },
+                {
+                    "date": "09/01/2027",
+                    "textActualLocation": "Madrid - Regreso",
+                    "description": "Desayuno y traslado al aeropuerto para abordar el vuelo de regreso a Lima. Finaliza una experiencia inolvidable recorriendo las ciudades más emblemáticas de Europa durante la temporada navideña. ¡Hasta un próximo viaje!",
+                    "img": "/img/imagenesItinerarios/europaNavidad/day18.webp"
+                }
+            ],
+            "includes": [
+                "Boleto aéreo Lima - Madrid - Lima vía Air Europa.",
+                "01 bolso de mano 10kg + 01 equipaje de mano 10kg + 01 equipaje en bodega 23kg.",
+                "Traslado de llegada y salida del aeropuerto / hotel / aeropuerto.",
+                "Transporte terrestre durante todo el recorrido en vehículo con aire acondicionado.",
+                "3 noches de alojamiento en Madrid en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Barcelona en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Costa Azul en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Roma en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Florencia en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Venecia (Mestre) en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Zurich en los hoteles seleccionados o similares.",
+                "3 noches de alojamiento en Paris en los hoteles seleccionados o similares.",
+                "1 noche de alojamiento en Burdeos en los hoteles seleccionados o similares.",
+                "Incluimos desayunos buffet en todos los hoteles de 4 estrellas.",
+                "Tasas e impuestos incluidos en Barcelona, Francia e Italia",
+                "Guía de Habla Hispana durante todo el recorrido.",
+                "Visita con guía local en Madrid, Roma, Florencia, Venecia y Paris.",
+                "Tarjeta de Asistencia Assist Card, hasta los 85 años (cobertura US$ 60K).",
+                "Tarjeta eSIM Airalo con 5 GB de datos válidos por 30 días, cobertura en Europa."
+            ]
+        }
+    ]
+}
