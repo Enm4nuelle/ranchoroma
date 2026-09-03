@@ -4,6 +4,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import JsonData from "../data/data.json";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export const Footer = (props) => {
     const pathname = usePathname();
@@ -199,6 +200,17 @@ export const Footer = (props) => {
                     </form>
                 </div>
             </div>
+            <ul className="footer-linkSection">
+                {
+                    props.data.linkSection.map((link, index)=>(
+                        <li key={link.text + index} className="footer-linkSection-item">
+                            <Link href={link.href} className="footer-linkSection-link">
+                                {link.text}
+                            </Link>
+                        </li>
+                    ))
+                }
+            </ul>
             <div className="footer-secondPart">
                 <p className="footer-secondPart-copyright">{props.data.copyrightText}</p>
                 <p className="footer-secondPart-brandText">{props.data.brandText}</p>

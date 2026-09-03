@@ -25,19 +25,37 @@ export const ImgWithMessage = (props) => {
     return (
         <section
             className={"imgWithMessage " +
-                (props.data.coverScreen ? "imgWithMessageAllScreen" : props.data.isAfterHeader ? "firstOnPageWithHeader" : "")
+                (props.data.coverScreen ? "imgWithMessageAllScreen " : props.data.isAfterHeader ? "firstOnPageWithHeader " : "") +
+                (props.data.darkenLeftSide ? "imgWithMessage-darkenLeftSide" : "")
             }
         >
-            <Image
-                src={props.data.img}
-                alt={props.data.altImg ?? "Imagen Hero"}
-                className="imgWithMessage-img"
-                width={1920}
-                height={800}
-                priority={props.data.isAfterHeader}
-                fetchPriority={props.data.isAfterHeader ? "high" : "auto"}
-                sizes="100vw"
-            />
+            {
+                props.data.srcVideoLocal ?
+                    <video
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        preload={props.data.isAfterHeader ? "metadata" : "none"}
+                        poster={props.data.posterVideo}
+                        className="imgWithMessage-video"
+                        aria-hidden="true"
+                    >
+                        <source src={props.data.srcVideoLocal} type={props.data.videoType ?? "video/mp4"}></source>
+                        <p>Tu navegador no soporta videos HTML5.</p>
+                    </video>
+                :
+                <Image
+                    src={props.data.img}
+                    alt={props.data.altImg ?? "Imagen Hero"}
+                    className="imgWithMessage-img"
+                    width={1920}
+                    height={800}
+                    priority={props.data.isAfterHeader}
+                    fetchPriority={props.data.isAfterHeader ? "high" : "auto"}
+                    sizes="100vw"
+                />
+            }
             <div className="imgWithMessage-text">
                 <ScrollAnimation animation={props.data.typeAnimationTitleSection} pixelsDisplacement={props.data.pixelsAnimationTitleSection} duration={props.data.durationAnimationTitleSection} delay={props.data.delayAnimationTitleSection}>
                     {titleRender}
@@ -103,13 +121,18 @@ export const ImgWithMessage = (props) => {
             {
                 props.data.footerItems ?
                 <ul className="imgWithMessage-text-footer">
-                    <ScrollAnimation animation={props.data.typeAnimationAvatarImg} pixelsDisplacement={props.data.pixelsAnimationAvatarImg} duration={props.data.durationAnimationAvatarImg} delay={props.data.delayAnimationAvatarImg}>
-                        <img
-                            className="imgWithMessage-text-footer-img"
-                            src={props.data.imgAvatar}
-                            alt={props.data.altImgAvatar ?? "Avatar de la empresa"}
-                        />
-                    </ScrollAnimation>
+                    {
+                        props.data.imgAvatar ?
+                        <ScrollAnimation animation={props.data.typeAnimationAvatarImg} pixelsDisplacement={props.data.pixelsAnimationAvatarImg} duration={props.data.durationAnimationAvatarImg} delay={props.data.delayAnimationAvatarImg}>
+                            <img
+                                className="imgWithMessage-text-footer-img"
+                                src={props.data.imgAvatar}
+                                alt={props.data.altImgAvatar ?? "Avatar de la empresa"}
+                            />
+                        </ScrollAnimation>
+                        :
+                        ""
+                    }
                     {
                         props.data.footerItems.map((item, index)=>(
                             <React.Fragment key={item.title + index}>

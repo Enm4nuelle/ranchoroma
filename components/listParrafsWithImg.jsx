@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ListParrafsWithImg = (props) => {
     return (
         <section className={"listParrafsWithImg " + (props.data.isAfterHeader ? "firstOnPageWithHeader" : "")}>
@@ -14,7 +16,12 @@ export const ListParrafsWithImg = (props) => {
                             "listParrafsWithImg-item " +
                             ((item.startAtRight || index % 2 !== 0) ? "listParrafsWithImg-item-reversed" : "")
                         }>
-                            <div className="listParrafsWithImg-item-text">
+                            <div 
+                                className={
+                                    "listParrafsWithImg-item-text " +
+                                    (item.isOneParraf ? "listParrafsWithImg-item-text-oneParraf" : "")
+                                }
+                            >
                                 <p className="listParrafsWithImg-item-text-subTitle">
                                     {item.subTitle}
                                 </p>
@@ -29,14 +36,37 @@ export const ListParrafsWithImg = (props) => {
                                     </h2>
                                 }
                                 <div className="listParrafsWithImg-item-text-divider"></div>
-                                <div className="listParrafsWithImg-item-text-article">
+                                <div
+                                    className={
+                                        "listParrafsWithImg-item-text-article " +
+                                        (item.isOneParraf ? "listParrafsWithImg-item-text-article-oneParraf" : "")
+                                    }
+                                >
                                     {item.article}
                                 </div>
+                                <Link
+                                    href={item.buttonMoreInformation.href}
+                                    className={
+                                        "listParrafsWithImg-item-text-button " +
+                                        (item.buttonMoreInformation.type === "primary" ? "buttonPrimary" : "buttonSecondary")
+                                    }
+                                    
+                                >
+                                    {item.buttonMoreInformation.text}
+                                </Link>
                             </div>
                                
-                            <div className="listParrafsWithImg-item-images">
+                            <div 
+                                className={
+                                    "listParrafsWithImg-item-images " +
+                                    (item.isOneParraf ? "listParrafsWithImg-item-images-oneParraf" : "")
+                                }
+                            >
                                 <img
-                                    className="listParrafsWithImg-item-images-img"
+                                    className= {
+                                        "listParrafsWithImg-item-images-img " +
+                                        (item.isOneParraf ? "listParrafsWithImg-item-images-img-oneParraf" : "")
+                                    }
                                     src={item.img}
                                     alt={item.title}
                                     loading={props.data.isAfterHeader && index === 0 ? "eager" : "lazy"}

@@ -23,6 +23,9 @@ import CarrouselImgs from "@/components/carrouselImgs";
 import VideoImgsText from "@/components/videoImgsText";
 import FrequentQuestions from "@/components/frequentQuestions";
 import CircleItems from "@/components/circleItems";
+import CollageImgs from "@/components/collageImgs";
+import CarrouselRooms from "@/components/carrouselRooms";
+import InlineImgLink from "@/components/inlineImgLink";
 import ScrollToHashOnLoad from "@/components/scrollToHashOnLoad";
 
 export default function Home() {
@@ -72,6 +75,12 @@ export default function Home() {
             pages.push({e: <FrequentQuestions data={page.data} key={page.order + page.pageName}/>, order: page.order});
         }else if (page.pageName === "CircleItems"){
             pages.push({e: <CircleItems data={page.data} key={page.order + page.pageName}/>, order: page.order});
+        }else if (page.pageName === "CollageImgs"){
+            pages.push({e: <CollageImgs data={page.data} key={page.order + page.pageName}/>, order: page.order});
+        }else if (page.pageName === "CarrouselRooms"){
+            pages.push({e: <CarrouselRooms data={page.data} key={page.order + page.pageName}/>, order: page.order});
+        }else if (page.pageName === "InlineImgLink"){
+            pages.push({e: <InlineImgLink data={page.data} key={page.order + page.pageName}/>, order: page.order});
         }
     }
     pages.sort((a, b) => a.order - b.order);

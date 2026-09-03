@@ -1,15 +1,15 @@
 {
-    "urlDomain": "https://enma.com.pe/",
+    "urlDomain": "https://hotelranchoroma.pe/",
     "ogImage": "/img/imagenesInicio/imagenOg.jpg",
-    "keyWeb3Form": "59e4ef44-abcd-4ac1-8dbb-f1f3c485329e",
+    "keyWeb3Form": "f70477dd-a523-4950-91c8-4a1bedc7e996",
     "locationCompany": {
-        "streetAddress": "Calle Capitán Guitierrez Rondón, 196 - Miraflores, Lima, Perú 15074",
-        "addressLocality": "Miraflores",
-        "addressRegion": "Lima",
-        "postalCode": "15074",
+        "streetAddress": "Carretera Fernando Belaúnde Terry km 633 - Tarapoto",
+        "addressLocality": "Juan Guerra",
+        "addressRegion": "San Martín",
+        "postalCode": "22202",
         "addressCountry": "PE",
-        "latitude": -12.1289221,
-        "longitude": -77.0077074
+        "latitude": -6.5746662,
+        "longitude": -76.3284719
     },
     "forAllPages":[
         {
@@ -18,12 +18,12 @@
             "pageName": "Header",
             "showInMenu": false,
             "data":{
-                "pageMantain": "/pre-salida",
+                "pageMantain": "",
                 "allPagesMantain": false,
-                "isTransparentAtStart": true,
+                "isTransparentAtStart": false,
                 "headerHeight": 120,
-                "imgLogoTransparent": "/img/imagenesInicio/imagenLogo2.png",
-                "imgLogo": "/img/imagenesInicio/imagenLogoASPEMBlanco.png",
+                "imgLogoTransparent": "/img/imagenesInicio/imagenLogo.png",
+                "imgLogo": "/img/imagenesInicio/imagenLogoBlanco.png",
                 "iconSubLinks": "fa fa-solid fa-caret-down",
                 "links":[
                     {
@@ -32,123 +32,43 @@
                         "sublinks": ""
                     },
                     {
-                        "text": "Nosotros",
-                        "href": "/nosotros",
+                        "text": "Promociones",
+                        "href": "/promociones",
                         "sublinks": ""
                     },
                     {
-                        "text": "Itinerarios",
-                        "href": "/itinerario",
-                        "sublinks": ""
-                    },
-                    {
-                        "text": "Productos",
+                        "text": "Habitaciones",
                         "href": "/productos",
                         "sublinks": ""
                     },
                     {
-                        "text": "Cotización",
+                        "text": "Eventos",
                         "href": "/cotizacion",
                         "sublinks": ""
                     },
                     {
-                        "text": "Misiones",
-                        "href": "",
-                        "sublinks": [
-                            {
-                                "text": "China",
-                                "href": "/misiones/china"
-                            },
-                            {
-                                "text": "Panamá",
-                                "href": "/misiones/panama"
-                            },
-                            {
-                                "text": "Dubai",
-                                "href": "/misiones/dubai"
-                            },
-                            {
-                                "text": "Japón",
-                                "href": "/misiones/japon"
-                            },
-                            {
-                                "text": "Brasil",
-                                "href": "/misiones/brasil"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Eventos",
-                        "href": "",
-                        "sublinks": [
-                            {
-                                "text": "The Wake Up Award",
-                                "href": "/eventos/the-wake-up-award"
-                            },
-                            {
-                                "text": "Endurance Award",
-                                "href": "/eventos/the-endurance-award"
-                            },
-                            {
-                                "text": "The Evires Award",
-                                "href": "/eventos/the-evires-award"
-                            },
-                            {
-                                "text": "Premio Innova",
-                                "href": "/eventos/premio-innova"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Servicios",
-                        "href": "",
-                        "sublinks": [
-                            {
-                                "text": "Agenciamiento de Aduana",
-                                "href": "/servicios/agenciamiento-aduana"
-                            },
-                            {
-                                "text": "Agenciamiento de Carga",
-                                "href": "/servicios/agenciamiento-carga"
-                            },
-                            {
-                                "text": "Desaduanaje",
-                                "href": "/servicios/desaduanaje"
-                            },
-                            {
-                                "text": "Seguro Internacional",
-                                "href": "/servicios/seguro-internacional"
-                            },
-                            {
-                                "text": "Transporte Local",
-                                "href": "/servicios/transporte-local"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "Tracking Web",
+                        "text": "Restaurante",
                         "href": "https://trackingwebsac.andessystems.com/e7vEMQr+IAMZbiM=/login",
                         "sublinks": "",
                         "anotherPage": true
                     },
                     {
-                        "text": "Reserva de Cita",
+                        "text": "Experiencia",
                         "href": "/calendar",
                         "sublinks": ""
                     },
                     {
-                        "text": "ASPEM La Revista",
+                        "text": "Instalaciones",
                         "href": "/aspem-la-revista",
+                        "sublinks": ""
+                    },
+                    {
+                        "text": "Contacto",
+                        "href": "/cotizacion",
                         "sublinks": ""
                     }
                 ],
-                "buttonContact": {
-                    "icon": "fa fa-brands fa-facebook fa-whatsapp",
-                    "title": "ESCRÍBENOS",
-                    "description": "+51 924 099 139",
-                    "number": "+51924099139",
-                    "defaultMessage": "Hola, me encuentro interesado en agendar un viaje con ustedes."
-                }
+                "buttonContact": ""
             },
             "order": 0
         },
@@ -158,10 +78,10 @@
             "pageName": "FloatingWhatsapp",
             "showInMenu": false,
             "data":{
-                "pageMantain": "/pre-salida",
+                "pageMantain": "",
                 "allPagesMantain": false,
-                "number": "+51929234272",
-                "defaultMessage": "Hola, me encuentro interesado en el producto.",
+                "number": "+51929909146",
+                "defaultMessage": "Hola, me encuentro interesado en reservar mi habitación en el hotel Rancho Roma.",
                 "showOnlyOnMobile": false
             },
             "order": 200
@@ -172,85 +92,65 @@
             "pageName": "Footer",
             "showInMenu": false,
             "data":{
-                "pageMantain": "/pre-salida",
+                "pageMantain": "",
                 "allPagesMantain": false,
                 "imgBackground": "",
-                "imgLogo": "/img/imagenesInicio/logoClaro.png",
-                "description": "Somos ASPEM Asociación Peruana de Empresarios, una organización que impulsa el crecimiento del empresario peruano mediante ferias internacionales y misiones empresariales.",
+                "imgLogo": "/img/imagenesInicio/imagenLogoBlanco.png",
+                "description": "Somos Hotel Rancho Roma, un equipo diseñado para ofrecer una experiencia única a nuestros clientes y brindarles las mejores vacaciones, aparte de superar sus expectativas.",
                 "titleServices": "NUESTROS SERVICIOS",
                 "services": [
                     {
-                        "text": "Ferias Internacionales",
+                        "text": "Promociones",
                         "icon": ""
                     },
                     {
-                        "text": "Misiones Empresariales",
+                        "text": "Habitaciones",
                         "icon": ""
                     },
                     {
-                        "text": "Intercambio Estudiantil",
+                        "text": "Eventos",
                         "icon": ""
                     },
                     {
-                        "text": "Congresos",
-                        "icon": ""
-                    },
-                    {
-                        "text": "Capacitaciones",
-                        "icon": ""
-                    },
-                    {
-                        "text": "Afiliaciones",
+                        "text": "Restaurante",
                         "icon": ""
                     }
                 ],
                 "titleContacts": "CONTACTO",
                 "contacts": [
                     {
-                        "text": "Calle Capitán Guitierrez Rondón, 196 - Miraflores, Lima, Perú 15074",
+                        "text": "Carretera Fernando Belaúnde Terry km 633 - Tarapoto",
                         "icon": "fa fa-solid fa-location-crosshairs"
                     },
                     {
                         "items": [
-                            {"text": "+51 961 831 404"},
-                            {"text": "+51 940 460 090"},
-                            {"text": "+51 979 729 617"},
-                            {"text": "+51 951 182 126"}
+                            {"text": "+51 929 909 146"}
                         ],
                         "type": "phone",
                         "icon": "fa fa-solid fa-phone"
                     },
                     {
-                        "text": "informes@aspem.org.pe",
+                        "text": "reserva@hotelranchoroma.pe",
                         "type": "email",
                         "icon": "fa fa-solid fa-envelope"
                     },
                     {
-                        "text": "Lunes a Viernes: 9:00 am - 6:00 pm",
+                        "text": "Lunes a Domingo: 7:00 am - 11:00 pm",
                         "icon": "fa fa-solid fa-clock"
                     }
                 ],
                 "socialNetworks": [
                     {
                         "icon": "fa fa-brands fa-facebook",
-                        "href": "https://www.facebook.com/ASPEMasociacionperuanadeempresarios"
+                        "href": "https://www.facebook.com/RanchoRomaPeru/"
                     },
                     {
                         "icon": "fa fa-brands fa-instagram",
-                        "href": "https://www.instagram.com/aspemperu/"
+                        "href": "https://www.instagram.com/ranchoromaperu/"
                     },
-                    {
-                        "icon": "fa fa-brands fa-twitter",
-                        "href": "https://x.com/aspemperu1"
-                    },
-                    {
-                        "icon": "fa fa-brands fa-youtube",
-                        "href": "https://www.youtube.com/@aspemasociacionperuanadeem7639"
-                    }
-                    ,
                     {
                         "icon": "fa fa-brands fa-tiktok",
-                        "href": "https://www.tiktok.com/@aspemperu"
+                        "href": "https://www.tiktok.com/@hotel_ranchoroma"
                     }
                 ],
                 "sendLetter": {
@@ -259,8 +159,26 @@
                     "placeholderEmail": "Tu email",
                     "icon": "fa fa-solid fa-paper-plane"
                 },
-                "copyrightText": "© 2025 ASPEM CORPORACIONES. Todos los derechos reservados.",
-                "brandText": "Diseñado por corporaciones para corporaciones",
+                "linkSection": [
+                    {
+                        "text": "Términos y Condiciones",
+                        "href": "/terminos-condiciones"
+                    },
+                    {
+                        "text": "Políticas de Privacidad",
+                        "href": "/politicas-privacidad"
+                    },
+                    {
+                        "text": "Preguntas Frecuentes",
+                        "href": "/preguntas-frecuentes"
+                    },
+                    {
+                        "text": "Libro de Reclamaciones",
+                        "href": "/libro-reclamaciones"
+                    }
+                ],
+                "copyrightText": "© 2020 RANCHO ROMA. Todos los derechos reservados.",
+                "brandText": "Diseñado para brindar la mejor experiencia a nuestros clientes.",
                 "messageSuccess": "✅ ¡Listo! Ahora estás suscrito a nuestras novedades.",
                 "messageError": "❌ Hubo un error al registrar tu email, inténtalo más tarde."
             },
@@ -276,14 +194,11 @@
             "data":{
                 "isMainH1": true,
                 "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "EXPLORA EL MUNDO \n",
-                "highLightTitle": "Vive lo Extraordinario",
+                "coverScreen": false,
+                "title": "Hotel Rancho Roma \n",
+                "highLightTitle": "Conecta con la Selva",
                 "subTitle": "",
-                "textUnderTitle": "lorme",
-                "noDivider": true,
-                "highLightSubTitle": "",
-                "description": "Viajes grupales exclusivos, experiencias auténticas\ny recuerdos que transforman tu vida",
+                "description": "Disfruta de un espacio único para vivir la tranquilidad y conexión con la selva peruana.",
                 "typeAnimationTitleSection": "left",
                 "pixelsAnimationTitleSection": 80,
                 "durationAnimationTitleSection": 1000,
@@ -294,30 +209,15 @@
                 "durationAnimationDescription": 1000,
                 "delayAnimationDescription": 0,
                 "buttons": [
-                    {
-                        "text": "VER PRÓXIMOS VIAJES",
-                        "type": "primary",
-                        "linkType": "samePage",
-                        "href": "#ourTravelsInicio",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "text": "VER ITINERARIOS",
-                        "type": "secondary",
-                        "linkType": "",
-                        "href": "/itinerario",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    }
+                    
                 ],
                 "footerDontHaveDivider": false,
                 "durationAnimationFooterItems": 1000,
                 "delayAnimationFooterItems": 300,
                 "footerItems": [
                     {
-                        "icon": "fa fa-solid fa-people-group",
-                        "title": "GRUPOS EXCLUSIVOS",
+                        "icon": "fa fa-solid fa-couch",
+                        "title": "CÓMODAS HABITACIONES",
                         "description": "",
                         "typeAnimation": "fade",
                         "pixelsAnimation": "",
@@ -325,8 +225,8 @@
                         "pixelsAnimationDivider": 80
                     },
                     {
-                        "icon": "fa fa-solid fa-book-open-reader",
-                        "title": "EXPERTOS ACOMPAÑANTES",
+                        "icon": "fa fa-solid fa-champagne-glasses",
+                        "title": "EVENTOS ÚNICOS",
                         "description": "",
                         "typeAnimation": "fade",
                         "pixelsAnimation": "",
@@ -334,8 +234,8 @@
                         "pixelsAnimationDivider": 80
                     },
                     {
-                        "icon": "fa fa-regular fa-compass",
-                        "title": "EXPERIENCIAS ÚNICAS",
+                        "icon": "fa fa-solid fa-utensils",
+                        "title": "COMIDAS DELICIOSAS",
                         "description": "",
                         "typeAnimation": "fade",
                         "pixelsAnimation": "",
@@ -343,8 +243,8 @@
                         "pixelsAnimationDivider": 80
                     },
                     {
-                        "icon": "fa fa-solid fa-shield-heart",
-                        "title": "SEGURIDAD TOTAL",
+                        "icon": "fa fa-solid fa-star",
+                        "title": "EXPERIENCIAS INOLVIDABLES",
                         "description": "",
                         "typeAnimation": "fade",
                         "pixelsAnimation": "",
@@ -356,136 +256,263 @@
                 "pixelsAnimationAvatarImg": 80,
                 "durationAnimationAvatarImg": 1000,
                 "delayAnimationAvatarImg": 0,
-                "imgAvatar": "/img/imagenesInicio/imagenAvatar.png",
-                "img": "/img/imagenesInicio/imagenPortada.jpg",
-                "altImg": "imagen delhero"
+                "srcVideoLocal": "/img/imagenesInicio/videoPortada.mp4",
+                "posterVideo": "/img/imagenesInicio/poster.webp",
+                "img": "",
+                "altImg": ""
             },
             "order": 2
         },
         {
-            "title": "CarrouselChina",
-            "href": "#carrouselChina",
-            "pageName": "Carrousel",
+            "title": "Sobre Nosotros",
+            "href": "#collageImgs",
+            "pageName": "CollageImgs",
             "showInMenu": false,
             "data":{
+                "titleHighLigh": "",
+                "title": "RANCHO ROMA",
+                "subTitle": "Conoce el Hotel",
+                "description": "Disfruta un espacio único en la naturaleza con hospedaje, piscina, restaurante y áreas recreativas para compartir. Vive la tranquilidad y conexión con la selva peruana.",
+                "typeAnimationText": "left",
+                "pixelsAnimationText": 80,
+                "durationAnimationText": 1000,
+                "delayAnimationText": 0,
+
+                "durationAnimationImgs": 1000,
+                "delayEachAnimationImgs": 200,
                 "imgs": [
                     {
-                        "src":"/img/imagenesInicio/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
+                        "src": "/img/imagenesInicio/imagenSobreNosotros1.webp",
+                        "altImg": "Foto Fuera Rancho Roma",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 120
                     },
                     {
-                        "src":"/img/imagenesInicio/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
+                        "src": "/img/imagenesInicio/imagenSobreNosotros3.webp",
+                        "altImg": "Foto Fuera Rancho Roma",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
                     },
                     {
-                        "src":"/img/imagenesInicio/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesInicio/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesInicio/imagenCarrousel5.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
+                        "src": "/img/imagenesInicio/imagenSobreNosotros2.webp",
+                        "altImg": "Foto Fuera Rancho Roma",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
                     }
                 ]
             },
             "order": 3
         },
         {
-            "title": "Sobre Nosotros",
-            "href": "#teamShowCaseInicio",
-            "pageName": "TeamShowCase",
+            "title": "Habitaciones",
+            "href": "#carrouselRoomsInicio",
+            "pageName": "CarrouselRooms",
             "showInMenu": false,
             "data":{
-                "titleHighLigh": "ASPEM ",
-                "title": "Asociación Peruana de Empresarios",
-                "subTitle": "SOBRE NOSOTROS",
-                "description": "Es una organización que promueve el crecimiento empresarial a nivel nacional e internacional, organizando misiones empresariales, viajes de negocios y participación en ferias internacionales, conectando a los empresarios con oportunidades reales de comercio e importación.",
-                "typeAnimationText": "left",
-                "pixelsAnimationText": 80,
-                "durationAnimationText": 1000,
-                "delayAnimationText": 0,
-                
-                "typeAnimationLine": "right",
-                "pixelsAnimationLine": 80,
-                "durationAnimationLine": 1000,
-                "delayAnimationLine": 0,
-                
-                "durationAnimationPeople": 1000,
-                "delayEachAnimationPeople": 200,
-
-                "people": [
+                "nameId": "#ourTravelsInicio",
+                "title": "NUESTRAS SUITES",
+                "subTitle": "Dale un vistazo a",
+                "priceDescription": "Desde:",
+                "delayAutoPlay": 4000,
+                "loop": true,
+                "autoplay": true,
+                "isDoneText": "Ya realizado",
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": "",
+                "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
+                "rooms": [
                     {
-                        "name": "Dr. Samuel Ludeña",
-                        "position": "Presidente de ASPEM",
-                        "img": "/img/imagenesInicio/imagenTeam1.jpg",
-                        "description": "Siempre en busca de brindar el mejor servicio posible a nuestros clientes",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.jpg",
+                        "altImg": "Suite Junior Green Hotel Rancho Roma",
+                        "title": "Suite Junior Green",
+                        "slug": "suite-junior-green",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 1,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
                     },
                     {
-                        "name": "Lic. Daisy Clerque",
-                        "position": "Vicepresidenta de ASPEM",
-                        "img": "/img/imagenesInicio/imagenTeam2.jpg",
-                        "description": "Siempre en busca de brindar el mejor servicio posible a nuestros clientes",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.jpg",
+                        "altImg": "Suite Bella Pool Double Hotel Rancho Roma",
+                        "title": "Suite Bella Pool Double",
+                        "slug": "suite-bella-pool-double",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 2,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.jpg",
+                        "altImg": "Suite Bella Pool Matrimonial Hotel Rancho Roma",
+                        "title": "Suite Bella Pool Matrimonial",
+                        "slug": "suite-bella-pool-matrimonial",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 3,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.jpg",
+                        "altImg": "Suite Double Green Hotel Rancho Roma",
+                        "title": "Suite Double Green",
+                        "slug": "suite-double-green",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 4,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.jpg",
+                        "altImg": "Villa Deluxe Familiar Hotel Rancho Roma",
+                        "title": "Villa Deluxe Familiar",
+                        "slug": "villa-deluxe-familiar",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 5,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion6.jpg",
+                        "altImg": "Suite Presidencial Hotel Rancho Roma",
+                        "title": "Suite Presidencial",
+                        "slug": "suite-presidencial",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 6,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
                     }
-                ],
-                "typeAnimationButton": "up",
-                "pixelsAnimationButton": 80,
-                "durationAnimationButton": 1000,
-                "delayAnimationButton": 0,
-                "buttonMoreInformation": {
-                    "text": "Ver Más",
-                    "href": "/nosotros",
-                    "type": "primary"
-                }
+                ]
             },
             "order": 4
         },
         {
-            "title": "Sobre Nosotros Imagen",
-            "href": "#imgWithHighLigthsInicio",
-            "pageName": "ImgWithHighLigths",
+            "title": "Promociones",
+            "href": "#carrouselTravelsInicio",
+            "pageName": "CarrouselTravels",
             "showInMenu": false,
             "data":{
-                "img": "/img/imagenesInicio/imagenSobreNosotros.jpg",
-                "altImg": "texto",
-                "typeAnimationImg": "fade",
-                "durationAnimationImg": 1000,
-                "pixelsAnimationImg": "",
-                "delayAnimationImg": "",
-                "delayEachItemAnimation": 300,
-                "durationItemsAnimation": 1000,
-                "highLights": [
+                "isAfterHeader": true,
+                "nameId": "#ourTravelsItinerary",
+                "subTitle": "Conoce",
+                "title": "NUESTRAS PROMOCIONES",
+                "priceDescription": "Desde:",
+                "loop": true,
+                "autoplay": false,
+                "isDoneText": "",
+                "textNoSelect": "Escoge un itinerario para ver la aventura.",
+                "nameIdItinerary": "#itinerarysDetail",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 60,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": "",
+                "travels": [
                     {
-                        "icon": "fa fa-solid fa-bullseye",
-                        "title": "NUESTRA MISIÓN",
-                        "description": "Impulsar el crecimiento de los empresarios mediante misiones empresariales, viajes de negocios y acompañamiento estratégico que conecte sus empresas con oportunidades reales a nivel nacional e internacional.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
+                        "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
+                        "titlePart1": "Una Noche",
+                        "titlePart2": "Especial",
+                        "duration": "1 Noche Inolvidable",
+                        "price": "",
+                        "lowText": "Para disfrutar en pareja",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "noche-especial",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "icon": "fa fa-solid fa-arrow-trend-up",
-                        "title": "NUESTRA VISIÓN",
-                        "description": "Consolidarnos como la organización empresarial líder en la internacionalización de negocios, reconocida por su trayectoria, confianza y resultados en mercados globales.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
+                        "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
+                        "titlePart1": "Escoge tu",
+                        "titlePart2": "Plato Favorito",
+                        "duration": "Con un precio Especial",
+                        "price": "",
+                        "lowText": "Para deleitar el paladar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "plato-favorito",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "icon": "fa fa-regular fa-heart",
-                        "title": "NUESTROS VALORES",
-                        "description": "Experiencia comprobada, confianza en cada proceso y acompañamiento permanente antes, durante y después de cada misión empresarial.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
+                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
+                        "titlePart1": "Modo",
+                        "titlePart2": "Descanso",
+                        "duration": "Sin interrupciones ",
+                        "price": "",
+                        "lowText": "Como en ningún otro lugar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "modo-descanso",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
+                        "titlePart1": "Super Promo",
+                        "titlePart2": "",
+                        "duration": "4 días + 3 noches",
+                        "price": "S/. 210",
+                        "lowText": "Para tus vacaciones soñadas",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "super-promo",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     }
                 ]
             },
@@ -493,519 +520,13 @@
         },
         {
             "title": "Video Institucional Inicio",
-            "href": "#videoAndTextInicio",
-            "pageName": "VideoAndText",
-            "showInMenu": false,
-            "data":{
-                "title": "VIDEO INSTITUCIONAL RESUMEN 2025",
-                "description": "En 2025, ASPEM realizó misiones empresariales en China, Brasil, Emiratos Árabes y Panamá, participando en ferias internacionales y un intercambio cultural orientado al fortalecimiento empresarial.",
-                "hasBackground": true,
-                "videoUrl": "https://www.youtube.com/embed/euDZaE4zhBU"
-            },
-            "order": 6
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#transitionImagesAndTextInicio",
-            "pageName": "TransitionImagesAndText",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "intervalChangeImage": 8000,
-                "items": [
-                    {
-                        "src": "/img/imagenesInicio/misionesEmpresariales1.jpg",
-                        "title": "FERIA EXPOCOMER ",
-                        "highLightTitle": "CHINA - 2026",
-                        "description": "Feria realizada en Cantón 2026 del 09 al 16 de marzo"
-                    },
-                    {
-                        "src": "/img/imagenesInicio/misionesEmpresariales2.jpg",
-                        "title": "FERIA EXPOCOMER ",
-                        "highLightTitle": "DUBAI - 2026",
-                        "description": "Feria realizada en Dubai 2026 del 09 al 16 de marzo"
-                    },
-                    {
-                        "src": "/img/imagenesInicio/misionesEmpresariales3.jpg",
-                        "title": "FERIA EXPOCOMER - JAPÓN",
-                        "description": "Feria realizada en Japón 2026 del 09 al 16 de marzo"
-                    },
-                    {
-                        "src": "/img/imagenesInicio/misionesEmpresariales4.jpg",
-                        "title": "FERIA EXPOCOMER - CHINA",
-                        "description": "Feria realizada en China 2026 del 09 al 16 de marzo"
-                    },
-                    {
-                        "src": "/img/imagenesInicio/misionesEmpresariales5.jpg",
-                        "title": "FERIA EXPOCOMER - BRASIL",
-                        "description": "Feria realizada en Brasil 2026 del 09 al 16 de marzo"
-                    }
-                ]
-            },
-            "order": 7
-        },
-        {
-            "title": "Premiaciones Inicio",
-            "href": "#awardsInicio",
-            "pageName": "Awards",
-            "showInMenu": false,
-            "data":{
-                "backgroundImg": "/img/imagenesInicio/imagenBackgroundAwards.jpg",
-                "title": "Premiaciones Empresariales",
-                "awards": [
-                    {
-                        "imgTitle": "/img/imagenesInicio/imagenAward1.jpg",
-                        "description": "Reconocimiento a empresas destacadas por su liderazgo, innovación y compromiso con la mejora continua.",
-                        "buttonMoreInformation": {
-                            "text": "Ver Más",
-                            "href": "/eventos/the-wake-up-award",
-                            "type": "primary"
-                        }
-                    },
-                    {
-                        "imgTitle": "/img/imagenesInicio/imagenAward2.jpg",
-                        "description": "Reconocimiento empresarial que destaca por la perseverancia, resiliencia y capacidad de superar desafíos en entornos competitivos.",
-                        "buttonMoreInformation": {
-                            "text": "Ver Más",
-                            "href": "/eventos/the-endurance-award",
-                            "type": "primary"
-                        }
-                    },
-                    {
-                        "imgTitle": "/img/imagenesInicio/imagenAward3.jpg",
-                        "description": "Distinción empresarial que reconoce a mujeres emprendedoras por su resiliencia, innovación, empoderamiento y superación.",
-                        "buttonMoreInformation": {
-                            "text": "Ver Más",
-                            "href": "/eventos/the-evires-award",
-                            "type": "primary"
-                        }
-                    },
-                    {
-                        "imgTitle": "/img/imagenesInicio/imagenAward4.jpg",
-                        "description": "Galardón que reconoce la innovación empresarial y el impacto creativo y disruptivo en su sector.",
-                        "buttonMoreInformation": {
-                            "text": "Ver Más",
-                            "href": "/eventos/premio-innova",
-                            "type": "primary"
-                        }
-                    }
-                ]
-            },
-            "order": 10
-        },
-        {
-            "title": "Nuestras Compañías",
-            "href": "#ourCompaniesInicio",
-            "pageName": "OurCompanies",
-            "showInMenu": false,
-            "data":{
-                "title": "Nuestras Compañías",
-                "subTitle": "Actuales Proyectos",
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationCompany": 1000,
-                "delayEachAnimationCompany": 0,
-                "companies": [
-                    {
-                        "img": "/img/imagenesInicio/imagenCompania1.jpg",
-                        "titlePart1": "Aspem",
-                        "titlePart2": "Asociación",
-                        "lowText": "Cupos Disponibles",
-                        "buttonText": "Conoce Más",
-                        "href": "https://www.facebook.com/ASPEMasociacionperuanadeempresarios",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCompania2.jpg",
-                        "titlePart1": "Aspem",
-                        "titlePart2": "Operadora",
-                        "lowText": "Cupos Disponibles",
-                        "buttonText": "Conoce Más",
-                        "href": "https://aspemviajes.pe/",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCompania3.jpg",
-                        "titlePart1": "Aspem",
-                        "titlePart2": "Maquinaria",
-                        "lowText": "Inscripciones Abiertas",
-                        "buttonText": "Conoce Más",
-                        "href": "https://www.facebook.com/ASPEMasociacionperuanadeempresarios",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCompania4.jpg",
-                        "titlePart1": "Inversiones",
-                        "titlePart2": "DYC",
-                        "lowText": "Traslados Disponibles",
-                        "buttonText": "Conoce Más",
-                        "href": "https://www.facebook.com/InversionesDyCPeru/",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    }
-                ]
-            },
-            "order": 11
-        },
-        {
-            "title": "Enviar Información",
-            "href": "#formSendInfoInicio",
-            "pageName": "FormSendInfo",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#formSendInfoInicio",
-                "subTitle": "¿Por qué viajar con",
-                "title": "ASPEM ASOCIACIÓN?",
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "typeAnimationForm": "right",
-                "pixelsAnimationForm": 80,
-                "durationAnimationForm": 1000,
-                "delayAnimationForm": 0,
-                "durationItemsAnimation": 1500,
-                "delayEachItemAnimation": 300,
-                "achievments": [
-                    {
-                        "icon":"fa fa-regular fa-star",
-                        "textFirstPart": "+7 AÑOS",
-                        "textSecondPart": "DE EXPERIENCIA",
-                        "typeAnimation": "down",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "icon":"fa fa-solid fa-people-group",
-                        "textFirstPart": "+100",
-                        "textSecondPart": "EMPRESAS SATISFECHAS",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "icon":"fa fa-solid fa-people-arrows",
-                        "textFirstPart": "ATENCIÓN",
-                        "textSecondPart": "PERSONALIZADA",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "icon":"fa fa-solid fa-road",
-                        "textFirstPart": "PLANES A TU",
-                        "textSecondPart": "MEDIDA",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    }
-                ],
-                "dontHaveForm": false,
-                "imgBackgroundForm": "/img/imagenesInicio/imagenBackgroundForm.jpg",
-                "titleForm": "Solicita tu itinerario personalizado",
-                "subTitleForm": "PLANIFICA TU PRÓXIMA AVENTURA",
-                "placeholderDestino": "¿A dónde quieres viajar?",
-                "placeholderFecha": "Fecha Aproximada",
-                "placeholderNumeroPersonas": "Número de personas",
-                "placeholderWhatsapp": "Tu WhatsApp",
-                "buttonSendInformation":{
-                    "text": "Enviar Solicitud",
-                    "href": "",
-                    "type": "primary"
-                },
-                "titleOtherOption": "O ESCRÍBENOS DIRECTO",
-                "iconWhatsapp": "fa fa-brands fa-whatsapp",
-                "numberWhatsapp": "+51 924 099 139",
-                "messageSuccess": "✅ ¡Se envió correctamente tu información!",
-                "messageError": "❌ Hubo un error al enviar tu información, inténtalo más tarde."
-            },
-            "order": 12
-        },
-        {
-            "title": "Procesos",
-            "href": "#ourProcessInicio",
-            "pageName": "OurProcess",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "title": "NUESTRO PROCESO",
-                "img": "/img/imagenesInicio/imagenProcesos.jpg",
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 60,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationSteps": 1000,
-                "delayEachAnimationStep": 300,
-                "steps": [
-                    {
-                        "title": "Entendemos tus necesidades",
-                        "description": "Analizamos tu requerimiento.",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Gestionamos tu viaje",
-                        "description": "Nos encargamos de toda la organización.",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Te contactamos con proveedores directos",
-                        "description": "Obtenemos las mejores condiciones.",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Gestionamos tu importación",
-                        "description": "Documentos, logística y seguimiento.",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Máquinas 100% originales",
-                        "description": "Recibes tu mercadería de forma segura.",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    }
-                ]
-            },
-            "order": 50
-        },
-        {
-            "title": "Países",
-            "href": "#connectCountriesInicio",
-            "pageName": "ConnectCountries",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "title": "¿A QUÉ PAÍSES TE CONECTAMOS?",
-                "typeAnimationHeader": "down",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationCountries": 1000,
-                "delayEachCountryAnimation": 0,
-                "countries": [
-                    {
-                        "title": "CHINA",
-                        "description": "Accede a una amplia red de fabricantes y proveedores líderes en este país.",
-                        "imgFlag": "/img/imagenesInicio/banderaChina.jpg",
-                        "imgBackground": "/img/imagenesInicio/fondoChina.jpg",
-                        "colorTitle": "#ff0000",
-                        "typeAnimation": "zoom"
-                    },
-                    {
-                        "title": "SEÚL",
-                        "description": "Innovación, tecnología y productos de alta calidad.",
-                        "imgFlag": "/img/imagenesInicio/banderaCoreadelsur.png",
-                        "imgBackground": "/img/imagenesInicio/fondoCoreadelsur.jpg",
-                        "colorTitle": "#0000ff",
-                        "typeAnimation": "zoom"
-                    },
-                    {
-                        "title": "AMSTERDAN",
-                        "description": "Puerta de entrada a Europa con logística eficiente.",
-                        "imgFlag": "/img/imagenesInicio/banderaPaisesbajos.jpg",
-                        "imgBackground": "/img/imagenesInicio/fondoPaisesbajos.jpg",
-                        "colorTitle": "#ff00ff",
-                        "typeAnimation": "zoom"
-                    },
-                    {
-                        "title": "BÉLGICA",
-                        "description": "Conexión estratégica para tus importaciones en Europa.",
-                        "imgFlag": "/img/imagenesInicio/banderaBelgica.png",
-                        "imgBackground": "/img/imagenesInicio/fondoBelgica.jpg",
-                        "colorTitle": "#ccbbaa",
-                        "typeAnimation": "zoom"
-                    }
-                ]
-            },
-            "order": 51
-        },
-        {
-            "title": "MÉTRICAS",
-            "href": "#ourMetricsInicio",
-            "pageName": "OurMetrics",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "metrics": [
-                    {
-                        "title": "+200",
-                        "description": "Empresarios conectados",
-                        "icon": "fa fa-solid fa-briefcase"
-                    },
-                    {
-                        "title": "+500",
-                        "description": "Importaciones gestionadas",
-                        "icon": "fa fa-solid fa-globe"
-                    },
-                    {
-                        "title": "+200",
-                        "description": "Empresas satisfechas",
-                        "icon": "fa fa-solid fa-users"
-                    },
-                    {
-                        "title": "100%",
-                        "description": "Compromiso y empeño",
-                        "icon": "fa fa-solid fa-user-shield"
-                    }
-                ]
-            },
-            "order": 70
-        },
-        {
-            "title": "Próximas Salidas",
-            "href": "#carrouselTravelsInicio",
-            "pageName": "CarrouselTravels",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#ourTravelsInicio",
-                "title": "Viajes que te cambiarán la vida",
-                "subTitle": "PRÓXIMAS SALIDAS",
-                "priceDescription": "Desde:",
-                "slidesToShow": 4,
-                "delayAutoPlay": 4000,
-                "loop": true,
-                "autoplay": true,
-                "isDoneText": "Ya realizado",
-                "typeAnimationHeader": "fade",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": "",
-                "travels": [
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje1.jpg",
-                        "altImg": "Foto Europa magica",
-                        "titlePart1": "Europa",
-                        "titlePart2": "Mágica",
-                        "duration": "18 DÍAS / 17 NOCHES",
-                        "price": "$ 4600",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 23 DIC 2026",
-                        "slug": "europa-magica",
-                        "idItinerary": 1,
-                        "href": "/itinerario"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje3.jpg",
-                        "altImg": "Foto corea",
-                        "titlePart1": "Corea del Sur",
-                        "titlePart2": "China & Japón",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "slug": "coreadelsur-china-japon",
-                        "idItinerary": 2,
-                        "href": "/itinerario"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje4.jpg",
-                        "altImg": "Foto Europa ensueño",
-                        "titlePart1": "Europa",
-                        "titlePart2": "de Ensueño",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "slug": "europa-ensueno",
-                        "idItinerary": 3,
-                        "href": "/itinerario"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje2.jpg",
-                        "altImg": "Foto Europa panam",
-                        "titlePart1": "Panamá",
-                        "titlePart2": "Año Nuevo",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "idItinerary": 4,
-                        "slug": "panama",
-                        "href": "/itinerario"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje5.jpg",
-                        "altImg": "Foto africa",
-                        "titlePart1": "África",
-                        "titlePart2": "Safari & Cultura",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "isDone": true
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje6.jpg",
-                        "altImg": "Foto Panama",
-                        "titlePart1": "Panamá",
-                        "titlePart2": "2026",
-                        "lowText": "Cupos Disponibles: 8",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "isDone": true
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje7.jpg",
-                        "altImg": "Foto colombia",
-                        "titlePart1": "Colombia",
-                        "titlePart2": "Cartagena",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "price": "S/. 18990",
-                        "lowText": "Cupos Disponibles: 8",
-                        "buttonText": "Salida 16 SEPT 2026",
-                        "isDone": true
-                    }
-                ]
-            },
-            "order": 78
-        },
-        {
-            "title": "MÉTRICAS",
-            "href": "#ourMetricsInicio",
-            "pageName": "OurMetrics",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "imgBackground": "/img/imagenesInicio/fondoMetricas.jpg",
-                "metrics": [
-                    {
-                        "title": "+300",
-                        "description": "Empresarios satisfechos",
-                        "icon": "fa fa-solid fa-briefcase"
-                    },
-                    {
-                        "title": "+500",
-                        "description": "Importaciones gestionadas",
-                        "icon": "fa fa-solid fa-globe"
-                    },
-                    {
-                        "title": "+200",
-                        "description": "Empresas satisfechas",
-                        "icon": "fa fa-solid fa-users"
-                    },
-                    {
-                        "title": "100%",
-                        "description": "Compromiso y empeño",
-                        "icon": "fa fa-solid fa-user-shield"
-                    }
-                ]
-            },
-            "order": 80
-        },
-        {
-            "title": "Video Institucional Inicio",
             "href": "#videoImgsTextInicio",
             "pageName": "VideoImgsText",
             "showInMenu": false,
             "data":{
-                "title": "Historias que inspiran",
-                "description": "Nuestros viajeros viven experiencias únicas y regresan con recuerdos que duran para siempre.",
+                "title": "EXPERIENCIAS ",
+                "titleHighLight": "INOLVIDABLES",
+                "description": "Nuestros visitantes se van llenos de recuerdos placenteros.",
                 "hasBackground": true,
                 "typeAnimationHeader": "right",
                 "pixelsAnimationHeader": 80,
@@ -1015,23 +536,28 @@
                 "pixelsAnimationButton": 80,
                 "durationAnimationButton": 1000,
                 "delayAnimationButton": 0,
-                "img1": {
-                    "src": "/img/imagenesInicio/testimonios1.jpg",
-                    "title": "Testimonios uno"
-                },
-                "img2": {
-                    "src": "/img/imagenesInicio/testimonios2.jpg",
-                    "title": "Testimonios dos"
-                },
+                "onlyVideo": true,
                 "videoUrl": "https://www.youtube.com/embed/Tl3ZMVKAzA4",
                 "buttonInfo": {
-                    "text": "CONOCE MÁS",
-                    "type": "secondary",
-                    "linkType": "samePage",
-                    "href": "#carrouselTestimoniesInicio"
+                    "text": "Conoce Más",
+                    "type": "primary",
+                    "href": "/experiencias"
                 }
             },
-            "order": 85
+            "order": 6
+        },
+        {
+            "title": "Restaurante Bar",
+            "href": "#inlineImgLink",
+            "pageName": "InlineImgLink",
+            "showInMenu": false,
+            "data":{
+                "img": "/img/imagenesInicio/imagenRestauranteInline.jpg",
+                "altImg": "Restaurante Rancho Roma",
+                "textLink": "Restaurante / Bar",
+                "href": "/restaurante"
+            },
+            "order": 7
         },
         {
             "title": "Testimonios",
@@ -1059,430 +585,63 @@
                 "testimonies": [
                     {
                         "img": "/img/imagenesInicio/grupoViaje1.jpg",
-                        "title": "Pirámides de Guiza",
-                        "location": "África - Egipto",
-                        "description": "Siempre soñé con conocer las Pirámides de Guiza y este viaje superó todas mis expectativas. La organización fue excelente y disfruté cada momento con el grupo.",
+                        "title": "Una estadía para recordar",
+                        "location": "Experiencia en el hotel",
+                        "noShowLocationIcon": true,
+                        "description": "Nuestra estadía en Rancho Roma fue excelente. Las habitaciones son cómodas, el ambiente es muy agradable y la atención hizo que nos sintiéramos como en casa.",
                         "numStars": 5
                     },
                     {
                         "img": "/img/imagenesInicio/grupoViaje2.jpg",
-                        "title": "Mezquita Azul de Estambul",
-                        "location": "Europa y Asia - Turquía",
-                        "description": "Recorrer Estambul y visitar la Mezquita Azul fue una experiencia inolvidable. Todo estuvo muy bien organizado y pude conocer una cultura realmente fascinante.",
-                        "numStars": 4.5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje3.jpg",
-                        "title": "COREA Y JAPÓN",
-                        "location": "Asia - Corea del Sur y Japón",
-                        "description": "Este viaje me permitió descubrir dos países increíbles en una sola experiencia. Me llevo recuerdos inolvidables, nuevos amigos y muchas ganas de volver.",
-                        "numStars": 4.6
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje4.jpg",
-                        "title": "INDIA",
-                        "location": "Asia - India",
-                        "description": "Cada ciudad que visitamos tenía algo especial. La riqueza cultural, los colores y la gastronomía hicieron de este viaje una experiencia única para mí.",
+                        "title": "Un lugar para disfrutar",
+                        "location": "Experiencia gastronómica",
+                        "noShowLocationIcon": true,
+                        "description": "Disfrutamos mucho nuestra visita a Rancho Roma. La comida estuvo deliciosa, el ambiente fue muy acogedor y pasamos un momento increíble en familia.",
                         "numStars": 5
                     },
                     {
+                        "img": "/img/imagenesInicio/grupoViaje3.jpg",
+                        "title": "El lugar perfecto para celebrar",
+                        "location": "Celebración familiar",
+                        "noShowLocationIcon": true,
+                        "description": "Celebramos una fecha muy especial en Rancho Roma y quedamos encantados con todo. La organización, el espacio y la atención hicieron que fuera un día inolvidable.",
+                        "numStars": 5
+                    },
+                    {
+                        "img": "/img/imagenesInicio/grupoViaje4.jpg",
+                        "title": "Comodidad y buena atención",
+                        "location": "Hospedaje en Tarapoto",
+                        "noShowLocationIcon": true,
+                        "description": "Encontramos en Rancho Roma un lugar cómodo y tranquilo para descansar. La atención fue muy buena y disfrutamos mucho nuestra visita a Tarapoto.",
+                        "numStars": 4.5
+                    },
+                    {
                         "img": "/img/imagenesInicio/grupoViaje5.jpg",
-                        "title": "BEIJING",
-                        "location": "Asia - Beijing, China",
-                        "description": "Conocer Beijing fue una experiencia increíble. Me impresionó su historia, sus templos y la combinación entre tradición y modernidad que se vive en la ciudad.",
+                        "title": "Un ambiente increíble",
+                        "location": "Experiencia en Rancho Roma",
+                        "noShowLocationIcon": true,
+                        "description": "Nos encantó el ambiente de Rancho Roma. Es un lugar muy bonito para pasar el día, disfrutar de una buena comida y compartir momentos especiales.",
                         "numStars": 5
                     },
                     {
                         "img": "/img/imagenesInicio/grupoViaje6.jpg",
-                        "title": "SAFARI EN DUBÁI",
-                        "location": "Asia - Dubái, Emiratos Árabes Unidos",
-                        "description": "El safari por el desierto fue, sin duda, uno de los mejores momentos del viaje. La experiencia estuvo muy bien organizada y disfruté cada actividad al máximo.",
-                        "numStars": 4.5
+                        "title": "Una celebración inolvidable",
+                        "location": "Evento especial",
+                        "noShowLocationIcon": true,
+                        "description": "Todo salió perfecto durante nuestro evento. El espacio fue ideal, la atención estuvo a la altura y nuestros invitados disfrutaron muchísimo de la experiencia.",
+                        "numStars": 5
                     },
                     {
                         "img": "/img/imagenesInicio/grupoViaje7.jpg",
-                        "title": "CIUDAD PROHIBIDA",
-                        "location": "Asia - Beijing, China",
-                        "description": "Recorrer la Ciudad Prohibida fue como viajar en el tiempo. Aprendí mucho sobre la historia de China y disfruté cada recorrido junto al grupo.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje8.jpg",
-                        "title": "MURALLA CHINA",
-                        "location": "Asia - China",
-                        "description": "Caminar por la Gran Muralla China fue uno de esos momentos que nunca olvidaré. Gracias a la excelente organización pude disfrutar la experiencia sin preocuparme por nada.",
+                        "title": "Volveríamos sin pensarlo",
+                        "location": "Experiencia familiar",
+                        "noShowLocationIcon": true,
+                        "description": "Pasamos un momento excelente en Rancho Roma. Nos gustó mucho el ambiente, la atención y la experiencia en general. Sin duda, es un lugar al que volveríamos.",
                         "numStars": 5
                     }
                 ]
             },
-            "order": 89
-        },
-        {
-            "title": "Nuestros Servicios",
-            "href": "#carrouselTravelsInicio",
-            "pageName": "CarrouselTravels",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#ourTravelsInicio",
-                "title": "Conoce nuestros Servicios",
-                "subTitle": "Garantizamos la entrega de tu mercadería",
-                "priceDescription": "",
-                "slidesToShow": 4,
-                "delayAutoPlay": 4000,
-                "loop": true,
-                "autoplay": true,
-                "isDoneText": "Ya realizado",
-                "typeAnimationHeader": "right",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": "",
-                "travels": [
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje1.jpg",
-                        "titlePart1": "Agenciamiento",
-                        "titlePart2": "de Carga",
-                        "duration": "",
-                        "price": "",
-                        "lowText": "Gestión de tu carga",
-                        "buttonText": "Entérate de más",
-                        "href": "/servicios/agenciamiento-carga"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje3.jpg",
-                        "titlePart1": "Seguro",
-                        "titlePart2": "Internacional",
-                        "duration": "",
-                        "price": "",
-                        "lowText": "Protege tu mercancía",
-                        "buttonText": "Entérate de más",
-                        "href": "/servicios/seguro-internacional"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje5.jpg",
-                        "titlePart1": "Agenciamiento",
-                        "titlePart2": "de Aduana",
-                        "duration": "",
-                        "price": "",
-                        "lowText": "Gestión aduanera",
-                        "buttonText": "Entérate de más",
-                        "href": "/servicios/agenciamiento-aduana"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje2.jpg",
-                        "titlePart1": "Transporte",
-                        "titlePart2": "Local",
-                        "duration": "",
-                        "price": "",
-                        "lowText": "Entrega en todo el Perú",
-                        "buttonText": "Entérate de más",
-                        "href": "/servicios/transporte-local"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenViaje4.jpg",
-                        "titlePart1": "Desaduanaje",
-                        "titlePart2": "",
-                        "lowText": "Agilizamos tu mercancía",
-                        "duration": "",
-                        "price": "",
-                        "buttonText": "Entérate de más",
-                        "href": "/servicios/desaduanaje"
-                    }
-                ]
-            },
-            "order": 90
-        },
-        {
-            "title": "Navieras Asociadas",
-            "href": "#carrouselImgsShipping",
-            "pageName": "CarrouselImgs",
-            "showInMenu": false,
-            "data":{
-                "title": "Navieras Asociadas",
-                "subTitle": "Nuestros socios son tus socios",
-                "slidesToShow": 4,
-                "delayAutoPlay": 4000,
-                "loop": true,
-                "autoplay": true,
-                "buttonAtSides": true,
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "listImgs": [
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies1.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies2.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies3.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies4.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies5.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies6.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies1.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies2.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies3.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies4.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies5.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies6.jpg",
-                        "altImg": "Foto africa"
-                    }
-                ]
-            },
-            "order": 92
-        },
-        {
-            "title": "Almacenes Asociados",
-            "href": "#carrouselImgsWarehouses",
-            "pageName": "CarrouselImgs",
-            "showInMenu": false,
-            "data":{
-                "title": "Almacenes Asociados",
-                "subTitle": "Garantizan seguridad",
-                "slidesToShow": 4,
-                "delayAutoPlay": 4000,
-                "loop": true,
-                "autoplay": true,
-                "buttonAtSides": true,
-                
-                "listImgs": [
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies7.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies8.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies9.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies10.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies11.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies7.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies8.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies9.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies10.jpg",
-                        "altImg": "Foto africa"
-                    },
-                    {
-                        "img": "/img/imagenesInicio/imagenCarrouselCompanies11.jpg",
-                        "altImg": "Foto africa"
-                    }
-                ]
-            },
-            "order": 93
-        },
-        {
-            "title": "FAQ",
-            "href": "#frequentQuestionsInicio",
-            "pageName": "FrequentQuestions",
-            "showInMenu": false,
-            "data":{
-                "title": "Preguntas Frecuentes",
-                "typeAnimationHeader": "down",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-
-                "durationAnimationQuestions": 1000,
-                "delayEachAnimationQuestion": 0,
-                "questions": [
-                    {
-                        "question": "¿Cuánto cuesta importar desde China o otro país con InversionesDyC?",
-                        "answer": "El costo de una importación depende principalmente del tipo de producto, volumen, peso, proveedor y tipo de transporte (marítimo o aéreo). En IMPO360 analizamos tu caso y te brindamos una cotización clara que incluye todos los costos logísticos, para que sepas exactamente cuánto pagarás antes de iniciar tu importación. Puedes enviarnos la información de tu proveedor y te ayudaremos a calcular el costo total de traer tu mercadería a Perú.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "question": "¿Puedo importar pocas cajas o cantidades pequeñas?",
-                        "answer": "Sí. Con nuestro servicio de carga compartida puedes importar desde pequeñas cantidades sin necesidad de llenar un contenedor completo. Tu mercadería viaja consolidada junto con otros importadores, lo que permite reducir costos logísticos y facilitar la importación para emprendedores o pequeños negocios. Es una excelente opción para quienes están empezando a importar.",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "question": "¿Cuánto tiempo tarda una importación desde China o otro lugar?",
-                        "answer": "El tiempo depende del tipo de transporte elegido. En caso de Transporte Marítimo, tarda aproximadamente entre 35 y 45 días. En caso de Transporte Aéreo, tarda aproximadamente 10 a 12 días. Nuestro equipo se encarga de coordinar todo el proceso logístico y te mantiene informado durante cada etapa del envío.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "question": "¿Necesito experiencia previa para importar?",
-                        "answer": "No. Nuestro servicio está diseñado para que cualquier persona o empresa pueda importar sin experiencia previa. Te acompañamos en todo el proceso: coordinación con el proveedor, logística internacional, gestión aduanera y entrega final en Perú. Nuestro equipo te asesora paso a paso para que tu importación sea segura y sencilla.",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "question": "¿Cómo puedo asegurarme de que mi mercadería llegue correctamente?",
-                        "answer": "Contamos con almacén logístico en China, donde recibimos y verificamos tu mercadería antes del embarque. Además, gestionamos todo el proceso logístico y aduanero para garantizar que tu carga llegue a Perú de forma segura y organizada. Nuestro equipo te mantiene informado durante cada etapa hasta la entrega final.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "question": "¿Cómo puedo empezar mi importación?",
-                        "answer": "Empezar es muy sencillo. Solo necesitas enviarnos la información de tu proveedor o del producto que deseas importar y nuestro equipo analizará los detalles para brindarte una cotización clara y asesorarte en el proceso. Te acompañaremos desde la coordinación con el proveedor hasta la entrega final de tu mercadería en Perú. Contáctanos por WhatsApp y te cotizamos de manera gratuita.",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    }
-                ]
-            },
-            "order": 95
-        },
-        {
-            "title": "Procesos",
-            "href": "#circleItemsInicio",
-            "pageName": "CircleItems",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "title": "NUESTRO PROCESO",
-
-                "typeAnimationHeader": "down",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-
-                "typeAnimationCircle": "left",
-                "pixelsAnimationCircle": 0,
-                "durationAnimationCircle": 1000,
-                "delayAnimationCircle": 0,
-
-                "durationAnimationSteps": 1000,
-                "delayEachAnimationStep": 200,
-
-                "brandColors": ["#131c47", "#5fd0f7"],
-                "steps": [
-                    {
-                        "buttonText": "Contacto",
-                        "title": "Negociación con el Proveedor",
-                        "img": "/img/imagenesInicio/imagenPaso1.webp",
-                        "icon": "fa fa-solid fa-phone",
-                        "description": "Establecemos contacto directo con el fabricante para acordar los mejores precios, términos de pago y tiempos de entrega garantizados.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Pago Inicial",
-                        "title": "Pago del Adelanto (30%)",
-                        "img": "/img/imagenesInicio/imgProcesos2.jpg",
-                        "icon": "fa fa-solid fa-money-check-dollar",
-                        "description": "Realizamos la transferencia inicial del 30% para confirmar la orden e iniciar oficialmente el pedido con el proveedor.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Fabricación",
-                        "title": "Orden de Producción",
-                        "img": "/img/imagenesInicio/imgProcesos3.webp",
-                        "icon": "fa fa-solid fa-industry",
-                        "description": "El proveedor inicia la fabricación de la mercancía bajo los estándares y especificaciones requeridas.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Pago Final",
-                        "title": "Pago del Saldo Restante (70%)",
-                        "img": "/img/imagenesInicio/imgProcesos4.webp",
-                        "icon": "fa fa-solid fa-money-bill-wave",
-                        "description": "Tras verificar la finalización de la producción, se efectúa el pago final del 70% para liberar la carga en origen.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Reserva",
-                        "title": "Reserva de Transporte Marítimo",
-                        "img": "/img/imagenesInicio/imgProcesos5.webp",
-                        "icon": "fa fa-solid fa-ship",
-                        "description": "Gestionamos la reserva del espacio en el buque naviero correspondiente para coordinar el embarque.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Tránsito",
-                        "title": "Tránsito Marítimo",
-                        "img": "/img/imagenesInicio/imgProcesos6.webp",
-                        "icon": "fa fa-solid fa-truck-fast",
-                        "description": "La mercancía inicia su viaje en alta mar, con un tiempo estimado de traslado de 30 a 45 días hasta llegar a destino.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Descarga",
-                        "title": "Llegada y Descarga en Puerto",
-                        "img": "/img/imagenesInicio/imgProcesos7.webp",
-                        "icon": "fa fa-solid fa-box-open",
-                        "description": "La carga arriba al puerto de destino y se procede con las maniobras de descarga en el terminal marítimo.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Aduanas",
-                        "title": "Despacho Aduanero",
-                        "img": "/img/imagenesInicio/imgProcesos8.webp",
-                        "icon": "fa fa-solid fa-file-invoice",
-                        "description": "Realizamos la revisión documental, tramitación de impuestos y gestión del levante para nacionalizar la mercancía sin contratiempos.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "buttonText": "Entrega",
-                        "title": "Retiro y Entrega Final",
-                        "img": "/img/imagenesInicio/imgProcesos9.jpg",
-                        "icon": "fa fa-solid fa-handshake",
-                        "description": "Retiramos la mercancía del puerto y la trasladamos de forma segura hasta tus almacenes o el destino final pactado.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    }
-                ]
-            },
-            "order": 97
+            "order": 8
         },
         {
             "title": "Mapa Inicio",
@@ -1490,10 +649,10 @@
             "pageName": "MapWithText",
             "showInMenu": false,
             "data":{
-                "title": "CONTÁCTANOS",
+                "title": "ENCUÉNTRANOS",
                 "description": "",
                 "imgLogo": "/img/imagenesInicio/imagenLogo.png",
-                "directionMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7548019015803!2d-77.00770742408854!3d-12.128922088114376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7ff56512773%3A0x7cd50882b519bf55!2sCalle%20Capital%2C%20Cap%20E%20Gutierrez%20Rondon%20196%2C%20Miraflores%2015074!5e0!3m2!1ses-419!2spe!4v1783532692302!5m2!1ses-419!2spe",
+                "directionMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63420.38061158829!2d-76.36403647813482!3d-6.550219905083449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ba7318155316a5%3A0x870ea7263fda04d3!2sRancho%20Roma%2C%20Food%20%26%20Lodge!5e0!3m2!1ses!2spe!4v1788274063288!5m2!1ses!2spe",
                 "altImg": "logo empresa",
                 "titleIframe": "Mapa de dirección de Empresa",
                 "typeAnimationText": "down",
@@ -1506,6 +665,189 @@
                 "delayAnimationMap": 0
             },
             "order": 200
+        }
+    ],
+    "pagesPromociones": [
+        {
+            "title": "Portada",
+            "href": "#portadaInicio",
+            "pageName": "ImgWithMessage",
+            "showInMenu": false,
+            "data":{
+                "isMainH1": true,
+                "isAfterHeader": true,
+                "title": "CONOCE NUESTRAS ",
+                "highLightTitle": "PROMOCIONES",
+                "subTitle": "",
+                "highLightSubTitle": "",
+                "description": "",
+                "typeAnimationTitleSection": "left",
+                "pixelsAnimationTitleSection": 80,
+                "durationAnimationTitleSection": 1000,
+                "delayAnimationTitleSection": 0,
+                "darkenLeftSide": true,
+                "button":{
+
+                },
+                "img": "/img/imagenesPromociones/imagenPortada.jpg"
+            },
+            "order": 2
+        },
+        {
+            "title": "Nuestra Información",
+            "href": "#listParrafsWithImgNosotros",
+            "pageName": "ListParrafsWithImg",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "info": [
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Experiencias especiales",
+                        "title": "NOCHE ESPECIAL",
+                        "article": "Disfruta una noche diferente en Rancho Roma, donde un ambiente acogedor, buena gastronomía y momentos especiales se combinan para ofrecerte una experiencia pensada para disfrutar y compartir. Déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
+                        "img": "/img/imagenesPromociones/NocheEspecial/listaPromocion.jpg",
+                        "buttonMoreInformation": {
+                            "type": "primary",
+                            "text": "Ver Más",
+                            "href": "/promociones/noche-especial"
+                        }
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Gastronomía y sabor",
+                        "title": "ESCOGE TU PLATO FAVORITO",
+                        "article": "En Rancho Roma encontrarás una variedad de opciones para disfrutar de una buena comida en un ambiente agradable y acogedor. Escoge tu plato favorito, comparte con quienes más quieres y disfruta de una experiencia gastronómica que combina sabor, calidad y el encanto de Tarapoto.",
+                        "img": "/img/imagenesPromociones/platoFavorito/listaPromocion.jpg",
+                        "buttonMoreInformation": {
+                            "type": "primary",
+                            "text": "Ver Más",
+                            "href": "/promociones/plato-favorito"
+                        }
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Descanso y comodidad",
+                        "title": "MODO DESCANSO",
+                        "article": "Es momento de desconectarte y disfrutar de la tranquilidad de Rancho Roma. Encuentra el espacio ideal para descansar, relajarte y disfrutar de una experiencia cómoda en Tarapoto, rodeado de un ambiente pensado para que puedas dejar atrás la rutina y dedicarte simplemente a disfrutar.",
+                        "img": "/img/imagenesPromociones/modoDescanso/listaPromocion.jpg",
+                        "buttonMoreInformation": {
+                            "type": "primary",
+                            "text": "Ver Más",
+                            "href": "/promociones/modo-descanso"
+                        }
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Promociones especiales",
+                        "title": "SUPER PROMO",
+                        "article": "Aprovecha las promociones especiales de Rancho Roma y disfruta de una experiencia diferente en Tarapoto. Ya sea para compartir una deliciosa comida, pasar un momento agradable o disfrutar de nuestras instalaciones, siempre encontrarás una buena razón para visitarnos y aprovechar lo que tenemos preparado para ti.",
+                        "img": "/img/imagenesPromociones/superPromo/listaPromocion.jpg",
+                        "buttonMoreInformation": {
+                            "type": "primary",
+                            "text": "Ver Más",
+                            "href": "/promociones/super-promo"
+                        }
+                    }
+                ]
+            },
+            "order": 3
+        },
+        {
+            "title": "Bancos Asociados",
+            "href": "#CardsPaymentsListPromociones",
+            "pageName": "CardsPaymentsList",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "subTitle": "Tenemos",
+                "title": "DESCUENTOS ESPECIALES",
+                "banks": [
+                    {
+                        "img": "/img/imagenesPromociones/interbankLogo.webp",
+                        "altImg": "Logo de Interbank",
+                        "backgroundColor": "#3cb054",
+                        "features": [
+                            {
+                                "type": "normalText",
+                                "text": "Millas Benefit"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/bbvaLogo.webp",
+                        "altImg": "Logo de BBVA",
+                        "backgroundColor": "#08407d",
+                        "features": [
+                            {
+                                "type": "highlightNumber",
+                                "firstText": "Hasta",
+                                "number": "50%",
+                                "secondText": "de descuento"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/bcpLogo.webp",
+                        "altImg": "Logo de BCP",
+                        "backgroundColor": "#004ba8",
+                        "features": [
+                            {
+                                "type": "normalText",
+                                "text": "Paga sin intereses"
+                            },
+                            {
+                                "type": "smallText",
+                                "text": "Todas las tarjetas de crédito"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/dinersclubLogo.webp",
+                        "altImg": "Logo de Dinners Club",
+                        "backgroundColor": "#0b3b63",
+                        "features": [
+                            {
+                                "type": "highlightNumber",
+                                "firstText": "Hasta",
+                                "number": "12",
+                                "secondText": "cuotas sin intereses"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/scotiabankLogo.webp",
+                        "altImg": "Logo de Scotiabank",
+                        "backgroundColor": "#d73221",
+                        "features": [
+                            {
+                                "type": "highlightNumber",
+                                "firstText": "Hasta",
+                                "number": "06",
+                                "secondText": "cuotas sin intereses"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesPromociones/powerpayLogo.webp",
+                        "altImg": "Logo de Power Pay",
+                        "backgroundColor": "#d242fd",
+                        "features": [
+                            {
+                                "type": "highlightNumber",
+                                "firstText": "Hasta",
+                                "number": "12",
+                                "secondText": "cuotas sin intereses"
+                            },
+                            {
+                                "type": "smallText",
+                                "text": "Aplica para tarjetas seleccionadas"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "order": 4
         }
     ],
     "pagesNosotros": [
@@ -2582,593 +1924,6 @@
             "order": 6
         }
     ],
-    "pagesWakeUpAward": [
-        {
-            "title": "Portada",
-            "href": "#portadaWakeUpAward",
-            "pageName": "VideoWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "srcVideo": "/img/imagenesEventos/thewakeupaward/videoPortada.mp4",
-                "title": "THE WAKE UP AWARD",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "srcImg": "/img/imagenesEventos/thewakeupaward/logo.jpg",
-                "posterImg": "/img/imagenesEventos/thewakeupaward/poster.webp"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion The Wake Up Award",
-            "href": "#listParrafsWithImg2daBrasil",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Premio",
-                        "title": "THE WAKE UP AWARD",
-                        "article": "THE WAKE UP AWARD es el máximo reconocimiento otorgado por nuestro gremio empresarial a las empresas que han demostrado un liderazgo excepcional, una destacada capacidad de innovación y un firme compromiso con la mejora continua. Este galardón distingue a organizaciones que, gracias a su visión estratégica y gestión responsable, se han consolidado como referentes dentro de sus respectivos sectores.\n\nA través de este reconocimiento, buscamos destacar el esfuerzo, la perseverancia y la excelencia de aquellas empresas que impulsan el desarrollo empresarial, promueven las buenas prácticas y generan un impacto positivo en su entorno. Su trayectoria constituye un ejemplo e inspiración para otras organizaciones que aspiran a fortalecer su competitividad y alcanzar un crecimiento sostenible.",
-                        "img": "/img/imagenesEventos/thewakeupaward/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Wake Up Award 2025",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2025/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Wake Up Award 2024",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2024/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Wake Up Award 2023",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 6
-        }
-    ],
-    "pagesEnduranceAward": [
-        {
-            "title": "Portada",
-            "href": "#portadaWakeUpAward",
-            "pageName": "VideoWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "srcVideo": "/img/imagenesEventos/enduranceaward/videoPortada.mp4",
-                "title": "THE ENDURANCE AWARD",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "srcImg": "/img/imagenesEventos/enduranceaward/logo.jpg",
-                "posterImg": "/img/imagenesEventos/thewakeupaward/poster.webp"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion The Endurance Award",
-            "href": "#listParrafsWithImg1erEnduranceAward",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Premio",
-                        "title": "THE ENDURANCE AWARD",
-                        "article": "THE ENDURANCE AWARD reconoce a las empresas y líderes empresariales que han demostrado una destacada capacidad para afrontar desafíos, adaptarse a los cambios y mantenerse firmes frente a escenarios de alta exigencia. Este reconocimiento pone en valor la perseverancia, la resiliencia y la determinación como pilares fundamentales para alcanzar el éxito sostenible.\nA través de este premio, se distingue a quienes han sabido convertir las dificultades en oportunidades de crecimiento, fortaleciendo sus organizaciones y consolidando una trayectoria basada en el compromiso, la constancia y la visión de largo plazo. Su ejemplo inspira a otros empresarios a enfrentar los retos con confianza y liderazgo.",
-                        "img": "/img/imagenesEventos/enduranceaward/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Endurance Award 2024",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/enduranceaward/2024/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Endurance Award 2023",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/thewakeupaward/2023/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 5
-        }
-    ],
-    "pagesEviresAward": [
-        {
-            "title": "Portada",
-            "href": "#portadaEviresAward",
-            "pageName": "VideoWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "srcVideo": "/img/imagenesEventos/theeviresaward/videoPortada.mp4",
-                "title": "THE EVIRES AWARD",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "srcImg": "/img/imagenesEventos/theeviresaward/logo.jpg",
-                "posterImg": "/img/imagenesEventos/thewakeupaward/poster.webp"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion The Evires Award",
-            "href": "#listParrafsWithImg1erEviresAward",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Premio",
-                        "title": "THE EVIRES AWARD",
-                        "article": "THE EVIRES AWARD está enfocado en reconocer a las mujeres que, a través de su liderazgo empresarial, contribuyen al desarrollo económico y social, impulsando organizaciones sólidas y generando oportunidades de crecimiento para sus comunidades. Este reconocimiento pone en valor su compromiso, dedicación y capacidad para transformar el entorno empresarial.\nMediante este galardón, se busca destacar a aquellas empresarias que promueven la igualdad de oportunidades, fomentan el liderazgo femenino y sirven de inspiración para nuevas generaciones de mujeres emprendedoras. Su labor refleja el impacto positivo que el talento, la innovación y la visión pueden generar en el desarrollo empresarial.",
-                        "img": "/img/imagenesEventos/theeviresaward/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Evires Award 2026",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2026/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Evires Award 2025",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2025/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "The Evires Award 2024",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/theeviresaward/2024/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 6
-        }
-    ],
-    "pagesPremioInnova": [
-        {
-            "title": "Portada",
-            "href": "#portadaPremioInnova",
-            "pageName": "VideoWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "srcVideo": "/img/imagenesEventos/premioinnova/videoPortada.mp4",
-                "title": "PREMIO INNOVA",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "srcImg": "/img/imagenesEventos/premioinnova/logo.jpg",
-                "posterImg": "/img/imagenesEventos/thewakeupaward/poster.webp"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Premio Innova",
-            "href": "#listParrafsWithImg1erPremioInnova",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Premio",
-                        "title": "PREMIO INNOVA",
-                        "article": "El PREMIO INNOVA está dirigido a empresarios y organizaciones que impulsan la innovación como parte esencial de su crecimiento, incorporando nuevas ideas, procesos y estrategias que fortalecen la competitividad de sus empresas. Este reconocimiento destaca a quienes entienden la innovación como un compromiso permanente con la mejora continua.\nAsimismo, busca valorar el esfuerzo de aquellas empresas que promueven una cultura de transformación, adaptación y desarrollo, generando soluciones que aportan valor a sus clientes, colaboradores y al entorno empresarial. Su capacidad para evolucionar constantemente las convierte en referentes dentro de sus respectivos sectores.",
-                        "img": "/img/imagenesEventos/premioinnova/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "Premio Innova 2025",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2025/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "Premio Innova 2024",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2024/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "Premio Innova 2023",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2023/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 6
-        },
-        {
-            "title": "Galeria Misiones empresariales",
-            "href": "#galleryAndListMisionesEmpresarialesInicio",
-            "pageName": "GalleryAndList",
-            "showInMenu": false,
-            "data":{
-                "title": "",
-                "iconList": "fa fa-solid fa-check",
-                "hasBackgroundList": true,
-                "list":[
-                    
-                ],
-                "titleGeneral": "Premio Innova 2022",
-                "gallery": [
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado1.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado2.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado3.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado4.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado5.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado6.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado7.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado8.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado9.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado10.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado11.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado12.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado13.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado14.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado15.jpg", "title": "misionesEmpresariales1"},
-                    {"src": "/img/imagenesEventos/premioinnova/2022/listado16.jpg", "title": "misionesEmpresariales1"}
-                ]
-            },
-            "order": 7
-        }
-    ],
-    "pagesMagazine": [
-        {
-            "title": "Revista ASPEM",
-            "href": "#iframeMagazine",
-            "pageName": "IframeMagazine",
-            "showInMenu": false,
-            "data":{
-                "title": "ASPEM La Revista",
-                "isAfterHeader": true,
-                "highLightTitle": "LA REVISTA",
-                "srcIframe": "https://heyzine.com/flip-book/3dd7f7eb6a.html"
-            },
-            "order": 2
-        }
-    ],
     "pagesTypeProducts": [
         {
             "title": "Tipos de Maquinarias",
@@ -3856,26 +2611,6 @@
                 "urlIphone": "https://apps.apple.com/us/app/wechat/id414478124?l=es-MX",
                 "iconArrowDown": "fa fa-solid fa-arrow-down",
                 "img": "/img/imagenesDescargarApp/wechat.webp"
-            },
-            "order": 2
-        }
-    ],
-    "pagesPreOpen":[
-        {
-            "title": "Cuenta Regresiva",
-            "href": "#countDown",
-            "pageName": "CountDown",
-            "showInMenu": false,
-            "data":{
-                "title": "CONOCE LOS 12 DESTINOS",
-                "isAfterHeader": false,
-                "releaseDate": "10/09/2026 12:00:00",
-                "imgBackground": "/img/imagenesPreSalida/portada.jpg",
-                "imgLogo": "/img/imagenesPreSalida/doceDestinos.png",
-                "labelDays": "Días",
-                "labelHours": "Horas",
-                "labelMinutes": "Minutos",
-                "labelSeconds": "Segundos"
             },
             "order": 2
         }
