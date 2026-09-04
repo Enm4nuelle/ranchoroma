@@ -1,79 +1,82 @@
 import Link from "next/link";
+import ScrollAnimation from "./scrollAnimation";
 
 export const ListParrafsWithImg = (props) => {
     return (
         <section className={"listParrafsWithImg " + (props.data.isAfterHeader ? "firstOnPageWithHeader" : "")}>
             {
                 props.data.info.map((item, index)=>(
-                    <div
-                        className={
-                            "listParrafsWithImg-item-container listParrafsWithImg-item-container" + 
-                            (item.startAtRight ? "1": (index % 2).toString())
-                        }
-                        key={item.title + index}
-                    >
-                        <article className={
-                            "listParrafsWithImg-item " +
-                            ((item.startAtRight || index % 2 !== 0) ? "listParrafsWithImg-item-reversed" : "")
-                        }>
-                            <div 
-                                className={
-                                    "listParrafsWithImg-item-text " +
-                                    (item.isOneParraf ? "listParrafsWithImg-item-text-oneParraf" : "")
-                                }
-                            >
-                                <p className="listParrafsWithImg-item-text-subTitle">
-                                    {item.subTitle}
-                                </p>
-                                {
-                                    (props.data.isMainH1 && index === 0) ?
-                                    <h1 className="listParrafsWithImg-item-text-title">
-                                        {item.title}
-                                    </h1>
-                                    :
-                                    <h2 className="listParrafsWithImg-item-text-title">
-                                        {item.title}
-                                    </h2>
-                                }
-                                <div className="listParrafsWithImg-item-text-divider"></div>
-                                <div
+                    <ScrollAnimation animation={item.typeAnimation} pixelsDisplacement={item.pixelsAnimation} duration={props.data.durationAnimationItem} delay={props.data.delayAnimationItem} key={item.title + index}>
+                        <div
+                            className={
+                                "listParrafsWithImg-item-container listParrafsWithImg-item-container" + 
+                                (item.startAtRight ? "1": (index % 2).toString())
+                            }
+                        >
+                            <article className={
+                                "listParrafsWithImg-item " +
+                                ((item.startAtRight || index % 2 !== 0) ? "listParrafsWithImg-item-reversed" : "")
+                            }>
+                                
+                                <div 
                                     className={
-                                        "listParrafsWithImg-item-text-article " +
-                                        (item.isOneParraf ? "listParrafsWithImg-item-text-article-oneParraf" : "")
+                                        "listParrafsWithImg-item-text " +
+                                        (item.isOneParraf ? "listParrafsWithImg-item-text-oneParraf" : "")
                                     }
                                 >
-                                    {item.article}
+                                    <p className="listParrafsWithImg-item-text-subTitle">
+                                        {item.subTitle}
+                                    </p>
+                                    {
+                                        (props.data.isMainH1 && index === 0) ?
+                                        <h1 className="listParrafsWithImg-item-text-title">
+                                            {item.title}
+                                        </h1>
+                                        :
+                                        <h2 className="listParrafsWithImg-item-text-title">
+                                            {item.title}
+                                        </h2>
+                                    }
+                                    <div className="listParrafsWithImg-item-text-divider"></div>
+                                    <div
+                                        className={
+                                            "listParrafsWithImg-item-text-article " +
+                                            (item.isOneParraf ? "listParrafsWithImg-item-text-article-oneParraf" : "")
+                                        }
+                                    >
+                                        {item.article}
+                                    </div>
+                                    <Link
+                                        href={item.buttonMoreInformation.href}
+                                        className={
+                                            "listParrafsWithImg-item-text-button " +
+                                            (item.buttonMoreInformation.type === "primary" ? "buttonPrimary" : "buttonSecondary")
+                                        }
+                                        
+                                    >
+                                        {item.buttonMoreInformation.text}
+                                    </Link>
                                 </div>
-                                <Link
-                                    href={item.buttonMoreInformation.href}
+                                
+                                <div 
                                     className={
-                                        "listParrafsWithImg-item-text-button " +
-                                        (item.buttonMoreInformation.type === "primary" ? "buttonPrimary" : "buttonSecondary")
+                                        "listParrafsWithImg-item-images " +
+                                        (item.isOneParraf ? "listParrafsWithImg-item-images-oneParraf" : "")
                                     }
-                                    
                                 >
-                                    {item.buttonMoreInformation.text}
-                                </Link>
-                            </div>
-                               
-                            <div 
-                                className={
-                                    "listParrafsWithImg-item-images " +
-                                    (item.isOneParraf ? "listParrafsWithImg-item-images-oneParraf" : "")
-                                }
-                            >
-                                <img
-                                    className= {
-                                        "listParrafsWithImg-item-images-img " +
-                                        (item.isOneParraf ? "listParrafsWithImg-item-images-img-oneParraf" : "")
-                                    }
-                                    src={item.img}
-                                    alt={item.title}
-                                    loading={props.data.isAfterHeader && index === 0 ? "eager" : "lazy"}
-                                />
-                            </div>
-                        </article>
-                    </div>
+                                    <img
+                                        className= {
+                                            "listParrafsWithImg-item-images-img " +
+                                            (item.isOneParraf ? "listParrafsWithImg-item-images-img-oneParraf" : "")
+                                        }
+                                        src={item.img}
+                                        alt={item.title}
+                                        loading={props.data.isAfterHeader && index === 0 ? "eager" : "lazy"}
+                                    />
+                                </div>
+                            </article>
+                        </div>
+                    </ScrollAnimation>
                 ))
             }
         </section>

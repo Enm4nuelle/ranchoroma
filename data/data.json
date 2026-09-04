@@ -38,7 +38,7 @@
                     },
                     {
                         "text": "Habitaciones",
-                        "href": "/productos",
+                        "href": "/habitaciones",
                         "sublinks": ""
                     },
                     {
@@ -324,7 +324,7 @@
                 "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
                 "rooms": [
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.jpg",
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.webp",
                         "altImg": "Suite Junior Green Hotel Rancho Roma",
                         "title": "Suite Junior Green",
                         "slug": "suite-junior-green",
@@ -343,7 +343,7 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.jpg",
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.webp",
                         "altImg": "Suite Bella Pool Double Hotel Rancho Roma",
                         "title": "Suite Bella Pool Double",
                         "slug": "suite-bella-pool-double",
@@ -362,7 +362,7 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.jpg",
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.webp",
                         "altImg": "Suite Bella Pool Matrimonial Hotel Rancho Roma",
                         "title": "Suite Bella Pool Matrimonial",
                         "slug": "suite-bella-pool-matrimonial",
@@ -381,7 +381,7 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.jpg",
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.webp",
                         "altImg": "Suite Double Green Hotel Rancho Roma",
                         "title": "Suite Double Green",
                         "slug": "suite-double-green",
@@ -400,7 +400,7 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.jpg",
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.webp",
                         "altImg": "Villa Deluxe Familiar Hotel Rancho Roma",
                         "title": "Villa Deluxe Familiar",
                         "slug": "villa-deluxe-familiar",
@@ -415,25 +415,6 @@
                             }
                         ],
                         "idTypeRoom": 5,
-                        "href": "/habitaciones",
-                        "buttonText": "Más Información"
-                    },
-                    {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion6.jpg",
-                        "altImg": "Suite Presidencial Hotel Rancho Roma",
-                        "title": "Suite Presidencial",
-                        "slug": "suite-presidencial",
-                        "featuredAmenities": [
-                            {
-                                "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
-                            },
-                            {
-                                "icon":"fa fa-solid fa-wind",
-                                "text": "Aire acondicionado"
-                            }
-                        ],
-                        "idTypeRoom": 6,
                         "href": "/habitaciones",
                         "buttonText": "Más Información"
                     }
@@ -700,6 +681,8 @@
             "showInMenu": false,
             "data":{
                 "isAfterHeader": false,
+                "durationAnimationItem": 1000,
+                "delayAnimationItem": 0,
                 "info": [
                     {
                         "isOneParraf": true,
@@ -711,7 +694,9 @@
                             "type": "primary",
                             "text": "Ver Más",
                             "href": "/promociones/noche-especial"
-                        }
+                        },
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 120
                     },
                     {
                         "isOneParraf": true,
@@ -723,7 +708,9 @@
                             "type": "primary",
                             "text": "Ver Más",
                             "href": "/promociones/plato-favorito"
-                        }
+                        },
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
                     },
                     {
                         "isOneParraf": true,
@@ -735,7 +722,9 @@
                             "type": "primary",
                             "text": "Ver Más",
                             "href": "/promociones/modo-descanso"
-                        }
+                        },
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 120
                     },
                     {
                         "isOneParraf": true,
@@ -747,7 +736,9 @@
                             "type": "primary",
                             "text": "Ver Más",
                             "href": "/promociones/super-promo"
-                        }
+                        },
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
                     }
                 ]
             },
@@ -762,6 +753,13 @@
                 "isAfterHeader": false,
                 "subTitle": "Tenemos",
                 "title": "DESCUENTOS ESPECIALES",
+                "closeIcon": "fa fa-solid fa-xmark",
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+                "durationAnimationCard": 1000,
+                "delayEachAnimationCard": 200,
                 "banks": [
                     {
                         "img": "/img/imagenesPromociones/interbankLogo.webp",
@@ -772,7 +770,18 @@
                                 "type": "normalText",
                                 "text": "Millas Benefit"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Descuento aplica sobre la tarifa rack",
+                            "Acceso a la sala de juegos, juegos para niños, piscina principal, gimnasio y muelle privado",
+                            "Cortesía de kayak y paddle",
+                            "Dscto. 10% en alimentos del restaurante",
+                            "Tarifa especial en estacionamiento",
+                            "Válido hasta el 30 de junio 2026",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     },
                     {
                         "img": "/img/imagenesPromociones/bbvaLogo.webp",
@@ -785,7 +794,15 @@
                                 "number": "50%",
                                 "secondText": "de descuento"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Aplica para tarjetas seleccionadas",
+                            "Válido hasta 12 cuotas sin intereses",
+                            "Válido para pagos con tarjeta Scotiabank con la app de móvil",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     },
                     {
                         "img": "/img/imagenesPromociones/bcpLogo.webp",
@@ -800,7 +817,15 @@
                                 "type": "smallText",
                                 "text": "Todas las tarjetas de crédito"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Aplica para tarjetas seleccionadas",
+                            "Válido hasta 06 cuotas sin intereses",
+                            "Válido para pagos con tarjeta Diners con la app de móvil",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     },
                     {
                         "img": "/img/imagenesPromociones/dinersclubLogo.webp",
@@ -813,7 +838,16 @@
                                 "number": "12",
                                 "secondText": "cuotas sin intereses"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Paga sin intereses con todas las tarjetas de crédito",
+                            "Paga hoy en tu primera cuota y sin afectar toda tu línea de crédito",
+                            "Compra y paga cuando elijas hasta 10 cuotas desde 0% interés",
+                            "Aplica para tarjetas seleccionadas, sujeto a previa evaluación de Powerpay",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     },
                     {
                         "img": "/img/imagenesPromociones/scotiabankLogo.webp",
@@ -826,7 +860,14 @@
                                 "number": "06",
                                 "secondText": "cuotas sin intereses"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Aplica para las tarjetas seleccionadas",
+                            "Válido para pagos con tarjeta Interbank con la app de móvil",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     },
                     {
                         "img": "/img/imagenesPromociones/powerpayLogo.webp",
@@ -843,208 +884,85 @@
                                 "type": "smallText",
                                 "text": "Aplica para tarjetas seleccionadas"
                             }
-                        ]
+                        ],
+                        "benefits":[
+                            "Descuento aplica sobre la tarifa rack",
+                            "Acceso a la sala de juegos, juegos para niños, piscina principal, gimnasio y muelle privado",
+                            "Cortesía de kayak y paddle",
+                            "Dscto. 10% en alimentos del restaurante",
+                            "Tarifa especial en estacionamiento",
+                            "Válido hasta el 30 de junio 2026",
+                            "Aplica términos y condiciones"
+                        ],
+                        "typeAnimation": "up",
+                        "pixelsAnimation": 80
                     }
                 ]
             },
             "order": 4
         }
     ],
-    "pagesNosotros": [
+    "pagesPromocionesDetail":[
         {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
+            "title": "PROMOCIONES",
+            "href": "#promoDetail",
+            "pageName": "PromoDetail",
             "showInMenu": false,
             "data":{
+                "isMainH1": true,
                 "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "EXPLORA EL MUNDO \n",
-                "highLightTitle": "Vive lo Extraordinario",
-                "subTitle": "",
-                "noDivider": true,
-                "highLightSubTitle": "",
-                "description": "Viajes grupales exclusivos, experiencias auténticas\ny recuerdos que transforman tu vida",
-                "imgAvatar": "/img/imagenesInicio/imagenOurTeam.jpg",
-                "buttons": [
-                    {
-                        "text": "VER PRÓXIMOS VIAJES",
-                        "type": "primary",
-                        "linkType": "samePage",
-                        "href": "#ourTravelsInicio"
-                    },
-                    {
-                        "text": "VER ITINERARIOS",
-                        "type": "secondary",
-                        "linkType": "",
-                        "href": "/itinerario"
-                    }
-                ],
-                "footerItems": [
-                    {
-                        "icon": "fa fa-solid fa-people-group",
-                        "title": "GRUPOS EXCLUSIVOS",
-                        "description": "Viajes grupales"
-                    },
-                    {
-                        "icon": "fa fa-solid fa-book-open-reader",
-                        "title": "EXPERTOS ACOMPAÑANTES",
-                        "description": "Contamos con líderes de viaje"
-                    },
-                    {
-                        "icon": "fa fa-regular fa-compass",
-                        "title": "EXPERIENCIAS ÚNICAS",
-                        "description": "Itinerarios diseñados para ti"
-                    },
-                    {
-                        "icon": "fa fa-solid fa-shield-heart",
-                        "title": "SEGURIDAD TOTAL",
-                        "description": "Asistencia 24/7 durante tu viaje"
-                    }
-                ],
-                "img": "/img/imagenesInicio/grupoViaje6.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Nosotros",
-            "href": "#teamShowCaseInicio",
-            "pageName": "TeamShowCase",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#teamShowCaseInicio",
-                "titleHighLigh": "ASPEM ",
-                "title": "OPERADORA",
-                "subTitle": "SOBRE NOSOTROS",
-                "description": "Es una empresa dedicada a promover experiencias de viaje a nivel internacional, impulsando el turismo a través de programas y circuitos organizados que permiten a los viajeros descubrir nuevos destinos y vivir momentos únicos. Participamos activamente en rutas y eventos turísticos de reconocimiento mundial, acercando a más personas a la aventura de viajar y conocer otras culturas.",
-                "typeAnimationText": "left",
-                "pixelsAnimationText": 80,
-                "durationAnimationText": 1000,
-                "delayAnimationText": 0,
-                "peopleDown": true,
-                "imgRight": "/img/imagenesInicio/imagenOurTeam.jpg",
-                "typeAnimationImgRight": "right",
-                "pixelsAnimationImgRight": "80",
-                "durationAnimationImgRight": 1000,
-                "delayAnimationImgRight": 0,
-                
-                "people": []
-            },
-            "order": 4
-        },
-        {
-            "title": "Nuestro Equipo",
-            "href": "#teamPersonsListNosotros",
-            "pageName": "TeamPersonsList",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "title": "CONOCE A NUESTRO EQUIPO",
+                "nameId": "#promoDetail",
+                "labelOption": "Paquete: ",
+                "labelCourtesys": "Cortesías: ",
+                "labelIncludes": "Incluye: ",
+                "labelCheckin": "Check-in: ",
+                "labelCheckout": "Check-out: ",
+                "labelPromoDisponibility": "Promoción Sujeta a Disponibilidad",
+                "labelTermsConditions": "Términos y Condiciones",
+                "buttonBook": {
+                    "type": "primary",
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929909146",
+                    "text": "¡Reserva Ahora! ",
+                    "icon": "fa fa-brands fa-whatsapp"
+                },
+
                 "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 80,
                 "durationAnimationHeader": 1000,
                 "delayAnimationHeader": 0,
-                "durationAnimationPersons": 1000,
-                "delayEachAnimationPersons": 200,
-                "persons": [
-                    {
-                        "name": "Samuel Ludeña",
-                        "position": "Gerente General",
-                        "img": "/img/imagenesNosotros/imagenTeam1.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Daisy Clerque",
-                        "position": "Socia Fundadora",
-                        "img": "/img/imagenesNosotros/imagenTeam2.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Nicole Ortiz",
-                        "position": "Gerente de Operaciones",
-                        "img": "/img/imagenesNosotros/NICOLE.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Angel Vidal",
-                        "position": "Ejecutivo de Cuenta",
-                        "img": "/img/imagenesNosotros/ANGEL.webp",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "Julio Eslava",
-                        "position": "Diseño Marketing",
-                        "img": "",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "name": "César Gonzales",
-                        "position": "Desarrollador Web",
-                        "img": "",
-                        "linkedin": "https://www.linkedin.com/in/cesargonzalesmedina/",
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    }
-                ]
+                
+                "typeAnimationTextItems": ["right", "left", "right", "left"],
+                "pixelsAnimationTextItems": 90,
+                "durationAnimationTextItems": 1000,
+                "delayAnimationTextItems": 0,
+
+                "typeAnimationImgItems": ["left", "right", "left", "right"],
+                "pixelsAnimationImgItems": 90,
+                "durationAnimationImgItems": 1000,
+                "delayAnimationImgItems": 0,
+
+                "typeAnimationButtonBook": "up",
+                "pixelsAnimationButtonBook": 80,
+                "durationAnimationButtonBook": 1000,
+                "delayAnimationButtonBook": 0
             },
-            "order": 5
+            "order": 2
         },
         {
-            "title": "Nuestra Información",
-            "href": "#listParrafsWithImgNosotros",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "subTitle": "SOBRE NOSOTROS",
-                        "title": "ASPEM Asociación Peruana de Empresarios",
-                        "article": "ASPEM es una organización comprometida con el impulso y fortalecimiento del empresariado peruano a nivel nacional e internacional. Trabajamos de manera activa en la promoción del crecimiento empresarial, creando espacios reales de conexión, aprendizaje y expansión comercial para empresarios, emprendedores y líderes de diversos sectores.\n\nA través de la organización de misiones empresariales, viajes de negocios y la participación en ferias internacionales, facilitamos el acceso directo a mercados estratégicos, proveedores confiables y oportunidades concretas de importación, exportación y alianzas comerciales. Nuestras experiencias están diseñadas para que los empresarios conozcan de primera mano las tendencias globales, procesos productivos, innovación y modelos de negocio que hoy mueven la economía mundial.\n\nEn ASPEM creemos que los negocios se construyen con información, acompañamiento y relaciones sólidas. Por ello, brindamos una asesoría integral antes, durante y después de cada misión, respaldada por un equipo profesional con experiencia en comercio internacional, logística y gestión empresarial. No solo promovemos viajes, promovemos decisiones estratégicas, crecimiento sostenible y una visión empresarial sin fronteras.\n\nNuestro propósito es conectar a los empresarios con oportunidades reales, reducir barreras de acceso a los mercados internacionales y contribuir al desarrollo económico del país, posicionando al empresario peruano como un actor competitivo en el escenario global.",
-                        "img": "/img/imagenesNosotros/imagenParrafo1.jpg"
-                    },
-                    {
-                        "subTitle": "Expansión Empresarial",
-                        "title": "CONVENIOS Y ALIANZAS ESTRATÉGICAS",
-                        "article": "Como parte de su labor de articulación y proyección internacional, ASPEM ha suscrito convenios de cooperación con diversas entidades y representantes internacionales, con el objetivo de fortalecer el desarrollo empresarial y facilitar el acceso a nuevos mercados para el empresariado peruano. Estas alianzas estratégicas permiten generar espacios de intercambio, colaboración y vinculación directa con actores clave del comercio internacional.\n\nEntre estos acuerdos, destaca la firma de un convenio con representantes de la provincia de Guang'an, orientado a promover el intercambio comercial y crear oportunidades concretas de colaboración para los empresarios peruanos interesados en el mercado asiático.\n\nAsimismo, la suscripción de este acuerdo fue posible gracias al apoyo y gestión del Bank of China, entidad que propició este espacio de encuentro y cooperación, reafirmando la importancia del trabajo conjunto entre instituciones financieras, organismos empresariales y representantes internacionales.\n\nA través de este y otros convenios, ASPEM reafirma su compromiso de consolidar una red sólida de alianzas nacionales e internacionales, brindando respaldo institucional a sus asociados y generando condiciones que favorezcan la expansión empresarial, el fortalecimiento de la competitividad y la integración del empresariado peruano en el escenario global.",
-                        "img": "/img/imagenesNosotros/imagenParrafo2.jpg"
-                    },
-                    {
-                        "subTitle": "Firma de convenio institucional",
-                        "title": "COOPERACIÓN PARA EL DESARROLLO EMPRESARIAL",
-                        "article": "En el marco del evento promocional de la China International Import and Export Fair, ASPEM participó en la firma de un convenio de cooperación institucional, reafirmando su rol como organización comprometida con la promoción del comercio internacional y la apertura de nuevas oportunidades para el empresariado peruano. Esta importante actividad quedó registrada en el material audiovisual del evento, evidenciando el trabajo articulado que ASPEM viene desarrollando a nivel internacional.\n\nEl evento representó un espacio estratégico para el fortalecimiento de vínculos institucionales, el intercambio de información y la generación de relaciones orientadas a facilitar la participación de empresarios peruanos en ferias internacionales de alto impacto. Asimismo, permitió consolidar canales de diálogo enfocados en la cooperación empresarial, la identificación de oportunidades comerciales y el acercamiento a mercados globales.\n\nLa firma de este convenio constituye un paso relevante dentro de la estrategia de internacionalización que ASPEM impulsa de manera sostenida, orientada a brindar respaldo institucional, acceso a plataformas comerciales internacionales y mayores herramientas para la toma de decisiones empresariales.\n\nA través de su participación en este tipo de encuentros, ASPEM continúa posicionándose como un actor clave en la articulación entre el empresariado peruano y los principales escenarios del comercio global, promoviendo una visión de crecimiento, competitividad y proyección internacional para sus asociados.",
-                        "img": "/img/imagenesNosotros/imagenParrafo3.jpg"
-                    }
-                ]
-            },
-            "order": 20
-        }
-    ],
-    "pagesItinerario":[
-        {
-            "title": "Próximas Salidas",
+            "title": "Promociones",
             "href": "#carrouselTravelsInicio",
             "pageName": "CarrouselTravels",
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
                 "nameId": "#ourTravelsItinerary",
-                "title": "ITINERARIOS DISPONIBLES",
+                "subTitle": "Conoce",
+                "title": "NUESTRAS PROMOCIONES",
                 "priceDescription": "Desde:",
                 "loop": true,
                 "autoplay": false,
                 "isDoneText": "",
-                "variant": "selector",
                 "textNoSelect": "Escoge un itinerario para ver la aventura.",
                 "nameIdItinerary": "#itinerarysDetail",
                 "typeAnimationHeader": "down",
@@ -1053,875 +971,386 @@
                 "delayAnimationHeader": "",
                 "travels": [
                     {
-                        "img": "/img/imagenesItinerarios/europaEnsueno/imagenCarousel.png",
-                        "titlePart1": "Europa",
-                        "titlePart2": "Mágica",
-                        "duration": "18 DÍAS / 17 NOCHES",
-                        "idItinerary": 1,
-                        "href": "/itinerario",
-                        "slug": "europa-magica",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
+                        "titlePart1": "Una Noche",
+                        "titlePart2": "Especial",
+                        "duration": "1 Noche Inolvidable",
+                        "price": "",
+                        "lowText": "Para disfrutar en pareja",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "noche-especial",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/coreaChinaJapon/imagenCarousel.webp",
-                        "titlePart1": "Corea del Sur",
-                        "titlePart2": "China & Japón",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 2,
-                        "href": "/itinerario",
-                        "slug": "coreadelsur-china-japon",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
+                        "titlePart1": "Escoge tu",
+                        "titlePart2": "Plato Favorito",
+                        "duration": "Con un precio Especial",
+                        "price": "",
+                        "lowText": "Para deleitar el paladar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "plato-favorito",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/europaNavidad/imagenCarousel.jpg",
-                        "titlePart1": "Europa",
-                        "titlePart2": "de Ensueño",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 3,
-                        "href": "/itinerario",
-                        "slug": "europa-ensueno",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
+                        "titlePart1": "Modo",
+                        "titlePart2": "Descanso",
+                        "duration": "Sin interrupciones ",
+                        "price": "",
+                        "lowText": "Como en ningún otro lugar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "modo-descanso",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/panamaAnnoNuevo/imagenCarousel.png",
-                        "titlePart1": "Panamá",
-                        "titlePart2": "Año Nuevo",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 4,
-                        "href": "/itinerario",
-                        "slug": "panama",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
+                        "titlePart1": "Super Promo",
+                        "titlePart2": "",
+                        "duration": "4 días + 3 noches",
+                        "price": "S/. 210",
+                        "lowText": "Para tus vacaciones soñadas",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "super-promo",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
+                    }
+                ]
+            },
+            "order": 5
+        }
+    ],
+    "pagesHabitaciones": [
+        {
+            "title": "Portada",
+            "href": "#portadaInicio",
+            "pageName": "ImgWithMessage",
+            "showInMenu": false,
+            "data":{
+                "isMainH1": true,
+                "isAfterHeader": true,
+                "title": "NUESTRAS \n",
+                "highLightTitle": "Habitaciones",
+                "subTitle": "",
+                "highLightSubTitle": "",
+                "description": "",
+                "typeAnimationTitleSection": "left",
+                "pixelsAnimationTitleSection": 80,
+                "durationAnimationTitleSection": 1000,
+                "delayAnimationTitleSection": 0,
+                "darkenLeftSide": true,
+                "button":{
+
+                },
+                "img": "/img/imagenesHabitaciones/imagenPortada.jpg"
+            },
+            "order": 2
+        },
+        {
+            "title": "Nuestra Información",
+            "href": "#listRooms",
+            "pageName": "ListRooms",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "title": "SUITES",
+                "description": "Las mejores suites a nuestra disposición, listas para recibir tu llegada de forma maravillosa.",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+                "typeAnimationItems": ["left", "right", "left", "right", "left", "right", "left", "right", "left"],
+                "pixelsAnimationItems": 120,
+                "durationAnimationItems": 1000,
+                "delayAnimationItems": 0,
+                "rooms": [
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.webp",
+                        "altImg": "Suite Junior Green Hotel Rancho Roma",
+                        "title": "Suite Junior Green",
+                        "sizeM2": "50m2",
+                        "maxNumPeople": 4,
+                        "labelMaxPeople": "Máx personas: ",
+                        "href": "/habitaciones/suite-junior-green",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "Caja Fuerte"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Sala de Estar"
+                            }
+                        ],
+                        "idTypeRoom": 1,
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.webp",
+                        "altImg": "Suite Bella Pool Double Hotel Rancho Roma",
+                        "title": "Suite Bella Pool Double",
+                        "sizeM2": "50m2",
+                        "maxNumPeople": 4,
+                        "labelMaxPeople": "Máx personas: ",
+                        "href": "/habitaciones/suite-bella-pool-double",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "Caja Fuerte"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Sala de Estar"
+                            }
+                        ],
+                        "idTypeRoom": 2,
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.webp",
+                        "altImg": "Suite Bella Pool Matrimonial Hotel Rancho Roma",
+                        "title": "Suite Bella Pool Matrimonial",
+                        "sizeM2": "50m2",
+                        "maxNumPeople": 4,
+                        "labelMaxPeople": "Máx personas: ",
+                        "href": "/habitaciones/suite-bella-pool-matrimonial",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "Caja Fuerte"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Sala de Estar"
+                            }
+                        ],
+                        "idTypeRoom": 3,
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.webp",
+                        "altImg": "Suite Double Green Hotel Rancho Roma",
+                        "title": "Suite Double Green",
+                        "sizeM2": "50m2",
+                        "maxNumPeople": 4,
+                        "labelMaxPeople": "Máx personas: ",
+                        "href": "/habitaciones/suite-double-green",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "Caja Fuerte"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Sala de Estar"
+                            }
+                        ],
+                        "idTypeRoom": 4,
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.webp",
+                        "altImg": "Villa Deluxe Familiar Hotel Rancho Roma",
+                        "title": "Villa Deluxe Familiar",
+                        "sizeM2": "50m2",
+                        "maxNumPeople": 4,
+                        "labelMaxPeople": "Máx personas: ",
+                        "href": "/habitaciones/villa-deluxe-familiar",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "Caja Fuerte"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Sala de Estar"
+                            }
+                        ],
+                        "idTypeRoom": 5,
+                        "buttonText": "Más Información"
                     }
                 ]
             },
             "order": 3
-        }
-    ],
-    "pagesItinerarioDetail": [
+        },
         {
-            "title": "Próximas Salidas",
+            "title": "Enviar Información",
+            "href": "#formSendInfoInicio",
+            "pageName": "FormSendInfo",
+            "showInMenu": false,
+            "data":{
+                "nameId": "#formSendInfoInicio",
+                "subTitle": "NUESTROS SERVICIOS",
+                "title": "",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+                "typeAnimationForm": "right",
+                "pixelsAnimationForm": 80,
+                "durationAnimationForm": 1000,
+                "delayAnimationForm": 0,
+                "durationItemsAnimation": 1000,
+                "delayEachItemAnimation": 200,
+                "achievments": [
+                    {
+                        "icon":"fa fa-solid fa-bread-slice",
+                        "textFirstPart": "Desayuno Buffet",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "icon":"fa fa-solid fa-person-swimming",
+                        "textFirstPart": "Piscina Principal",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "icon":"fa fa-solid fa-dumbbell",
+                        "textFirstPart": "Gimnasio",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "icon":"fa fa-solid fa-table-tennis-paddle-ball",
+                        "textFirstPart": "Sala de Juegos",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "icon":"fa fa-solid fa-children",
+                        "textFirstPart": "Juegos para Niños",
+                        "typeAnimation": "down",
+                        "pixelsAnimation": 80
+                    }
+                ],
+                "dontHaveForm": true
+            },
+            "order": 4
+        },
+        {
+            "title": "Promociones",
             "href": "#carrouselTravelsInicio",
             "pageName": "CarrouselTravels",
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
                 "nameId": "#ourTravelsItinerary",
-                "title": "ITINERARIOS DISPONIBLES",
+                "subTitle": "Conoce",
+                "title": "NUESTRAS PROMOCIONES",
                 "priceDescription": "Desde:",
                 "loop": true,
                 "autoplay": false,
                 "isDoneText": "",
-                "variant": "selector",
                 "textNoSelect": "Escoge un itinerario para ver la aventura.",
                 "nameIdItinerary": "#itinerarysDetail",
-                "typeAnimationHeader": "",
+                "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 60,
                 "durationAnimationHeader": 1000,
                 "delayAnimationHeader": "",
                 "travels": [
                     {
-                        "img": "/img/imagenesItinerarios/europaEnsueno/imagenCarousel.png",
-                        "titlePart1": "Europa",
-                        "titlePart2": "Mágica",
-                        "duration": "18 DÍAS / 17 NOCHES",
-                        "idItinerary": 1,
-                        "href": "/itinerario",
-                        "slug": "europa-magica",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
+                        "titlePart1": "Una Noche",
+                        "titlePart2": "Especial",
+                        "duration": "1 Noche Inolvidable",
+                        "price": "",
+                        "lowText": "Para disfrutar en pareja",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "noche-especial",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/coreaChinaJapon/imagenCarousel.webp",
-                        "titlePart1": "Corea del Sur",
-                        "titlePart2": "China & Japón",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 2,
-                        "href": "/itinerario",
-                        "slug": "coreadelsur-china-japon",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
+                        "titlePart1": "Escoge tu",
+                        "titlePart2": "Plato Favorito",
+                        "duration": "Con un precio Especial",
+                        "price": "",
+                        "lowText": "Para deleitar el paladar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "plato-favorito",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/europaNavidad/imagenCarousel.jpg",
-                        "titlePart1": "Europa",
-                        "titlePart2": "de Ensueño",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 3,
-                        "href": "/itinerario",
-                        "slug": "europa-ensueno",
-                        "eventSamePage": true
+                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
+                        "titlePart1": "Modo",
+                        "titlePart2": "Descanso",
+                        "duration": "Sin interrupciones ",
+                        "price": "",
+                        "lowText": "Como en ningún otro lugar",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "modo-descanso",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
-                        "img": "/img/imagenesItinerarios/panamaAnnoNuevo/imagenCarousel.png",
-                        "titlePart1": "Panamá",
-                        "titlePart2": "Año Nuevo",
-                        "duration": "16 DÍAS / 15 NOCHES",
-                        "idItinerary": 4,
-                        "href": "/itinerario",
-                        "slug": "panama",
-                        "eventSamePage": true
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "ITINERARIOS",
-            "href": "#itinerarysDetail",
-            "pageName": "ItinerarysDetail",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#itinerarysDetail",
-                "title": "ELIGE TU PRÓXIMA AVENTURA",
-                "loop": false,
-                "labelIncludes": "Lo que Incluimos:",
-                "labelTermsAndConditions": "Términos y Condiciones:",
-                "planeTopRight": "/img/imagenesItinerarios/plane1.webp",
-                "backgroundPlane": "/img/imagenesItinerarios/fondoViaje.jpg",
-                "titleLastPart": "¿Listo para vivir esta experiencia?",
-                "subTitleLastPart": "Reserva tu lugar y prepárate para tu próximo viaje",
-                "labelBenefits": "Beneficios que ofrecemos:",
-                "typeAnimationBenefitsTitle": "left",
-                "pixelsAnimationBenefitsTitle": 80,
-                "durationAnimationBenefitsTitle": 1000,
-                "delayAnimationBenefitsTitle": 0,
-                "typeAnimationBenefitsItem": "up",
-                "pixelsAnimationBenefitsItem": 60,
-                "durationAnimationBenefitsItem": 1000,
-                "delayEachAnimationBenefitsItem": 200,
-                "typeAnimationIncludes": "left",
-                "pixelsAnimationIncludes": 80,
-                "durationAnimationIncludes": 1000,
-                "delayAnimationIncludes": 0,
-                "typeAnimationTerms": "right",
-                "pixelsAnimationTerms": 80,
-                "durationAnimationTerms": 1000,
-                "delayAnimationTerms": 0,
-                "typeAnimationLastPartHeader": "down",
-                "pixelsAnimationLastPartHeader": 80,
-                "durationAnimationLastPartHeader": 1000,
-                "delayAnimationLastPartHeader": 0,
-                "typeAnimationLastPartButtons": "up",
-                "pixelsAnimationLastPartButtons": 80,
-                "durationAnimationLastPartButtons": 1000,
-                "delayAnimationLastPartButtons": 0,
-                "headerHeight": 120,
-                "durationScroll": 800,
-                "buttonBook":{
-                    "text": "Reserva tu Lugar",
-                    "pathForm": "/",
-                    "href": "#formSendInfoInicio"
-                },
-                "buttonDownloadPdf":{
-                    "text": "Ver Detalles",
-                    "icon": "fa fa-regular fa-file-pdf"
-                },
-                "labelDay": "Día"
-            },
-            "order": 6
-        }
-    ],
-    "pagesChina": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "MISIONES EMPRESARIALES     ",
-                "highLightTitle": "CHINA",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "img": "/img/imagenesMisiones/china/imagenPortada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion China",
-            "href": "#listParrafsWithImg1raChina",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "CHINA - CANTÓN",
-                        "title": "FERIA DE CANTÓN",
-                        "article": "ASPEM desarrolla una labor sostenida de vinculación internacional a través de su participación y presencia institucional en la Feria de Cantón, uno de los principales puntos de encuentro del comercio global. Esta feria representa una plataforma estratégica para el acercamiento del empresariado peruano a mercados internacionales, especialmente en sectores vinculados a la industria, manufactura, tecnología y comercio exterior.\n\nMediante su trabajo en torno a la Feria de Cantón, ASPEM facilita el acceso a espacios de relacionamiento empresarial, intercambio de información y generación de oportunidades comerciales, contribuyendo a que los empresarios peruanos amplién su visión de negocio y fortalezcan sus procesos de internacionalización.\n\nLa presencia de ASPEM en este escenario permite consolidar relaciones institucionales, promover el conocimiento directo de la dinámica comercial internacional y fortalecer la preparación del empresariado nacional para competir en mercados globales, reafirmando su compromiso con el crecimiento y desarrollo empresarial sobresaliente.",
-                        "img": "/img/imagenesMisiones/china/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Primer Carrousel China",
-            "href": "#carrousel1erChina",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Informacion China",
-            "href": "#listParrafsWithImg2daChina",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": true,
-                        "subTitle": "Shangái - Heféi - Xuzhoun - Yiwu",
-                        "title": "ALMACENES DE LÍNEA AMARILLA",
-                        "article": "Como parte de sus acciones orientadas al fortalecimiento del comercio y la importación especializada, ASPEM organiza y coordina visitas técnicas a almacenes de maquinaria de línea amarilla en importantes centros industriales de China. Estas visitas permiten a los empresarios peruanos conocer de manera directa la oferta de maquinaria pesada, procesos de almacenamiento, condiciones logísticas y estándares de operación del mercado internacional.\n\nDurante estas jornadas, los participantes tienen la oportunidad de evaluar equipos, contrastar especificaciones técnicas y comprender de primera mano la dinámica comercial del sector, facilitando una toma de decisiones más informada y segura en procesos de importación. La experiencia se enfoca en brindar conocimiento práctico, contacto directo con proveedores y una visión real del funcionamiento de la cadena de suministro.\n\nA través de este tipo de visitas especializadas, ASPEM reafirma su compromiso de generar espacios de aprendizaje y vinculación empresarial, contribuyendo al desarrollo de negocios sostenibles y al fortalecimiento de la competitividad del empresariado peruano en el sector de la maquinaria pesada.",
-                        "img": "/img/imagenesMisiones/china/imagenParrafo2.jpg"
+                        "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
+                        "titlePart1": "Super Promo",
+                        "titlePart2": "",
+                        "duration": "4 días + 3 noches",
+                        "price": "S/. 210",
+                        "lowText": "Para tus vacaciones soñadas",
+                        "buttonText": "Ver Más",
+                        "idPromo": 1,
+                        "href": "/promociones",
+                        "slug": "super-promo",
+                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     }
                 ]
             },
             "order": 5
-        },
-        {
-            "title": "Segundo Carrousel China",
-            "href": "#carrousel2doChina",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel5.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel6.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel7.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel8.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 6
-        },
-        {
-            "title": "Informacion China",
-            "href": "#listParrafsWithImg3raChina",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Shangái",
-                        "title": "AUTOMECHANIKA",
-                        "article": "ASPEM participó en la AutoMechanika Shangai 2024, uno de los eventos más importantes del sector automotriz a nivel mundial, como parte de su estrategia de vinculación internacional y fortalecimiento del empresariado peruano. Esta participación permitió acercar a los empresarios a un entorno altamente especializado, enfocado en innovación, tecnología y comercio internacional.\n\nAutomechanika Shangai reúne a miles de expositores y profesionales del sector, presentando autopartes, repuestos, maquinaria, herramientas, sistemas eléctricos y electrónicos, lubricantes, equipamiento para talleres, soluciones de mantenimiento, tecnología para vehículos comerciales y nuevas tendencias en movilidad e industria automotriz. Este escenario ofrece una visión integral de la cadena de valor del sector y facilita el contacto directo con fabricantes y proveedores internacionales.\n\nLa presencia de ASPEM en Automechanika Shangai 2024 permitió acceder a información estratégica, conocer de primera mano las tendencias del mercado y generar espacios de relacionamiento empresarial orientados a la identificación de oportunidades y alianzas sostenibles.\n\nA través de su participación en este tipo de ferias internacionales, ASPEM reafirma su compromiso de acompañar a los empresarios peruanos en procesos de expansión, promoviendo el intercambio comercial y fortaleciendo la integración del empresariado peruano en los principales escenarios del comercio global.",
-                        "img": "/img/imagenesMisiones/china/imagenParrafo3.jpg"
-                    }
-                ]
-            },
-            "order": 7
-        },
-        {
-            "title": "Tercer Carrousel China",
-            "href": "#carrousel3erChina",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel9.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel10.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel11.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel12.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 8
-        },
-        {
-            "title": "Informacion China",
-            "href": "#listParrafsWithImg4toChina",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": true,
-                        "subTitle": "Shangái",
-                        "title": "BAUMA",
-                        "article": "ASPEM participó en la Bauma China 2024, una de las ferias más importantes del mundo en el sector de maquinaria pesada, construcción y minería como parte de su estrategia de proyección internacional y fortalecimiento del empresariado peruano.\n\nBauma China reúne a fabricantes, proveedores y especialistas de distintos países, presentando maquinaria de construcción, equipos de minería, grúas, excavadoras, cargadores, soluciones para infraestructura, tecnología para obras civiles, automatización, repuestos y equipamiento especializado. Este espacio permite conocer de primera mano la innovación, avances tecnológicos y las tendencias que marcan el desarrollo del sector a nivel global.\n\nLa participación de ASPEM en Bauma China 2024 facilitó el acceso a información estratégica, el contacto directo con proveedores internacionales y la identificación de oportunidades comerciales vinculadas a la importación y renovación de maquinaria, contribuyendo a una toma de decisiones más informada por parte de los empresarios peruanos.\n\nA través de su presencia en ferias internacionales de alto nivel, ASPEM reafirma su compromiso de acompañar a los empresarios en procesos de expansión, fortaleciendo su competitividad y promoviendo su integración en los principales escenarios del comercio global.",
-                        "img": "/img/imagenesMisiones/china/imagenParrafo4.jpg"
-                    }
-                ]
-            },
-            "order": 9
-        },
-        {
-            "title": "Cuarto Carrousel China",
-            "href": "#carrousel4toChina",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel13.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel14.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel15.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/china/imagenCarrousel16.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 10
-        }
-    ],
-    "pagesPanama": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "MISIONES EMPRESARIALES     ",
-                "highLightTitle": "PANAMA",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "img": "/img/imagenesMisiones/panama/imagenPortada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Panama",
-            "href": "#listParrafsWithImg1raPanama",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Panamá",
-                        "title": "EXPOCOMER",
-                        "article": "ASPEM participa en EXPOCOMER Panamá, una de las ferias multisectoriales más importantes de América Latina, como parte de su labor de articulación empresarial y promoción del comercio internacional. Este evento se consolida como un espacio estratégico para la generación de oportunidades comerciales y el fortalecimiento de relaciones entre empresas de distintos países.\n\nEXPOCOMER reúne a empresarios, fabricantes y compradores internacionales, presentando una amplia oferta de productos y servicios en sectores como alimentos, textiles, manufactura, tecnología, logística, servicios, comercio exterior y bienes de consumo, lo que permite una visión integral del mercado regional y global.\n\nLa participación de ASPEM en esta feria facilita el acercamiento del empresariado peruano a nuevos mercados, promueve el intercambio de información estratégica y forma la identificación de oportunidades de negocio, importación y alianzas comerciales, contribuyendo al proceso de expansión empresarial.\n\nA través de su presencia en ferias internacionales como EXPOCOMER Panamá, ASPEM reafirma su compromiso de acompañar a los empresarios en su proyección internacional, fortaleciendo su competitividad y promoviendo su integración en los principales escenarios del comercio global.",
-                        "img": "/img/imagenesMisiones/panama/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Primer Carrousel Panama",
-            "href": "#carrousel1erPanama",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Informacion Panama",
-            "href": "#listParrafsWithImg2daPanama",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": true,
-                        "subTitle": "Panamá",
-                        "title": "LATIN AMERICAN & CARIBBEAN TYRE EXPO",
-                        "article": "En el marco de su estrategia de proyección y presencia en ferias especializadas, ASPEM tuvo participación institucional en la Latin American & Caribbean Tyre Expo, un evento de referencia para la industria de neumáticos y el sector automotriz en la región.\n\nEste encuentro internacional congrega a fabricantes, distribuidores y proveedores, presentando neumáticos para vehículos livianos, pesados e industriales, llantas, cámaras, insumos, tecnología especializada y soluciones para la cadena de suministro, ofreciendo una visión integral de las tendencias y avances del sector.\n\nLa presencia de ASPEM en esta feria permitió fortalecer vínculos empresariales, facilitar el acceso a información estratégica y promover oportunidades comerciales vinculadas a la importación y distribución de productos del rubro automotriz, contribuyendo al crecimiento y expansión del empresariado peruano.\n\nA través de su participación en ferias sectoriales de alcance regional, ASPEM reafirma su compromiso de impulsar la integración del empresariado nacional en mercados estratégicos, fortaleciendo su competitividad y proyección internacional.",
-                        "img": "/img/imagenesMisiones/panama/imagenParrafo2.jpg"
-                    }
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Segundo Carrousel Panama",
-            "href": "#carrousel2doPanama",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel5.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel6.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel7.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel8.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 6
-        },
-        {
-            "title": "Informacion Panama",
-            "href": "#listParrafsWithImg3raPanama",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Panmaá",
-                        "title": "EXPO ZONA LIBRE DE COLÓN",
-                        "article": "Como parte de su presencia en espacios estratégicos de comercio regional, ASPEM participó en la Expo Zona Libre de Colón, uno de los eventos comerciales más representativos de Panamá y de América Latina en el ámbito de la importación, distribución y logística internacional.\n\nEsta feria reúne a empresas y proveedores de diversos sectores, presentando productos de consumo, electrodomésticos, tecnología, textiles, calzado, cosmética, respuestos, mercancías al por mayor y soluciones logísticas, consolidándose como un punto clave para el comercio regional y la conexión con mercados internacionales.\n\nLa participación de ASPEM en Expo Zona Libre de Colón permitió fortalecer vínculos empresariales, conocer la dinámica comercial de una de las zonas francas más importantes del mundo y generar oportunidades vinculadas a la importación, distribución y desarrollo de nuevos negocios para el empresariado peruano.\n\nA través de su presencia en ferias regionales de alto impacto como Expo Zona Libre de Colón, ASPEM reafirma su compromiso de impulsar la integración del empresariado peruano en mercados estratégicos, promoviendo su competitividad y expansión comercial a nivel internacional.",
-                        "img": "/img/imagenesMisiones/panama/imagenParrafo3.jpg"
-                    }
-                ]
-            },
-            "order": 7
-        },
-        {
-            "title": "Tercer Carrousel Panama",
-            "href": "#carrousel3erPanama",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel9.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel10.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel11.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/panama/imagenCarrousel12.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 8
-        }
-    ],
-    "pagesDubai": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "MISIONES EMPRESARIALES     ",
-                "highLightTitle": "DUBAI, EGIPTO TURQUÍA",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "img": "/img/imagenesMisiones/dubai/imagenPortada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Dubai",
-            "href": "#listParrafsWithImg1raDubai",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Dúbai - Egipto - Turquía",
-                        "title": "BEAUTY ISTANBUL",
-                        "article": "En el marco de su estrategia de proyección internacional y vinculación con sectores especializados, ASPEM participó en la Beauty Istanbul, una de las ferias más importantes del sector belleza y cosmética a nivel internacional, realizada en Turquía.\n\nBeauty Istanbul reúne a fabricantes, marcas y proveedores de distintos países, presentando productos de cosmética, cuidado personal, skin care, maquillaje, cuidado capilar, productos naturales, envases, insumos y soluciones para la industria de belleza, ofreciendo una visión integral de las tendencias e innovación del sector.\n\nLa participación de ASPEM en este evento permitió facilitar el acercamiento del empresariado peruano a nuevos mercados, promover el contacto directo con proveedores internacionales y generar oportunidades comerciales vinculadas a la importación, distribución y desarrollo de alianzas estratégicas en la industria de la belleza.\n\nA través de su presencia en ferias internacionales especializadas como Beauty Istanbul, ASPEM reafirma su compromiso de impulsar la internacionalización del empresariado peruano, fortaleciendo su competitividad y promoviendo su integración en los principales escenarios del comercio global.",
-                        "img": "/img/imagenesMisiones/dubai/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Primer Carrousel Dubai",
-            "href": "#carrousel1erDubai",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Informacion dubai",
-            "href": "#listParrafsWithImg2daDubai",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": true,
-                        "subTitle": "Dúbai - Egipto - Turquía",
-                        "title": "PAPER ARABIA",
-                        "article": "Como parte de su agenda de presencia en mercados estratégicos y ferias internacionales especializadas, ASPEM tuvo participación institucional en la Paper Arabia, un encuentro de referencia para la industria del papel, cartón, tissue y soluciones de empaque en Medio Oriente y otras regiones.\n\nEste evento congrega a fabricantes, proveedores y especialistas del sector, presentando papel industrial y comercial, papel tissue, cartón, empaques, maquinaria, tecnología de procesamiento, insumos, soluciones sostenibles y tendencias vinculadas a la industria gráfica y de embalaje, ofreciendo una visión integral del desarrollo y evolución del sector.\n\nLa presencia de ASPEM en Paper Arabia permitió fortalecer el relacionamiento empresarial, facilitar el acceso a información estratégica y promover oportunidades comerciales vinculadas a la importación y desarrollo de nuevos negocios para el empresariado peruano.\n\nMediante su participación en ferias sectoriales de alcance internacional, ASPEM reafirma su compromiso de impulsar la integración del empresariado nacional en mercados globales, fortaleciendo su competitividad y proyección empresarial.",
-                        "img": "/img/imagenesMisiones/dubai/imagenParrafo2.jpg"
-                    }
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Segundo Carrousel Dubai",
-            "href": "#carrousel2doDubai",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel5.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel6.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel7.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/dubai/imagenCarrousel8.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 6
-        }
-    ],
-    "pagesJapon": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "MISIONES EMPRESARIALES ",
-                "highLightTitle": "COREA DEL SUR, JAPÓN",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "img": "/img/imagenesMisiones/japon/imagenPortada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Japón",
-            "href": "#listParrafsWithImg1raJapon",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Corea del Sur - Japón",
-                        "title": "EXPO2025",
-                        "article": "Como parte de su presencia en eventos internacionales de alcance global, ASPEM participó en la EXPO 2025 Osaka, Kansai, uno de los encuentros más relevantes a nivel mundial en innovación, desarrollo sostenible y cooperación internacional.\n\nEXPO 2025 reúne a países, instituciones y organizaciones de diversos sectores, presentando soluciones en tecnología, infraestructura, sostenibilidad, movilidad, salud, educación, industria y modelos de desarrollo, convirtiéndose en una plataforma estratégica para el intercambio de ideas, conocimiento y oportunidades de colaboración entre actores globales.\n\nLa participación de ASPEM en este escenario internacional permitió fortalecer su visión institucional, conocer tendencias globales y generar espacios de vinculación orientados al desarrollo empresarial y la proyección internacional del empresariado peruano.\n\nA través de su presencia en eventos de carácter mundial como EXPO 2025 Japón, ASPEM reafirma su compromiso de impulsar la integración del empresariado nacional en los principales espacios de diálogo, innovación y cooperación internacional, contribuyendo a una visión de crecimiento sostenible y competitividad global.",
-                        "img": "/img/imagenesMisiones/japon/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Primer Carrousel Japon",
-            "href": "#carrousel1erJapon",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/japon/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/japon/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/japon/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/japon/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 4
-        }
-    ],
-    "pagesBrasil": [
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "MISIONES EMPRESARIALES ",
-                "highLightTitle": "BRASIL",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "",
-                "button":{
-
-                },
-                "img": "/img/imagenesMisiones/brasil/imagenPortada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Brasil",
-            "href": "#listParrafsWithImg1raBrasil",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": false,
-                        "subTitle": "Sao Paulo",
-                        "title": "AUTOMEC",
-                        "article": "En el marco de sus acciones de vinculación empresarial y presencia en mercados regionales, ASPEM participó en la AUTOMEC, una de las ferias más relevantes de Latinoamérica especializadas en el sector automotriz y de autopartes, realizada en Brasil.\n\nAUTOMEC congrega a fabricantes, distribuidores y especialistas de la industria, presentando autopartes, repuestos, sistemas mecánicos y eléctricos, equipamiento para talleres, herramientas, lubricantes, tecnología automotriz y soluciones para el mercado de postventa, consolidándose como una plataforma estratégica para el intercambio comercial y el desarrollo de negocios.\n\nLa presencia de ASPEM en este evento permitió fortalecer el relacionamiento empresarial, facilitar el contacto directo con proveedores internacionales y generar espacios de análisis sobre tendencias y oportunidades del sector automotriz, aportando a una toma de decisiones más informada por parte de los empresarios peruanos.\n\nMediante su participación en ferias internacionales de alto nivel, ASPEM reafirma su compromiso de impulsar la integración del empresariado peruano en mercados estratégicos, promoviendo su competitividad y crecimiento a nivel internacional.",
-                        "img": "/img/imagenesMisiones/brasil/imagenParrafo1.jpg"
-                    }
-                ]
-            },
-            "order": 3
-        },
-        {
-            "title": "Primer Carrousel Brasil",
-            "href": "#carrousel1erBrasil",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel1.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel2.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel3.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel4.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 4
-        },
-        {
-            "title": "Informacion Brasil",
-            "href": "#listParrafsWithImg2daBrasil",
-            "pageName": "ListParrafsWithImg",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "info": [
-                    {
-                        "startAtRight": true,
-                        "subTitle": "Sao Paulo",
-                        "title": "CONCRETE SHOW",
-                        "article": "Como parte de su estrategia de internacionalización y fortalecimiento del empresariado, ASPEM desarrolló una misión empresarial a Brasil, que incluyó la participación en la Concrete Show Brazil, uno de los principales eventos de la región especializados en construcción e infraestructura.\n\nConcrete Show reúne a empresas y profesionales del sector, presentando soluciones en concreto, maquinarias y equipos para construcción, tecnología para obras civiles, sistemas constructivos, materiales, insumos, innovación en infraestructura y tendencias del mercado. La feria se consolida como un espacio estratégico para el intercambio de conocimiento y la generación de oportunidades comerciales en el sector.\n\nLa misión empresarial organizada por ASPEM permitió a los empresarios peruanos conocer de primera mano el mercado brasileño, establecer contacto directo con proveedores y fabricantes, y evaluar oportunidades de negocio vinculadas a la importación, alianzas comerciales y desarrollo de proyectos.\n\nA través de este tipo de misiones internacionales, ASPEM reafirma su compromiso de brindar respaldo institucional y acompañamiento a los empresarios, promoviendo su integración en mercados estratégicos y fortaleciendo su competitividad a nivel regional e internacional.",
-                        "img": "/img/imagenesMisiones/brasil/imagenParrafo2.jpg"
-                    }
-                ]
-            },
-            "order": 5
-        },
-        {
-            "title": "Segundo Carrousel Dubai",
-            "href": "#carrousel2doDubai",
-            "pageName": "Carrousel",
-            "showInMenu": false,
-            "data":{
-                "imgs": [
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel5.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel6.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel7.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    },
-                    {
-                        "src":"/img/imagenesMisiones/brasil/imagenCarrousel8.jpg",
-                        "title": "Compañeros en China",
-                        "description": "Una gran oportunidad para conocernos"
-                    }
-                ]
-            },
-            "order": 6
         }
     ],
     "pagesTypeProducts": [

@@ -5,20 +5,30 @@ import { useState } from "react";
 export const Dropdown = (props) =>{
     const [showItems, setShowItems] = useState(false);
     return(
-        <section className="dropdown">
+        <section className={"dropdown " + (props.classModifier ? (props.classModifier + "dropdown") : "")}>
             <div
                 className="dropdown-head"
                 onClick={() => setShowItems(!showItems)}
             >
-                <h2 className="dropdown-head-title">{props.title}</h2>
+                <h2
+                    className={"dropdown-head-title " + (props.classModifier ? (props.classModifier + "dropdown-head-title") : "")}
+                >
+                    {props.title}
+                </h2>
                 {
                     showItems ?
-                    <div className="dropdown-head-icon">
-                        <i className={(props.iconUp ?? "fa fa-solid fa-chevron-up")} aria-hidden="true"></i>
+                    <div className={"dropdown-head-icon " + (props.classModifier ? (props.classModifier + "dropdown-head-icon") : "")}>
+                        <i
+                            className={(props.iconUp ?? "fa fa-solid fa-chevron-up ")}
+                            aria-hidden="true"
+                        ></i>
                     </div>
                     :
-                    <div className="dropdown-head-icon">
-                        <i className={(props.iconDown ?? "fa fa-solid fa-chevron-down")} aria-hidden="true"></i>
+                    <div className={"dropdown-head-icon " + (props.classModifier ? (props.classModifier + "dropdown-head-icon") : "")}>
+                        <i
+                            className={(props.iconDown ?? "fa fa-solid fa-chevron-down ")}
+                            aria-hidden="true"
+                        ></i>
                     </div>
                 }
             </div>
@@ -33,8 +43,9 @@ export const Dropdown = (props) =>{
                             <li
                                 className={
                                     "dropdown-items-text " + (props.oneItem ? "" : (index % 2 === 0 ? "dropdown-items-text-gray " : "")) +
-                                    (showItems ? (props.oneItem ? "dropdown-item-enter-simple" : "dropdown-item-enter")
-                                        : (props.oneItem ? "dropdown-item-exit-simple" : "dropdown-item-exit"))
+                                    (showItems ? (props.oneItem ? "dropdown-item-enter-simple " : "dropdown-item-enter ")
+                                        : (props.oneItem ? "dropdown-item-exit-simple " : "dropdown-item-exit ")) +
+                                    (props.classModifier ? (props.classModifier + "dropdown-items-text") : "")
                                 }
                                 key={index}
                                 style={{
