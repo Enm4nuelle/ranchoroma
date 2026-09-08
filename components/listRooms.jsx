@@ -38,7 +38,7 @@ export const ListRooms = (props) => {
                                     <div className="listRooms-items-item-info-basicInfo">
                                         <p className="listRooms-items-item-info-basicInfo-m2">{room.sizeM2}</p>
                                         <p className="listRooms-items-item-info-basicInfo-maxPeople">
-                                            <span>{room.labelMaxPeople}</span>{room.maxNumPeople}
+                                            {room.maxNumPeople}
                                         </p>
                                     </div>
                                     <div className="listRooms-items-item-info-divider" aria-hidden="true"></div>
@@ -48,7 +48,7 @@ export const ListRooms = (props) => {
                                                 <p className="listRooms-items-item-info-features-text" key={feature.text + indexJ}>
                                                     <i
                                                         className={
-                                                            "listRooms-items-item-info-features-icon" + feature.icon
+                                                            "listRooms-items-item-info-features-icon " + feature.icon
                                                         }
                                                     ></i>
                                                     {feature.text}
@@ -58,18 +58,36 @@ export const ListRooms = (props) => {
                                     </div>
                                     <div className="listRooms-items-item-info-divider" aria-hidden="true"></div>
                                     <div className="listRooms-items-item-info-buttons">
-                                        <Link
-                                            className="buttonSecondary"
-                                            href={room.href}
-                                        >
-                                            {room.buttonText}
-                                        </Link>
-                                        <a
-                                            className="buttonPrimary"
-
-                                        >
-                                            {"whatsap"}
-                                        </a>
+                                        {
+                                            props.data.buttonMoreInfoText ?
+                                            <Link
+                                                className={"buttonSecondary listRooms-items-item-info-buttons-buttonMoreInfo"}
+                                                href={room.href}
+                                            >
+                                                {props.data.buttonMoreInfoText}
+                                            </Link>
+                                            :
+                                            ""
+                                        }
+                                        {
+                                            props.data.buttonBook ?
+                                            <a
+                                                className={"buttonPrimary listRooms-items-item-info-buttons-buttonWhatsapp"}
+                                                href={
+                                                    props.data.buttonBook.hrefDestiny === "whatsapp" ?
+                                                    `https://wa.me/${props.data.buttonBook.number}?text=${encodeURIComponent(props.data.buttonBook.messageFirstPart + room.title)}`
+                                                    :
+                                                    ""
+                                                }
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                title="Contacto Whatsapp"
+                                            >
+                                                {props.data.buttonBook.text}
+                                            </a>
+                                            :
+                                            ""
+                                        }
                                     </div>
                                 </div>
                             </li>

@@ -324,10 +324,10 @@
                 "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
                 "rooms": [
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.webp",
-                        "altImg": "Suite Junior Green Hotel Rancho Roma",
-                        "title": "Suite Junior Green",
-                        "slug": "suite-junior-green",
+                        "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
+                        "altImg": "Habitación Simple Hotel Rancho Roma",
+                        "title": "Suite Simple",
+                        "slug": "suite-simple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -343,10 +343,10 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.webp",
-                        "altImg": "Suite Bella Pool Double Hotel Rancho Roma",
-                        "title": "Suite Bella Pool Double",
-                        "slug": "suite-bella-pool-double",
+                        "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
+                        "altImg": "Habitación Matrimonial Hotel Rancho Roma",
+                        "title": "Suite Matrimonial",
+                        "slug": "suite-matrimonial",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -362,10 +362,10 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.webp",
-                        "altImg": "Suite Bella Pool Matrimonial Hotel Rancho Roma",
-                        "title": "Suite Bella Pool Matrimonial",
-                        "slug": "suite-bella-pool-matrimonial",
+                        "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
+                        "altImg": "Habitación Doble Hotel Rancho Roma",
+                        "title": "Suite Doble",
+                        "slug": "suite-doble",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -381,10 +381,10 @@
                         "buttonText": "Más Información"
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.webp",
-                        "altImg": "Suite Double Green Hotel Rancho Roma",
-                        "title": "Suite Double Green",
-                        "slug": "suite-double-green",
+                        "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
+                        "altImg": "Suite Triple Hotel Rancho Roma",
+                        "title": "Suite Triple",
+                        "slug": "suite-triple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -396,25 +396,6 @@
                             }
                         ],
                         "idTypeRoom": 4,
-                        "href": "/habitaciones",
-                        "buttonText": "Más Información"
-                    },
-                    {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.webp",
-                        "altImg": "Villa Deluxe Familiar Hotel Rancho Roma",
-                        "title": "Villa Deluxe Familiar",
-                        "slug": "villa-deluxe-familiar",
-                        "featuredAmenities": [
-                            {
-                                "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
-                            },
-                            {
-                                "icon":"fa fa-solid fa-wind",
-                                "text": "Aire acondicionado"
-                            }
-                        ],
-                        "idTypeRoom": 5,
                         "href": "/habitaciones",
                         "buttonText": "Más Información"
                     }
@@ -1070,15 +1051,21 @@
                 "pixelsAnimationItems": 120,
                 "durationAnimationItems": 1000,
                 "delayAnimationItems": 0,
+                "buttonBook": {
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929909146",
+                    "messageFirstPart": "Hola, quiero reservar una habitación ",
+                    "text": "Reserva Ahora"
+                },
+                "buttonMoreInfoText": "Más Información",
                 "rooms": [
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion1.webp",
-                        "altImg": "Suite Junior Green Hotel Rancho Roma",
-                        "title": "Suite Junior Green",
-                        "sizeM2": "50m2",
-                        "maxNumPeople": 4,
-                        "labelMaxPeople": "Máx personas: ",
-                        "href": "/habitaciones/suite-junior-green",
+                        "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
+                        "altImg": "Habitación Simple Hotel Rancho Roma",
+                        "title": "Suite Simple",
+                        "sizeM2": "20m2",
+                        "maxNumPeople": "2 adultos + 1 niño",
+                        "href": "/habitaciones/suite-simple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -1097,17 +1084,15 @@
                                 "text": "Sala de Estar"
                             }
                         ],
-                        "idTypeRoom": 1,
-                        "buttonText": "Más Información"
+                        "idTypeRoom": 1
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion2.webp",
-                        "altImg": "Suite Bella Pool Double Hotel Rancho Roma",
-                        "title": "Suite Bella Pool Double",
-                        "sizeM2": "50m2",
-                        "maxNumPeople": 4,
-                        "labelMaxPeople": "Máx personas: ",
-                        "href": "/habitaciones/suite-bella-pool-double",
+                        "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
+                        "altImg": "Habitación Matrimonial Hotel Rancho Roma",
+                        "title": "Suite Matrimonial",
+                        "sizeM2": "20m2",
+                        "maxNumPeople": "2 adultos + 1 niño",
+                        "href": "/habitaciones/suite-matrimonial",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -1126,17 +1111,15 @@
                                 "text": "Sala de Estar"
                             }
                         ],
-                        "idTypeRoom": 2,
-                        "buttonText": "Más Información"
+                        "idTypeRoom": 2
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion3.webp",
-                        "altImg": "Suite Bella Pool Matrimonial Hotel Rancho Roma",
-                        "title": "Suite Bella Pool Matrimonial",
-                        "sizeM2": "50m2",
-                        "maxNumPeople": 4,
-                        "labelMaxPeople": "Máx personas: ",
-                        "href": "/habitaciones/suite-bella-pool-matrimonial",
+                        "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
+                        "altImg": "Habitación Doble Hotel Rancho Roma",
+                        "title": "Suite Doble",
+                        "sizeM2": "20m2",
+                        "maxNumPeople": "2 adultos + 1 niño",
+                        "href": "/habitaciones/suite-doble",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -1155,17 +1138,15 @@
                                 "text": "Sala de Estar"
                             }
                         ],
-                        "idTypeRoom": 3,
-                        "buttonText": "Más Información"
+                        "idTypeRoom": 3
                     },
                     {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion4.webp",
-                        "altImg": "Suite Double Green Hotel Rancho Roma",
-                        "title": "Suite Double Green",
-                        "sizeM2": "50m2",
-                        "maxNumPeople": 4,
-                        "labelMaxPeople": "Máx personas: ",
-                        "href": "/habitaciones/suite-double-green",
+                        "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
+                        "altImg": "Habitación Triple Hotel Rancho Roma",
+                        "title": "Suite Triple",
+                        "sizeM2": "20m2",
+                        "maxNumPeople": "2 adultos + 1 niño",
+                        "href": "/habitaciones/suite-triple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
@@ -1184,37 +1165,7 @@
                                 "text": "Sala de Estar"
                             }
                         ],
-                        "idTypeRoom": 4,
-                        "buttonText": "Más Información"
-                    },
-                    {
-                        "img": "/img/imagenesHabitaciones/imagenHabitacion5.webp",
-                        "altImg": "Villa Deluxe Familiar Hotel Rancho Roma",
-                        "title": "Villa Deluxe Familiar",
-                        "sizeM2": "50m2",
-                        "maxNumPeople": 4,
-                        "labelMaxPeople": "Máx personas: ",
-                        "href": "/habitaciones/villa-deluxe-familiar",
-                        "featuredAmenities": [
-                            {
-                                "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
-                            },
-                            {
-                                "icon":"fa fa-solid fa-wind",
-                                "text": "Aire acondicionado"
-                            },
-                            {
-                                "icon": "fa fa-solid fa-lock",
-                                "text": "Caja Fuerte"
-                            },
-                            {
-                                "icon": "fa fa-solid fa-couch",
-                                "text": "Sala de Estar"
-                            }
-                        ],
-                        "idTypeRoom": 5,
-                        "buttonText": "Más Información"
+                        "idTypeRoom": 4
                     }
                 ]
             },
@@ -1353,125 +1304,17 @@
             "order": 5
         }
     ],
-    "pagesTypeProducts": [
+    "pagesHabitacionesDetail": [
         {
-            "title": "Tipos de Maquinarias",
-            "href": "#productCatalogInicio",
-            "pageName": "ProductCatalog",
+            "title": "Imagenes LightBox",
+            "href": "#imgWithLightbox",
+            "pageName": "ImgWithLightBox",
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
                 "isMainH1": true,
-                "title": "Equipos",
-                "description": "La línea de productos que obtenemos gracias a nuestros contactos en lugares del extranjero como China, Seúl, Amsterdan, Bélgica, refleja nuestro enfoque en el éxito de nuestros clientes. Siempre nos mantenemos en la búsqueda de satisfacer las necesidades de nuestros clientes respecto al área de maquinaria, facilitándoles de gran manera el acceso a equipos pesados duraderos y confiable, aparte de brindarles el respaldo de una gran experiencia en este rubro.",
-                "titleModels": "Modelos que ofrecemos",
-                "typeAnimationHeader": "down",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationTypes": 750,
-                "delayEachAnimationType": 100,
-                "types": [
-                    {
-                        "title": "Excavadoras",
-                        "idType": 1,
-                        "img": "/img/imagenesProductos/excavadora.webp",
-                        "href": "/productos/excavadoras",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "title": "Cargadores Frontales",
-                        "idType": 2,
-                        "img": "/img/imagenesProductos/cargadorFrontal.jpg",
-                        "href": "/productos/cargadores-frontales",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "title": "Retroexcavadoras",
-                        "idType": 3,
-                        "img": "/img/imagenesProductos/retroexcavadora.webp",
-                        "href": "/productos/retroexcavadoras",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "title": "Motoniveladoras",
-                        "idType": 4,                    
-                        "img": "/img/imagenesProductos/motoniveladora.webp",
-                        "href": "/productos/motoniveladoras",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "title": "Rodillos Compactadores",
-                        "idType": 5,
-                        "img": "/img/imagenesProductos/rodilloCompactador.jpg",
-                        "href": "/productos/rodillos-compactadores",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    },
-                    {
-                        "title": "Bulldozers",
-                        "idType": 6,
-                        "img": "/img/imagenesProductos/bulldozers.jpg",
-                        "href": "/productos/bulldozers",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 0
-                    }
-                ]
-            },
-            "order": 2
-        },
-        {
-            "title": "Otros Productos",
-            "href": "#noFoundProductConsultTypeProducts",
-            "pageName": "NoFoundProductConsult",
-            "showInMenu": false,
-            "data":{
-                "href": "/cotizacion",
-                "titleFirstPart": "¿NO ENCUENTRA LA MAQUINARIA ",
-                "highLightTitleFirstPart": "QUE BUSCA?",
-                "description": "Encontramos cualquier maquinaria que necesite a través de nuestra red de fabricantes internacionales.",
-                "img": "/img/imagenesInicio/imagenEncontrarProductos.jpg",
-                "iconArrowDown": "fa fa-solid fa-angles-down",
-                "iconArrowRight": "fa fa-solid fa-angle-right",
-                "titleSecondPart": "SOLO NECESITAMOS ESTA INFORMACIÓN",
-                "infoRequire": [
-                    {"title": "MARCA", "description": "Indiquenos la marca de la maquinaria", "icon": "fa fa-solid fa-tractor"},
-                    {"title": "MODELO", "description": "Indiquenos el modelo que necesita", "icon": "fa fa-solid fa-gears"},
-                    {"title": "AÑO", "description": "Indiquenos el año aproximado", "icon": "fa fa-regular fa-calendar-days"},
-                    {"title": "PRESUPUESTO", "description": "Indiquenos su rango de presupuesto", "icon": "fa fa-solid fa-money-bill-wave"}
-                ],
-                "typeAnimationComponent": "fade",
-                "pixelsAnimationComponent": 0,
-                "durationAnimationComponent": 1200,
-                "delayAnimationComponent": 0
-            },
-            "order": 10
-        }
-    ],
-    "pagesDetailTypeProducts": [
-        {
-            "title": "Filtro de Productos",
-            "href": "#filterProducts",
-            "pageName": "FilterProducts",
-            "showInMenu": false,
-            "data":{
-                "isMainH1": true,
-                "isAfterHeader": true,
-                "buttonMoreDetails": "Ver Detalles",
-                "numProductsPagination": 10,
-                "iconArrowsPaginationRight": "fa fa-solid fa-angle-right",
-                "iconArrowsPaginationLeft": "fa fa-solid fa-angle-left",
-                "titleFilters": "Filtrar por:",
-                "labelNumProductsFiltered": "Resultados",
-                "textEraseFilters": "Borrar todo",
-                "noItemsFilter": "No se encontró ningún producto que cumpla los filtros seleccionados.",
-                "backButtonMobile": "Regresar",
-                "iconMobileFilter": "fa fa-solid fa-grip-lines",
-                "iconCloseModal": "fa fa-solid fa-xmark",
+                "subTitle": "Conoce la Habitación",
+                "infoFromJsons": true,
                 "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 80,
                 "durationAnimationHeader": 1000,
@@ -1480,128 +1323,219 @@
             "order": 2
         },
         {
-            "title": "Otros Productos",
-            "href": "#noFoundProductConsultTypeProducts",
-            "pageName": "NoFoundProductConsult",
+            "title": "Lista Features",
+            "href": "#listFeatures",
+            "pageName": "ListFeatures",
             "showInMenu": false,
             "data":{
-                "href": "/cotizacion",
-                "titleFirstPart": "¿NO ENCUENTRA LA MAQUINARIA ",
-                "highLightTitleFirstPart": "QUE BUSCA?",
-                "description": "Encontramos cualquier maquinaria que necesite a través de nuestra red de fabricantes internacionales.",
-                "img": "/img/imagenesInicio/imagenEncontrarProductos.jpg",
-                "iconArrowDown": "fa fa-solid fa-angles-down",
-                "iconArrowRight": "fa fa-solid fa-angle-right",
-                "titleSecondPart": "SOLO NECESITAMOS ESTA INFORMACIÓN",
-                "infoRequire": [
-                    {"title": "MARCA", "description": "Indiquenos la marca de la maquinaria", "icon": "fa fa-solid fa-tractor"},
-                    {"title": "MODELO", "description": "Indiquenos el modelo que necesita", "icon": "fa fa-solid fa-gears"},
-                    {"title": "AÑO", "description": "Indiquenos el año aproximado", "icon": "fa fa-regular fa-calendar-days"},
-                    {"title": "PRESUPUESTO", "description": "Indiquenos su rango de presupuesto", "icon": "fa fa-solid fa-money-bill-wave"}
-                ],
-                "typeAnimationComponent": "fade",
-                "pixelsAnimationComponent": 0,
-                "durationAnimationComponent": 1000,
-                "delayAnimationComponent": 0
+                "isAfterHeader": false,
+                "title": "Características y Amenidades",
+                "infoFromJsons": true,
+
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "typeAnimationItems": "fade",
+                "pixelsAnimationItems": 0,
+                "durationAnimationItems": 1000,
+                "delayAnimationItems": 0,
+
+                "numBeforeSeeMore": 5,
+                "backgroundColor": "#FFF8ED",
+                "buttonText":"Ver Más",
+                "buttonIconDown": "fa fa-solid fa-caret-down",
+                "buttonIconUp": "fa fa-solid fa-caret-up"
             },
-            "order": 10
-        }
-    ],
-    "pagesDetailProduct": [
-        {
-            "title": "Detalle del Producto",
-            "href": "#productInfo",
-            "pageName": "ProductInfo",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "labelPrincipalSpecs": "Especificaciones Principales",
-                "buttonSearchPrice": "Consultar Precio",
-                "hrefButton": "/cotizacion",
-                "labelGeneralDescription": "Descripción General",
-                "labelBenefits": "Conoce los Beneficios",
-                "labelDetailsProduct": "Especificaciones para el producto ",
-
-                "labelMaximumBrutePower": "Potencia Bruta Máxima",
-                "labelWeightOnWork": "Peso en Orden de Trabajo",
-                "labelPayload": "Carga Útil",
-                "labelNetPower": "Potencia Neta",
-                "labelMotorModel": "Modelo del Motor",
-                "labelCountryProcedence": "País de Procedencia",
-                "labelBucketCapacities": "Capacidades de Cucharón",
-                "labelConveyorTurn": "Giro de Cinta Transportadora",
-                "labelPowerTrain": "Tren Motriz",
-                "labelLoaderCapacity": "Capacidad de Carga",
-                "labelBackhoeBucketCapacity": "Capacidad del Cucharón de la Retroexcavadora",
-                "labelMoldboardWidth": "Ancho de la Vertedera",
-                "labelVibrationFrequency": "Frecuencia de Vibración",
-                "labelFuelTankCapacity": "Capacidad del tanque de combustible",
-                "labelHydraulicSystemFlow": "Caudal del sistema hidráulico",
-                "labelMaxDiggingDepth": "Profundidad máxima de excavación",
-                "labelMaxDiggingReach": "Alcance máximo de excavación",
-                "labelMaxDumpHeight": "Altura máxima de descarga",
-                "labelTearOutForce": "Fuerza de arranque",
-                "labelBreakoutForce": "Fuerza de desprendimiento",
-                "labelTippingLoad": "Carga de vuelco",
-                "labelTravelSpeed": "Velocidad de desplazamiento",
-                "labelGroundPressure": "Presión sobre el suelo",
-                "labelTurningRadius": "Radio de giro",
-                "labelDrawbarPull": "Fuerza de tracción en barra de tiro",
-                "labelBladeCapacity": "Capacidad de la cuchilla",
-                "labelDrumWidth": "Ancho del tambor",
-                "labelStaticLinearLoad": "Carga lineal Estática",
-                "labelAmplitude": "Amplitud",
-                "labelEmissionStandard": "Norma de emisiones",
-                "labelTransmissionType": "Tipo de transmisión",
-
-                "typeAnimationImg": "zoom",
-                "durationAnimationImg": 1000,
-                "pixelsAnimationImg": 0,
-                "delayAnimationImg": 0,
-
-                "typeAnimationImgInfo": "right",
-                "durationAnimationImgInfo": 1000,
-                "pixelsAnimationImgInfo": 80,
-                "delayAnimationImgInfo": 0,
-                
-                "typeAnimationBenefits": "zoom",
-                "durationAnimationBenefits": 1000,
-                "pixelsAnimationBenefits": 0,
-                "delayEachAnimationBenefit": 200,
-
-                "typeAnimationDetails": "fade",
-                "durationAnimationDetails": 1500,
-                "pixelsAnimationDetails": 0,
-                "delayAnimationDetails": 0
-            },
-            "order": 2
+            "order": 3
         },
         {
-            "title": "Otros Productos",
-            "href": "#noFoundProductConsultTypeProducts",
-            "pageName": "NoFoundProductConsult",
+            "title": "Lista Features",
+            "href": "#listFeatures",
+            "pageName": "ListFeatures",
             "showInMenu": false,
             "data":{
-                "href": "/cotizacion",
-                "titleFirstPart": "¿NO ENCUENTRA LA MAQUINARIA ",
-                "highLightTitleFirstPart": "QUE BUSCA?",
-                "description": "Encontramos cualquier maquinaria que necesite a través de nuestra red de fabricantes internacionales.",
-                "img": "/img/imagenesInicio/imagenEncontrarProductos.jpg",
-                "iconArrowDown": "fa fa-solid fa-angles-down",
-                "iconArrowRight": "fa fa-solid fa-angle-right",
-                "titleSecondPart": "SOLO NECESITAMOS ESTA INFORMACIÓN",
-                "infoRequire": [
-                    {"title": "MARCA", "description": "Indiquenos la marca de la maquinaria", "icon": "fa fa-solid fa-tractor"},
-                    {"title": "MODELO", "description": "Indiquenos el modelo que necesita", "icon": "fa fa-solid fa-gears"},
-                    {"title": "AÑO", "description": "Indiquenos el año aproximado", "icon": "fa fa-regular fa-calendar-days"},
-                    {"title": "PRESUPUESTO", "description": "Indiquenos su rango de presupuesto", "icon": "fa fa-solid fa-money-bill-wave"}
+                "isAfterHeader": false,
+                "title": "Con acceso a Nuestras Instalaciones",
+                "infoFromJsons": false,
+
+                "features": [
+                    {"text": "Cancha de Voley", "icon": "fa fa-solid fa-volleyball"},
+                    {"text": "Cancha de Fútbol", "icon": "fa fa-solid fa-futbol"},
+                    {"text": "Juegos para niños", "icon": "fa fa-solid fa-child"},
+                    {"text": "Restaurante", "icon": "fa fa-solid fa-utensils"}
                 ],
-                "typeAnimationComponent": "fade",
-                "pixelsAnimationComponent": 0,
-                "durationAnimationComponent": 1000,
-                "delayAnimationComponent": 0
+
+                "extraIcons": [
+                    {"label": "Check-In: ", "text": "15:00 hrs", "icon": "fa fa-regular fa-calendar-plus"},
+                    {"label": "Check-Out: ", "text": "13:00 hrs", "icon": "fa fa-regular fa-calendar-minus"}
+                ],
+
+                "buttonContact": {
+                    "type": "primary",
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929909146",
+                    "text": "¡Reserva Ahora! ",
+                    "icon": "fa fa-brands fa-whatsapp",
+                    "defaultMessage":"Hola, me encuentro interesado en reservar una "
+                },
+
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "typeAnimationItems": "fade",
+                "pixelsAnimationItems": 0,
+                "durationAnimationItems": 1000,
+                "delayAnimationItems": 0,
+
+                "typeAnimationExtraIcons": "fade",
+                "pixelsAnimationExtraIcons": 0,
+                "durationAnimationExtraIcons": 1000,
+                "delayAnimationExtraIcons": 0,
+
+                "typeAnimationButtonContact": "up",
+                "pixelsAnimationButtonContact": 80,
+                "durationAnimationButtonContact": 1000,
+                "delayAnimationButtonContact": 0,
+
+                "numBeforeSeeMore": 6
             },
-            "order": 10
+            "order": 4
+        },
+        {
+            "title": "Banner con Mensaje",
+            "href": "#bannerWithMessage",
+            "pageName": "BannerWithMessage",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "title": "Añade a tu reserva el Servicio de Traslado",
+                "description": "Disfruta de una experiencia completa y consulta las opciones de traslado con una tarifa especial",
+
+                "buttonContact": {
+                    "type": "primary",
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929909146",
+                    "text": "Cotiza",
+                    "icon": "fa fa-brands fa-whatsapp",
+                    "defaultMessage":"Hola, me encuentro interesado en realizar una cotización de servicio de traslado."
+                },
+                "backgroundColor": "#FFF8ED",
+
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "typeAnimationButtonContact": "right",
+                "pixelsAnimationButtonContact": 80,
+                "durationAnimationButtonContact": 1000,
+                "delayAnimationButtonContact": 0
+            },
+            "order": 5
+        },
+        {
+            "title": "Habitaciones",
+            "href": "#carrouselRoomsInicio",
+            "pageName": "CarrouselRooms",
+            "showInMenu": false,
+            "data":{
+                "nameId": "#ourTravelsInicio",
+                "title": "NUESTRAS SUITES?",
+                "subTitle": "¿Interesado en otra de ",
+                "priceDescription": "Desde:",
+                "delayAutoPlay": 4000,
+                "loop": true,
+                "autoplay": true,
+                "isDoneText": "Ya realizado",
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": "",
+                "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
+                "rooms": [
+                    {
+                        "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
+                        "altImg": "Habitación Simple Hotel Rancho Roma",
+                        "title": "Suite Simple",
+                        "slug": "suite-simple",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 1,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
+                        "altImg": "Habitación Matrimonial Hotel Rancho Roma",
+                        "title": "Suite Matrimonial",
+                        "slug": "suite-matrimonial",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 2,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
+                        "altImg": "Habitación Doble Hotel Rancho Roma",
+                        "title": "Suite Doble",
+                        "slug": "suite-doble",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 3,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    },
+                    {
+                        "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
+                        "altImg": "Suite Triple Hotel Rancho Roma",
+                        "title": "Suite Triple",
+                        "slug": "suite-triple",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "1 Cama King Size"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Aire acondicionado"
+                            }
+                        ],
+                        "idTypeRoom": 4,
+                        "href": "/habitaciones",
+                        "buttonText": "Más Información"
+                    }
+                ]
+            },
+            "order": 7
         }
     ],
     "pagesConsultPrice": [
@@ -1660,386 +1594,6 @@
                 "messageSuccess": "✅ ¡Listo! Apenas podamos nos pondremos en contacto contigo.",
                 "messageErrorSend": "❌ Hubo un error al registrar tu información, inténtalo más tarde.",
                 "buttonSendForm": "Enviar Información"
-            },
-            "order": 2
-        }
-    ],
-    "pagesCalendar": [
-        {
-            "title": "Reserva de Cita",
-            "href": "#googleCalendar",
-            "pageName": "GoogleCalendar",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "title": "Agenda una cita con nosotros",
-                "isMainH1": true,
-                "titleIframe": "Empresa calendario de citas",
-                "subTitle": "Nos acomodamos a tus horarios",
-                "srcCalendar": "https://calendar.app.google/px5BbSg9nNBwy4qH6",
-                "colorLoading": "#205D96",
-                "typeLoading" : "dot"
-            },
-            "order": 2
-        }
-    ],
-    "pagesAgenciamientoAduana":[
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "AGENCIAMIENTO DE ADUANA",
-                "highLightTitle": "",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "Simplificamos todos los trámites aduaneros para que tus importaciones y exportaciones cumplan con la normativa vigente, evitando retrasos, observaciones y costos innecesarios.",
-                "buttons": [
-                    
-                ],
-                "img": "/img/imagenesServicios/agenciamientoAduana/portada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Agenciamiento de Aduana",
-            "href": "#imgWithDropdowns",
-            "pageName": "ImgWithDropdowns",
-            "showInMenu": false,
-            "data": {
-                "title": "AGENCIAMIENTO DE ADUANA",
-                "description": "Brindamos un servicio integral de gestión aduanera para operaciones de importación, exportación y transporte de mercancías. Nuestro equipo se encarga de agilizar cada trámite y garantizar el cumplimiento de la normativa vigente durante todo el proceso.",
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-
-                "durationAnimationDropdowns": 1000,
-                "delayEachAnimationDropdown": 0,
-                "infoDropdown": [
-                    {
-                        "title": "Consultoría y Asesoría Aduanera",
-                        "text": "Ofrecemos asesoría especializada sobre los requisitos y disposiciones aduaneras aplicables a cada operación. Guiamos a nuestros clientes en el cumplimiento de la normativa vigente y en la obtención de permisos, autorizaciones y licencias para mercancías restringidas.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Gestión de Despacho Aduanero",
-                        "text": "Realizamos todos los procedimientos necesarios para el despacho de mercancías ante la autoridad aduanera. Esto comprende la elaboración de la Declaración Aduanera de Mercancías (DAM), la clasificación arancelaria, el cálculo de tributos y la coordinación para obtener el levante de la carga.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Administración de Documentación",
-                        "text": "Nos encargamos de reunir, revisar y gestionar toda la documentación requerida para el proceso aduanero, incluyendo facturas comerciales, documentos de transporte, certificados de origen, pólizas de seguro y demás documentos necesarios.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Coordinación del Proceso Logístico",
-                        "text": "Coordinamos con transportistas y agentes de carga cada etapa del traslado de la mercancía, desde el punto de origen hasta su destino final, asegurando el cumplimiento de los requisitos aduaneros durante todo el recorrido.",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Regímenes Aduaneros Especiales",
-                        "text": "Brindamos asesoramiento y gestionamos los procedimientos necesarios para acceder a regímenes aduaneros especiales, como importación temporal, zonas francas, depósitos aduaneros y otros beneficios establecidos por la legislación.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Solución de Incidencias Aduaneras",
-                        "text": "Apoyamos a nuestros clientes en la resolución de inconvenientes que puedan presentarse durante el despacho de mercancías, como inspecciones, observaciones en la clasificación arancelaria, controles sanitarios o cualquier otra incidencia aduanera.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "title": "Actualización Normativa",
-                        "text": "Mantenemos informados a nuestros clientes sobre las modificaciones y novedades en la legislación aduanera, permitiéndoles adaptar sus operaciones comerciales y cumplir oportunamente con los nuevos requisitos.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    }
-                ],
-                "durationAnimationInfoChecks": 1000,
-                "delayEachAnimationInfoCheck": 0,
-                "infoChecks": [],
-                
-                "typeAnimationImg": "right",
-                "pixelsAnimationImg": 80,
-                "durationAnimationImg": 1000,
-                "delayAnimationImg": 0,
-                "img": "/img/imagenesServicios/agenciamientoAduana/imagenInfo.jpg",
-
-                "typeAnimationButton": "up",
-                "pixelsAnimationButton": 80,
-                "durationAnimationButton": 1000,
-                "delayAnimationButton": 0,
-                "buttonContact": {
-                    "text": "COTIZA TU SERVICIO",
-                    "type": "primary",
-                    "linkType": "",
-                    "href": "/cotizacion"
-                }
-            },
-            "order": 3
-        }
-    ],
-    "pagesAgenciamientoCarga":[
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "AGENCIAMIENTO DE CARGA",
-                "highLightTitle": "",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "Coordinamos el transporte internacional de tu mercancía desde el origen hasta su destino, gestionando cada etapa del proceso logístico con eficiencia, seguridad y el respaldo de una red global de agentes.",
-                "buttons": [
-                    
-                ],
-                
-                "img": "/img/imagenesServicios/agenciamientoCarga/portada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Agenciamiento de Carga",
-            "href": "#imgWithDropdowns",
-            "pageName": "ImgWithDropdowns",
-            "showInMenu": false,
-            "data": {
-                "title": "AGENCIAMIENTO DE CARGA",
-                "description": "Ofrecemos soluciones integrales para el transporte internacional de mercancías, coordinando cada etapa del proceso logístico para garantizar un traslado seguro, eficiente y puntual. Gracias a nuestra red de agentes internacionales, brindamos diferentes modalidades de envío adaptadas a las necesidades de cada cliente y tipo de carga.",
-                "infoDropdown": [
-                    {
-                        "title": "Transporte Marítimo FCL (Contenedor Completo)",
-                        "text": "El servicio FCL (Full Container Load) está dirigido a empresas que requieren un contenedor de uso exclusivo para transportar su mercancía. Esta modalidad permite mayor seguridad, control y eficiencia durante el transporte marítimo internacional. Trabajamos con contenedores de 20', 40', High Cube, Open Top, Flat Rack y otros formatos especiales, respaldados por una amplia red de agentes internacionales que nos permite optimizar tiempos de tránsito y operaciones logísticas."
-                    },
-                    {
-                        "title": "Transporte Marítimo LCL (Carga Consolidada)",
-                        "text": "La modalidad LCL (Less Than Container Load) es ideal para envíos que no requieren un contenedor completo. La mercancía se consolida junto con la de otros clientes, permitiendo aprovechar el espacio disponible y reducir costos de transporte. Esta alternativa ofrece una solución flexible y eficiente para cargas de menor volumen sin comprometer la seguridad del envío."
-                    },
-                    {
-                        "title": "Transporte Aéreo Internacional",
-                        "text": "El transporte aéreo es la mejor alternativa cuando se requiere rapidez y seguridad en la entrega de mercancías. Gracias a nuestra red de agentes a nivel mundial, ofrecemos tiempos de tránsito reducidos y una gestión eficiente de los embarques. También contamos con servicio de carga consolidada para mercancía general, permitiendo transportar únicamente el volumen necesario. Las cargas IMO, refrigeradas o líquidas requieren un manejo especializado y se gestionan mediante procesos diferenciados para garantizar su correcto transporte."
-                    }
-                ],
-                "infoChecks": [],
-                "img": "/img/imagenesServicios/agenciamientoCarga/imagenInfo.jpg",
-                "buttonContact": {
-                    "text": "COTIZA TU SERVICIO",
-                    "type": "primary",
-                    "linkType": "",
-                    "href": "/cotizacion"
-                }
-            },
-            "order": 3
-        }
-    ],
-    "pagesDesaduanaje":[
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "DESADUANAJE",
-                "highLightTitle": "",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "Agilizamos el proceso de nacionalización de tu mercancía, gestionando la documentación y coordinación necesaria para liberar tu carga en el menor tiempo posible.",
-                "buttons": [
-                    
-                ],
-                
-                "img": "/img/imagenesServicios/desaduanaje/portada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Desaduanaje",
-            "href": "#imgWithDropdowns",
-            "pageName": "ImgWithDropdowns",
-            "showInMenu": false,
-            "data": {
-                "title": "DESADUANAJE",
-                "description": "Gestionamos de manera integral el proceso de desaduanaje de sus mercancías, coordinando las diferentes etapas necesarias para lograr una liberación eficiente y oportuna de la carga. Nuestro equipo acompaña el proceso desde la llegada de la mercancía al país hasta su retiro y entrega, coordinando con los distintos operadores y autoridades involucradas para facilitar el cumplimiento de los requisitos correspondientes.",
-                "infoDropdown": [
-                    {
-                        "title": "Recepción y revisión de documentos",
-                        "text": "Revisamos la documentación necesaria para iniciar correctamente el proceso de desaduanaje, verificando que la información de la carga y los documentos comerciales y de transporte se encuentren en orden. Esto permite identificar oportunamente posibles observaciones y evitar retrasos innecesarios durante el proceso."
-                    },
-                    {
-                        "title": "Liberación y Retiro de Mercancías",
-                        "text": "Una vez cumplidos los requisitos y obtenida la autorización correspondiente, coordinamos la liberación y retiro de la carga desde el puerto, aeropuerto o depósito temporal. Realizamos el seguimiento de cada etapa para contribuir a que la mercancía continúe su recorrido de manera eficiente."
-                    },
-                    {
-                        "title": "Coordinación de Entrega Final",
-                        "text": "Coordinamos el transporte de la mercancía una vez finalizado el proceso de desaduanaje, gestionando su traslado desde el punto de retiro hasta el destino indicado por el cliente. De esta manera, buscamos brindar una solución logística integral que facilite la recepción de sus productos."
-                    },
-                    {
-                        "title": "Seguimiento Integral del Proceso",
-                        "text": "Realizamos un seguimiento continuo del proceso de desaduanaje, manteniendo comunicación con los diferentes participantes involucrados y proporcionando información sobre el estado de la operación. Nuestro acompañamiento permite detectar posibles incidencias y actuar oportunamente para evitar demoras en la liberación de la carga."
-                    }
-                ],
-                "infoChecks": [],
-                "img": "/img/imagenesServicios/agenciamientoAduana/imagenInfo.jpg",
-                "buttonContact": {
-                    "text": "COTIZA TU SERVICIO",
-                    "type": "primary",
-                    "linkType": "",
-                    "href": "/cotizacion"
-                }
-            },
-            "order": 3
-        }
-    ],
-    "pagesSeguroInternacional":[
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "SEGURO INTERNACIONAL",
-                "highLightTitle": "",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "Protege tu mercancía durante todo el transporte internacional con coberturas diseñadas para minimizar riesgos y brindarte tranquilidad en cada envío.",
-                "buttons": [
-                    
-                ],
-                "img": "/img/imagenesServicios/seguroInternacional/portada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Seguro Internacional",
-            "href": "#imgWithDropdowns",
-            "pageName": "ImgWithDropdowns",
-            "showInMenu": false,
-            "data":{
-                "title": "Seguro Internacional",
-                "description": "La finalidad de contratar un seguro de carga internacional, es contar con una cobertura para las mercancías contra diferentes riegos que puedan originarse durante el transporte internacional, desde que la mercadería sale de origen (almacén del proveedor) hasta su llegada al puerto o destino final (almacén del cliente) dependiendo de la cobertura del seguro contratado, asimismo también pueden asegurar los contenedores, esto solo aplica para carga FCL, a continuación, detallamos los principales riesgos cubiertos:",
-                "infoDropdown": [
-                    
-                ],
-                "durationAnimationInfoChecks": 1000,
-                "delayEachAnimationInfoCheck": 0,
-                "infoChecks": [
-                    {
-                        "icon": "fa fa-solid fa-circle-check",
-                        "text": "Pérdida total o parcial de la mercancía.",
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "icon": "fa fa-solid fa-circle-check",
-                        "text": "Accidente de vuelo al aterrizar o despegar.",
-                        "typeAnimation": "right",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "icon": "fa fa-solid fa-circle-check",
-                        "text": "Robo o asalto a mano armada, tanto de la carga como del equipo (contenedor).",
-                        "typeAnimation": "zoom",
-                        "pixelsAnimation": 80
-                    }
-                ],
-                "img": "/img/imagenesServicios/seguroInternacional/imagenInfo.jpg",
-                "buttonContact": {
-                    "text": "COTIZA TU SERVICIO",
-                    "type": "primary",
-                    "linkType": "",
-                    "href": "/cotizacion"
-                }
-            },
-            "order": 3
-        }
-    ],
-    "pagesTransporteLocal":[
-        {
-            "title": "Portada",
-            "href": "#portadaInicio",
-            "pageName": "ImgWithMessage",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": true,
-                "coverScreen": true,
-                "title": "TRANSPORTE LOCAL",
-                "highLightTitle": "",
-                "subTitle": "",
-                "highLightSubTitle": "",
-                "description": "Trasladamos tu carga desde el puerto, almacén o centro de distribución hasta su destino final de forma segura, puntual y con seguimiento durante todo el recorrido.",
-                "buttons": [
-                    
-                ],
-                "img": "/img/imagenesServicios/transporteLocal/portada.jpg"
-            },
-            "order": 2
-        },
-        {
-            "title": "Informacion Transporte Local",
-            "href": "#imgWithDropdowns",
-            "pageName": "ImgWithDropdowns",
-            "showInMenu": false,
-            "data": {
-                "title": "TRANSPORTE LOCAL",
-                "description": "Brindamos soluciones de transporte terrestre para el traslado seguro y eficiente de mercancías dentro del territorio nacional. Coordinamos el recojo y distribución de la carga desde puertos, almacenes o depósitos hasta el destino indicado por nuestros clientes, adaptándonos a las características y necesidades de cada operación logística.",
-                "infoDropdown": [
-                    {
-                        "title": "Recojo de Mercancías",
-                        "text": "Coordinamos el recojo de la mercancía desde puertos, terminales, almacenes o depósitos, planificando cada operación de acuerdo con los requerimientos de la carga y del cliente para garantizar un traslado ordenado y eficiente."
-                    },
-                    {
-                        "title": "Transporte y Distribución",
-                        "text": "Realizamos el traslado terrestre de mercancías hacia diferentes puntos del territorio nacional, coordinando las rutas y unidades necesarias para facilitar una distribución segura y oportuna hasta el destino establecido."
-                    },
-                    {
-                        "title": "Transporte de Carga Especial",
-                        "text": "Coordinamos el transporte de mercancías que requieren condiciones particulares de traslado, considerando las dimensiones, características y necesidades específicas de cada carga para seleccionar la alternativa logística más adecuada."
-                    },
-                    {
-                        "title": "Entrega en Destino Final",
-                        "text": "Gestionamos la entrega de la mercancía en el lugar indicado por el cliente, realizando el seguimiento de la operación hasta completar satisfactoriamente el traslado y recepción de la carga en su destino final."
-                    }
-                ],
-                "infoChecks": [],
-                "img": "/img/imagenesServicios/transporteLocal/imagenInfo.jpg",
-                "buttonContact": {
-                    "text": "COTIZA TU SERVICIO",
-                    "type": "primary",
-                    "linkType": "",
-                    "href": "/cotizacion"
-                }
-            },
-            "order": 3
-        }
-    ],
-    "pagesDownloadApp":[
-        {
-            "title": "Descargar App",
-            "href": "#buttonApp",
-            "pageName": "ButtonApp",
-            "showInMenu": false,
-            "data":{
-                "title": "DESCARGA LA APP",
-                "isAfterHeader": true,
-                "urlAndroid": "https://play.google.com/store/apps/details?id=com.tencent.mm&hl=es_PE",
-                "urlIphone": "https://apps.apple.com/us/app/wechat/id414478124?l=es-MX",
-                "iconArrowDown": "fa fa-solid fa-arrow-down",
-                "img": "/img/imagenesDescargarApp/wechat.webp"
             },
             "order": 2
         }

@@ -1,7 +1,116 @@
 {
     "rooms": [
         {
-            
+            "idTypeRoom": 1,
+            "active": true,
+            "slug": "suite-simple",
+            "title": "Suite Simple Rancho Roma",
+            "imgs": [
+                {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion2.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion3.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"}
+            ],
+            "basicInfo": [
+                {"text": "20 m2"},
+                {"text": "Hasta 2 adultos y un niño"}
+            ],
+            "features": [
+                {"text": "Aire Acondicionado", "icon": "fa fa-solid fa-wind"},
+                {"text": "Desayuno", "icon": "fa fa-solid fa-mug-saucer"},
+                {"text": "Uso de la Piscina", "icon": "fa fa-solid fa-person-swimming"},
+                {"text": "Karaoke", "icon": "fa fa-solid fa-microphone-lines"},
+                {"text": "Wi-fi Gratuito", "icon": "fa fa-solid fa-wifi"},
+                {"text": "1 Cama Queen", "icon": "fa fa-solid fa-bed"},
+                {"text": "Cochera", "icon": "fa fa-solid fa-car-side"},
+                {"text": "Atención 24 Horas", "icon": "fa fa-regular fa-clock"},
+                {"text": "Ropa de Cama y Toallas", "icon": "fa fa-solid fa-mattress-pillow"},
+                {"text": "Hermosas Vistas", "icon": "fa fa-solid fa-panorama"},
+                {"text": "Televisión", "icon": "fa fa-solid fa-tv"}
+            ]
+        },
+        {
+            "idTypeRoom": 2,
+            "active": true,
+            "slug": "suite-matrimonial",
+            "title": "Suite Matrimonial Rancho Roma",
+            "imgs": [
+                {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion2.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion3.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"}
+            ],
+            "basicInfo": [
+                {"text": "20 m2"},
+                {"text": "Hasta 2 adultos y un niño"}
+            ],
+            "features": [
+                {"text": "Aire Acondicionado", "icon": "fa fa-solid fa-wind"},
+                {"text": "Desayuno", "icon": "fa fa-solid fa-mug-saucer"},
+                {"text": "Uso de la Piscina", "icon": "fa fa-solid fa-person-swimming"},
+                {"text": "Karaoke", "icon": "fa fa-solid fa-microphone-lines"},
+                {"text": "Wi-fi Gratuito", "icon": "fa fa-solid fa-wifi"},
+                {"text": "1 Cama King", "icon": "fa fa-solid fa-bed"},
+                {"text": "Cochera", "icon": "fa fa-solid fa-car-side"},
+                {"text": "Atención 24 Horas", "icon": "fa fa-regular fa-clock"},
+                {"text": "Ropa de Cama y Toallas", "icon": "fa fa-solid fa-mattress-pillow"},
+                {"text": "Hermosas Vistas", "icon": "fa fa-solid fa-panorama"},
+                {"text": "Televisión", "icon": "fa fa-solid fa-tv"}
+            ]
+        },
+        {
+            "idTypeRoom": 3,
+            "active": true,
+            "slug": "suite-doble",
+            "title": "Suite Doble Rancho Roma",
+            "imgs": [
+                {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion2.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion3.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"}
+            ],
+            "basicInfo": [
+                {"text": "20 m2"},
+                {"text": "Hasta 3 adultos y 2 niños"}
+            ],
+            "features": [
+                {"text": "Aire Acondicionado", "icon": "fa fa-solid fa-wind"},
+                {"text": "Desayuno", "icon": "fa fa-solid fa-mug-saucer"},
+                {"text": "Uso de la Piscina", "icon": "fa fa-solid fa-person-swimming"},
+                {"text": "Karaoke", "icon": "fa fa-solid fa-microphone-lines"},
+                {"text": "Wi-fi Gratuito", "icon": "fa fa-solid fa-wifi"},
+                {"text": "2 Cama King", "icon": "fa fa-solid fa-bed"},
+                {"text": "Cochera", "icon": "fa fa-solid fa-car-side"},
+                {"text": "Atención 24 Horas", "icon": "fa fa-regular fa-clock"},
+                {"text": "Ropa de Cama y Toallas", "icon": "fa fa-solid fa-mattress-pillow"},
+                {"text": "Hermosas Vistas", "icon": "fa fa-solid fa-panorama"},
+                {"text": "Televisión", "icon": "fa fa-solid fa-tv"}
+            ]
+        },
+        {
+            "idTypeRoom": 4,
+            "active": true,
+            "slug": "suite-triple",
+            "title": "Suite Triple Rancho Roma",
+            "imgs": [
+                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion2.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"},
+                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion3.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"}
+            ],
+            "basicInfo": [
+                {"text": "20 m2"},
+                {"text": "Hasta 4 adultos y 3 niños"}
+            ],
+            "features": [
+                {"text": "Aire Acondicionado", "icon": "fa fa-solid fa-wind"},
+                {"text": "Desayuno", "icon": "fa fa-solid fa-mug-saucer"},
+                {"text": "Uso de la Piscina", "icon": "fa fa-solid fa-person-swimming"},
+                {"text": "Karaoke", "icon": "fa fa-solid fa-microphone-lines"},
+                {"text": "Wi-fi Gratuito", "icon": "fa fa-solid fa-wifi"},
+                {"text": "3 Cama King", "icon": "fa fa-solid fa-bed"},
+                {"text": "Cochera", "icon": "fa fa-solid fa-car-side"},
+                {"text": "Atención 24 Horas", "icon": "fa fa-regular fa-clock"},
+                {"text": "Ropa de Cama y Toallas", "icon": "fa fa-solid fa-mattress-pillow"},
+                {"text": "Hermosas Vistas", "icon": "fa fa-solid fa-panorama"},
+                {"text": "Televisión", "icon": "fa fa-solid fa-tv"}
+            ]
         }
     ]
 }
