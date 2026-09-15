@@ -148,7 +148,7 @@
     --mi-font-family: "Averta";
     --mi-font-family-principal: "Averta", sans-serif; /*Normalmente se usará para titulos/subtitulos la fuente principal*/
     --mi-font-family-secondary: "Averta", sans-serif; /*Normalmente se usará para textos la fuente principal*/
-    --mi-font-family-aux: "Golden Hills", cursive;
+    --mi-font-family-aux: "Averta", cursive;
 
     --header-border-color: #000000;
     --header-height: 120px;
@@ -298,14 +298,14 @@
     --filterProducts-item-title-color: #eda701;
     --filterProducts-item-specification-title-color: #727272;
     --filterProducts-item-specification-description-color: #000000;
-    --filterProducts-item-button-background-color-hover: #bf9130;
-    --filterProducts-item-button-background-color: #d6aa4d;
+    --filterProducts-item-button-background-color-hover: #e69200;
+    --filterProducts-item-button-background-color: #f19000;
     --filterProducts-item-button-text-color: #ffffff;
     --filterProducts-mainPart-divider-color: #b4b4b4;
     --filterProducts-filter-checkbox-color: #b4aa1b;
 
-    --formCotization-input-focus-color: #b4aa1b;
-    --formCotization-title-color: #205D96;
+    --formCotization-input-focus-color: #e69200;
+    --formCotization-title-color: #f19000;
     --formCotization-productReference-background-color: #eda701;
     --formCotization-productReference-border-color: #F5C542;
     --formCotization-productReference-text-color: #1a1a1a;
@@ -394,8 +394,8 @@
     --googleCalendar-subTitle-color: #2897D0;
     --googleCalendar-divider-color: #2897D0;
 
-    --frequentQuestions-title-color: #205D96;
-    --frequentQuestions-divider-color: #2897D0;
+    --frequentQuestions-title-color: #f19000;
+    --frequentQuestions-divider-color: #f19000;
     
     --imgWithDropdowns-title-color: #205D96;
     --imgWithDropdowns-check-icon-color: #205D96;
@@ -1923,6 +1923,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: 60px;
     margin-bottom: 60px;
     gap: 45px;
 }
@@ -2755,7 +2756,7 @@ li {
     max-width: 120px;
 }
 .listParrafsWithImg-item-images-img-oneParraf{
-    max-height: 600px;
+    max-height: 500px;
 }
 .listParrafsWithImg-item-text-oneParraf{
     width: 50%;
@@ -5462,6 +5463,7 @@ li {
     align-items: center;
     color: var(--dropdown-icon-color);
     font-size: 26px;
+    min-width: 36px;
     width: 36px;
     height: 36px;
     border-radius: 999px;
@@ -5557,7 +5559,8 @@ li {
 }
 @media (max-width: 500px) {
     .dropdown-head-title{
-        font-size: 22px;
+        font-size: 18px;
+        margin-right: 10px;
     }
     .dropdown-items-text{
         font-size: 15px;
@@ -5645,6 +5648,7 @@ li {
     margin-bottom: 80px;
 }
 .frequentQuestions-header{
+    margin-top: 60px;
     width: 90%;
     text-align: center;
     display: flex;
@@ -6682,6 +6686,7 @@ li {
 # INLINEIMGLINK
 --------------------------------------------------------------*/
 .inlineImgLink{
+    margin-top: 60px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7139,6 +7144,7 @@ li {
 .promoDetaildropdown-head-icon{
     font-size: 16px;
     width: 23px;
+    min-width: 23px;
     height: 23px;
 }
 .promoDetaildropdown-head-title{
@@ -7253,7 +7259,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 30px;
     border-radius: 25px;
     border: 1px solid lightgray;
@@ -7272,6 +7278,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding: 10px;
 }
 .listRooms-items-item-info-title{
     font-size: 24px;
@@ -7378,6 +7385,9 @@ li {
         width: 100%;
         align-items: center;
         justify-content: center;
+    }
+    .listRooms-items-item-info-features{
+        padding-left: 15px;
     }
     .listRooms-items-item-img{
         height: 100%;

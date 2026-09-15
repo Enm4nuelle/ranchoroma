@@ -11,7 +11,7 @@
                 {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion3.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": "20 m2"},
+                {"text": ""},
                 {"text": "Hasta 2 adultos y un niño"}
             ],
             "features": [
@@ -39,7 +39,7 @@
                 {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion3.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": "20 m2"},
+                {"text": ""},
                 {"text": "Hasta 2 adultos y un niño"}
             ],
             "features": [
@@ -67,7 +67,7 @@
                 {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion3.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": "20 m2"},
+                {"text": ""},
                 {"text": "Hasta 3 adultos y 2 niños"}
             ],
             "features": [
@@ -95,7 +95,7 @@
                 {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion3.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": "20 m2"},
+                {"text": ""},
                 {"text": "Hasta 4 adultos y 3 niños"}
             ],
             "features": [

@@ -36,7 +36,12 @@ export const ListRooms = (props) => {
                                         <h3 className="listRooms-items-item-info-title">{room.title}</h3>
                                     }
                                     <div className="listRooms-items-item-info-basicInfo">
-                                        <p className="listRooms-items-item-info-basicInfo-m2">{room.sizeM2}</p>
+                                        {
+                                            room.sizeM2 ?
+                                            <p className="listRooms-items-item-info-basicInfo-m2">{room.sizeM2}</p>
+                                            :
+                                            ""
+                                        }
                                         <p className="listRooms-items-item-info-basicInfo-maxPeople">
                                             {room.maxNumPeople}
                                         </p>

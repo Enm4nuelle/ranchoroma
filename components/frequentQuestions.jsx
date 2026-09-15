@@ -23,8 +23,8 @@ export const FrequentQuestions = (props) => {
                         <ScrollAnimation animation={quest.typeAnimation} pixelsDisplacement={quest.pixelsAnimation} duration={props.data.durationAnimationQuestions} delay={delayAnimationItems[index]} key={index}>
                             <Dropdown
                                 title={quest.question}
-                                data = {[quest.answer]}
-                                oneItem = {true}
+                                data = {quest.moreThanOneAnswer ? quest.answer : [quest.answer]}
+                                oneItem = {quest.moreThanOneAnswer ? false : true}
                             />
                         </ScrollAnimation>
                     ))

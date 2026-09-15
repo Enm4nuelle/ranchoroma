@@ -1,5 +1,3 @@
-"use client";
-
 import JsonData from "../data/data.json";
 import ImgWithMessage from "@/components/imgWithMessage";
 import Carrousel from "@/components/carrousel";
@@ -27,6 +25,7 @@ import CollageImgs from "@/components/collageImgs";
 import CarrouselRooms from "@/components/carrouselRooms";
 import InlineImgLink from "@/components/inlineImgLink";
 import ScrollToHashOnLoad from "@/components/scrollToHashOnLoad";
+import ListRooms from "@/components/listRooms";
 
 export default function Home() {
 	const pages = [];
@@ -81,6 +80,8 @@ export default function Home() {
             pages.push({e: <CarrouselRooms data={page.data} key={page.order + page.pageName}/>, order: page.order});
         }else if (page.pageName === "InlineImgLink"){
             pages.push({e: <InlineImgLink data={page.data} key={page.order + page.pageName}/>, order: page.order});
+        }else if (page.pageName === "ListRooms"){
+            pages.push({e: <ListRooms data={page.data} key={page.order + page.pageName}/>, order: page.order});
         }
     }
     pages.sort((a, b) => a.order - b.order);

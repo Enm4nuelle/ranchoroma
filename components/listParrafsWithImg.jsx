@@ -46,16 +46,21 @@ export const ListParrafsWithImg = (props) => {
                                     >
                                         {item.article}
                                     </div>
-                                    <Link
-                                        href={item.buttonMoreInformation.href}
-                                        className={
-                                            "listParrafsWithImg-item-text-button " +
-                                            (item.buttonMoreInformation.type === "primary" ? "buttonPrimary" : "buttonSecondary")
-                                        }
-                                        
-                                    >
-                                        {item.buttonMoreInformation.text}
-                                    </Link>
+                                    {
+                                        item.buttonMoreInformation ?
+                                        <Link
+                                            href={item.buttonMoreInformation.href}
+                                            className={
+                                                "listParrafsWithImg-item-text-button " +
+                                                (item.buttonMoreInformation.type === "primary" ? "buttonPrimary" : "buttonSecondary")
+                                            }
+                                            
+                                        >
+                                            {item.buttonMoreInformation.text}
+                                        </Link>
+                                        :
+                                        ""
+                                    }
                                 </div>
                                 
                                 <div 

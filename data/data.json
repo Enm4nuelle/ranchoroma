@@ -32,7 +32,7 @@
                         "sublinks": ""
                     },
                     {
-                        "text": "Promociones",
+                        "text": "Paquetes",
                         "href": "/promociones",
                         "sublinks": ""
                     },
@@ -42,29 +42,14 @@
                         "sublinks": ""
                     },
                     {
-                        "text": "Eventos",
-                        "href": "/cotizacion",
-                        "sublinks": ""
-                    },
-                    {
                         "text": "Restaurante",
                         "href": "https://trackingwebsac.andessystems.com/e7vEMQr+IAMZbiM=/login",
                         "sublinks": "",
                         "anotherPage": true
                     },
                     {
-                        "text": "Experiencia",
-                        "href": "/calendar",
-                        "sublinks": ""
-                    },
-                    {
                         "text": "Instalaciones",
-                        "href": "/aspem-la-revista",
-                        "sublinks": ""
-                    },
-                    {
-                        "text": "Contacto",
-                        "href": "/cotizacion",
+                        "href": "/instalaciones",
                         "sublinks": ""
                     }
                 ],
@@ -410,15 +395,13 @@
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
-                "nameId": "#ourTravelsItinerary",
+                "nameId": "#promocionesInicio",
                 "subTitle": "Conoce",
-                "title": "NUESTRAS PROMOCIONES",
+                "title": "NUESTROS PAQUETES",
                 "priceDescription": "Desde:",
                 "loop": true,
                 "autoplay": false,
                 "isDoneText": "",
-                "textNoSelect": "Escoge un itinerario para ver la aventura.",
-                "nameIdItinerary": "#itinerarysDetail",
                 "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 60,
                 "durationAnimationHeader": 1000,
@@ -426,54 +409,41 @@
                 "travels": [
                     {
                         "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
-                        "titlePart1": "Una Noche",
-                        "titlePart2": "Especial",
-                        "duration": "1 Noche Inolvidable",
-                        "price": "",
-                        "lowText": "Para disfrutar en pareja",
+                        "titlePart1": "3 días",
+                        "titlePart2": "2 noches",
+                        "duration": "Fin de semana perfecto",
+                        "price": "S/. 140",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "noche-especial",
+                        "slug": "3dias-2noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
-                        "titlePart1": "Escoge tu",
-                        "titlePart2": "Plato Favorito",
-                        "duration": "Con un precio Especial",
-                        "price": "",
-                        "lowText": "Para deleitar el paladar",
+                        "titlePart1": "4 días",
+                        "titlePart2": "3 noches",
+                        "duration": "Descanso Perfecto",
+                        "price": "S/. 210",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "plato-favorito",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
-                        "titlePart1": "Modo",
-                        "titlePart2": "Descanso",
-                        "duration": "Sin interrupciones ",
-                        "price": "",
-                        "lowText": "Como en ningún otro lugar",
-                        "buttonText": "Ver Más",
-                        "idPromo": 1,
-                        "href": "/promociones",
-                        "slug": "modo-descanso",
+                        "slug": "4dias-3noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
-                        "titlePart1": "Super Promo",
+                        "titlePart1": "Celebración Especial",
                         "titlePart2": "",
-                        "duration": "4 días + 3 noches",
+                        "duration": "Recuerdos inolvidables",
                         "price": "S/. 210",
                         "lowText": "Para tus vacaciones soñadas",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "super-promo",
+                        "slug": "celebracion-especial",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     }
                 ]
@@ -481,30 +451,61 @@
             "order": 5
         },
         {
-            "title": "Video Institucional Inicio",
-            "href": "#videoImgsTextInicio",
-            "pageName": "VideoImgsText",
+            "title": "Nuestra Información",
+            "href": "#listRooms",
+            "pageName": "ListRooms",
             "showInMenu": false,
             "data":{
-                "title": "EXPERIENCIAS ",
-                "titleHighLight": "INOLVIDABLES",
-                "description": "Nuestros visitantes se van llenos de recuerdos placenteros.",
-                "hasBackground": true,
-                "typeAnimationHeader": "right",
+                "isAfterHeader": false,
+                "title": "AUDITORIO",
+                "description": "Alquila nuestro auditorio para tus eventos especiales. Por separado, puedes añadir nuestros servicios de coffee break, desayunos, almuerzos o cenas.",
+                "typeAnimationHeader": "down",
                 "pixelsAnimationHeader": 80,
                 "durationAnimationHeader": 1000,
                 "delayAnimationHeader": 0,
-                "typeAnimationButton": "up",
-                "pixelsAnimationButton": 80,
-                "durationAnimationButton": 1000,
-                "delayAnimationButton": 0,
-                "onlyVideo": true,
-                "videoUrl": "https://www.youtube.com/embed/Tl3ZMVKAzA4",
-                "buttonInfo": {
-                    "text": "Conoce Más",
-                    "type": "primary",
-                    "href": "/experiencias"
-                }
+                "typeAnimationItems": ["left"],
+                "pixelsAnimationItems": 120,
+                "durationAnimationItems": 1000,
+                "delayAnimationItems": 0,
+                "buttonBook": {
+                    "hrefDestiny": "whatsapp",
+                    "number": "+51929909146",
+                    "messageFirstPart": "Hola, quiero reservar el ",
+                    "text": "Reserva Ahora"
+                },
+                "buttonMoreInfoText": "",
+                "rooms": [
+                    {
+                        "img": "/img/imagenesInicio/auditorio.jpg",
+                        "altImg": "Auditorio Rancho Roma",
+                        "title": "Auditorio Rancho Roma",
+                        "sizeM2": "54m2",
+                        "maxNumPeople": "",
+                        "href": "/habitaciones/suite-simple",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-bed",
+                                "text": "Proyector"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-wind",
+                                "text": "Ecram"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-lock",
+                                "text": "2 micrófonos inalámbricos"
+                            },
+                            {
+                                "icon": "fa fa-solid fa-couch",
+                                "text": "Mesas"
+                            },
+                            {
+                                "icon": "fa fa-regular fa-circle-xmark",
+                                "text": "No incluye: Coffee Break, Desayunos, Almuerzos, Cenas."
+                            }
+                        ]
+                    }
+                ]
             },
             "order": 6
         },
@@ -520,90 +521,6 @@
                 "href": "/restaurante"
             },
             "order": 7
-        },
-        {
-            "title": "Testimonios",
-            "href": "#carrouselTestimoniesInicio",
-            "pageName": "CarrouselTestimonies",
-            "showInMenu": false,
-            "data":{
-                "nameId": "#carrouselTestimoniesInicio",
-                "title": "TESTIMONIOS QUE NOS RESPALDAN",
-                "subTitle": "CLIENTES SATISFECHOS",
-                "iconQuotationMarks": "fa fa-solid fa-quote-left",
-                "iconStarComplete": "fa fa-solid fa-star",
-                "iconStarHalf": "fa fa-solid fa-star-half-stroke",
-                "iconStarEmpty": "fa fa-regular fa-star",
-                "iconLocation": "fa fa-solid fa-location-dot",
-                "buttonAtSides": true,
-                "alignStart": "center",
-                "delayAutoPlay": 4000,
-                "loop": true,
-                "autoplay": true,
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": "",
-                "testimonies": [
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje1.jpg",
-                        "title": "Una estadía para recordar",
-                        "location": "Experiencia en el hotel",
-                        "noShowLocationIcon": true,
-                        "description": "Nuestra estadía en Rancho Roma fue excelente. Las habitaciones son cómodas, el ambiente es muy agradable y la atención hizo que nos sintiéramos como en casa.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje2.jpg",
-                        "title": "Un lugar para disfrutar",
-                        "location": "Experiencia gastronómica",
-                        "noShowLocationIcon": true,
-                        "description": "Disfrutamos mucho nuestra visita a Rancho Roma. La comida estuvo deliciosa, el ambiente fue muy acogedor y pasamos un momento increíble en familia.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje3.jpg",
-                        "title": "El lugar perfecto para celebrar",
-                        "location": "Celebración familiar",
-                        "noShowLocationIcon": true,
-                        "description": "Celebramos una fecha muy especial en Rancho Roma y quedamos encantados con todo. La organización, el espacio y la atención hicieron que fuera un día inolvidable.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje4.jpg",
-                        "title": "Comodidad y buena atención",
-                        "location": "Hospedaje en Tarapoto",
-                        "noShowLocationIcon": true,
-                        "description": "Encontramos en Rancho Roma un lugar cómodo y tranquilo para descansar. La atención fue muy buena y disfrutamos mucho nuestra visita a Tarapoto.",
-                        "numStars": 4.5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje5.jpg",
-                        "title": "Un ambiente increíble",
-                        "location": "Experiencia en Rancho Roma",
-                        "noShowLocationIcon": true,
-                        "description": "Nos encantó el ambiente de Rancho Roma. Es un lugar muy bonito para pasar el día, disfrutar de una buena comida y compartir momentos especiales.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje6.jpg",
-                        "title": "Una celebración inolvidable",
-                        "location": "Evento especial",
-                        "noShowLocationIcon": true,
-                        "description": "Todo salió perfecto durante nuestro evento. El espacio fue ideal, la atención estuvo a la altura y nuestros invitados disfrutaron muchísimo de la experiencia.",
-                        "numStars": 5
-                    },
-                    {
-                        "img": "/img/imagenesInicio/grupoViaje7.jpg",
-                        "title": "Volveríamos sin pensarlo",
-                        "location": "Experiencia familiar",
-                        "noShowLocationIcon": true,
-                        "description": "Pasamos un momento excelente en Rancho Roma. Nos gustó mucho el ambiente, la atención y la experiencia en general. Sin duda, es un lugar al que volveríamos.",
-                        "numStars": 5
-                    }
-                ]
-            },
-            "order": 8
         },
         {
             "title": "Mapa Inicio",
@@ -638,8 +555,8 @@
             "data":{
                 "isMainH1": true,
                 "isAfterHeader": true,
-                "title": "CONOCE NUESTRAS ",
-                "highLightTitle": "PROMOCIONES",
+                "title": "CONOCE NUESTROS ",
+                "highLightTitle": "PAQUETES",
                 "subTitle": "",
                 "highLightSubTitle": "",
                 "description": "",
@@ -667,56 +584,42 @@
                 "info": [
                     {
                         "isOneParraf": true,
-                        "subTitle": "Experiencias especiales",
-                        "title": "NOCHE ESPECIAL",
-                        "article": "Disfruta una noche diferente en Rancho Roma, donde un ambiente acogedor, buena gastronomía y momentos especiales se combinan para ofrecerte una experiencia pensada para disfrutar y compartir. Déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
+                        "subTitle": "Fin de semana perfecto",
+                        "title": "3 DÍAS - 2 NOCHES",
+                        "article": "Disfruta una noche diferente en Rancho Roma y déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
                         "img": "/img/imagenesPromociones/NocheEspecial/listaPromocion.jpg",
                         "buttonMoreInformation": {
                             "type": "primary",
                             "text": "Ver Más",
-                            "href": "/promociones/noche-especial"
+                            "href": "/promociones/3dias-2noches"
                         },
                         "typeAnimation": "left",
                         "pixelsAnimation": 120
                     },
                     {
                         "isOneParraf": true,
-                        "subTitle": "Gastronomía y sabor",
-                        "title": "ESCOGE TU PLATO FAVORITO",
-                        "article": "En Rancho Roma encontrarás una variedad de opciones para disfrutar de una buena comida en un ambiente agradable y acogedor. Escoge tu plato favorito, comparte con quienes más quieres y disfruta de una experiencia gastronómica que combina sabor, calidad y el encanto de Tarapoto.",
+                        "subTitle": "Descanso Perfecto",
+                        "title": "4 DÍAS - 3 NOCHES",
+                        "article": "Vive una escapada más larga en Rancho Roma y disfruta con calma de nuestras instalaciones, la tranquilidad de Tarapoto y momentos inolvidables junto a los tuyos.",
                         "img": "/img/imagenesPromociones/platoFavorito/listaPromocion.jpg",
                         "buttonMoreInformation": {
                             "type": "primary",
                             "text": "Ver Más",
-                            "href": "/promociones/plato-favorito"
+                            "href": "/promociones/4dias-3noches"
                         },
                         "typeAnimation": "right",
                         "pixelsAnimation": 120
                     },
                     {
                         "isOneParraf": true,
-                        "subTitle": "Descanso y comodidad",
-                        "title": "MODO DESCANSO",
-                        "article": "Es momento de desconectarte y disfrutar de la tranquilidad de Rancho Roma. Encuentra el espacio ideal para descansar, relajarte y disfrutar de una experiencia cómoda en Tarapoto, rodeado de un ambiente pensado para que puedas dejar atrás la rutina y dedicarte simplemente a disfrutar.",
-                        "img": "/img/imagenesPromociones/modoDescanso/listaPromocion.jpg",
-                        "buttonMoreInformation": {
-                            "type": "primary",
-                            "text": "Ver Más",
-                            "href": "/promociones/modo-descanso"
-                        },
-                        "typeAnimation": "left",
-                        "pixelsAnimation": 120
-                    },
-                    {
-                        "isOneParraf": true,
-                        "subTitle": "Promociones especiales",
-                        "title": "SUPER PROMO",
-                        "article": "Aprovecha las promociones especiales de Rancho Roma y disfruta de una experiencia diferente en Tarapoto. Ya sea para compartir una deliciosa comida, pasar un momento agradable o disfrutar de nuestras instalaciones, siempre encontrarás una buena razón para visitarnos y aprovechar lo que tenemos preparado para ti.",
+                        "subTitle": "Para ocasiones especiales",
+                        "title": "CELEBRACIÓN ESPECIAL",
+                        "article": "Convierte tu estadía en un momento inolvidable. Personaliza tu experiencia con decoración, vinos, pétalos de rosas y los detalles que hagan de tu celebración algo único en Rancho Roma.",
                         "img": "/img/imagenesPromociones/superPromo/listaPromocion.jpg",
                         "buttonMoreInformation": {
                             "type": "primary",
                             "text": "Ver Más",
-                            "href": "/promociones/super-promo"
+                            "href": "/promociones/celebracion-especial"
                         },
                         "typeAnimation": "right",
                         "pixelsAnimation": 120
@@ -724,163 +627,6 @@
                 ]
             },
             "order": 3
-        },
-        {
-            "title": "Bancos Asociados",
-            "href": "#CardsPaymentsListPromociones",
-            "pageName": "CardsPaymentsList",
-            "showInMenu": false,
-            "data":{
-                "isAfterHeader": false,
-                "subTitle": "Tenemos",
-                "title": "DESCUENTOS ESPECIALES",
-                "closeIcon": "fa fa-solid fa-xmark",
-                "typeAnimationHeader": "left",
-                "pixelsAnimationHeader": 80,
-                "durationAnimationHeader": 1000,
-                "delayAnimationHeader": 0,
-                "durationAnimationCard": 1000,
-                "delayEachAnimationCard": 200,
-                "banks": [
-                    {
-                        "img": "/img/imagenesPromociones/interbankLogo.webp",
-                        "altImg": "Logo de Interbank",
-                        "backgroundColor": "#3cb054",
-                        "features": [
-                            {
-                                "type": "normalText",
-                                "text": "Millas Benefit"
-                            }
-                        ],
-                        "benefits":[
-                            "Descuento aplica sobre la tarifa rack",
-                            "Acceso a la sala de juegos, juegos para niños, piscina principal, gimnasio y muelle privado",
-                            "Cortesía de kayak y paddle",
-                            "Dscto. 10% en alimentos del restaurante",
-                            "Tarifa especial en estacionamiento",
-                            "Válido hasta el 30 de junio 2026",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/bbvaLogo.webp",
-                        "altImg": "Logo de BBVA",
-                        "backgroundColor": "#08407d",
-                        "features": [
-                            {
-                                "type": "highlightNumber",
-                                "firstText": "Hasta",
-                                "number": "50%",
-                                "secondText": "de descuento"
-                            }
-                        ],
-                        "benefits":[
-                            "Aplica para tarjetas seleccionadas",
-                            "Válido hasta 12 cuotas sin intereses",
-                            "Válido para pagos con tarjeta Scotiabank con la app de móvil",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/bcpLogo.webp",
-                        "altImg": "Logo de BCP",
-                        "backgroundColor": "#004ba8",
-                        "features": [
-                            {
-                                "type": "normalText",
-                                "text": "Paga sin intereses"
-                            },
-                            {
-                                "type": "smallText",
-                                "text": "Todas las tarjetas de crédito"
-                            }
-                        ],
-                        "benefits":[
-                            "Aplica para tarjetas seleccionadas",
-                            "Válido hasta 06 cuotas sin intereses",
-                            "Válido para pagos con tarjeta Diners con la app de móvil",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/dinersclubLogo.webp",
-                        "altImg": "Logo de Dinners Club",
-                        "backgroundColor": "#0b3b63",
-                        "features": [
-                            {
-                                "type": "highlightNumber",
-                                "firstText": "Hasta",
-                                "number": "12",
-                                "secondText": "cuotas sin intereses"
-                            }
-                        ],
-                        "benefits":[
-                            "Paga sin intereses con todas las tarjetas de crédito",
-                            "Paga hoy en tu primera cuota y sin afectar toda tu línea de crédito",
-                            "Compra y paga cuando elijas hasta 10 cuotas desde 0% interés",
-                            "Aplica para tarjetas seleccionadas, sujeto a previa evaluación de Powerpay",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/scotiabankLogo.webp",
-                        "altImg": "Logo de Scotiabank",
-                        "backgroundColor": "#d73221",
-                        "features": [
-                            {
-                                "type": "highlightNumber",
-                                "firstText": "Hasta",
-                                "number": "06",
-                                "secondText": "cuotas sin intereses"
-                            }
-                        ],
-                        "benefits":[
-                            "Aplica para las tarjetas seleccionadas",
-                            "Válido para pagos con tarjeta Interbank con la app de móvil",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/powerpayLogo.webp",
-                        "altImg": "Logo de Power Pay",
-                        "backgroundColor": "#d242fd",
-                        "features": [
-                            {
-                                "type": "highlightNumber",
-                                "firstText": "Hasta",
-                                "number": "12",
-                                "secondText": "cuotas sin intereses"
-                            },
-                            {
-                                "type": "smallText",
-                                "text": "Aplica para tarjetas seleccionadas"
-                            }
-                        ],
-                        "benefits":[
-                            "Descuento aplica sobre la tarifa rack",
-                            "Acceso a la sala de juegos, juegos para niños, piscina principal, gimnasio y muelle privado",
-                            "Cortesía de kayak y paddle",
-                            "Dscto. 10% en alimentos del restaurante",
-                            "Tarifa especial en estacionamiento",
-                            "Válido hasta el 30 de junio 2026",
-                            "Aplica términos y condiciones"
-                        ],
-                        "typeAnimation": "up",
-                        "pixelsAnimation": 80
-                    }
-                ]
-            },
-            "order": 4
         }
     ],
     "pagesPromocionesDetail":[
@@ -939,7 +685,7 @@
                 "isAfterHeader": true,
                 "nameId": "#ourTravelsItinerary",
                 "subTitle": "Conoce",
-                "title": "NUESTRAS PROMOCIONES",
+                "title": "NUESTROS PAQUETES",
                 "priceDescription": "Desde:",
                 "loop": true,
                 "autoplay": false,
@@ -953,54 +699,41 @@
                 "travels": [
                     {
                         "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
-                        "titlePart1": "Una Noche",
-                        "titlePart2": "Especial",
-                        "duration": "1 Noche Inolvidable",
-                        "price": "",
-                        "lowText": "Para disfrutar en pareja",
+                        "titlePart1": "3 días",
+                        "titlePart2": "2 noches",
+                        "duration": "Fin de semana perfecto",
+                        "price": "S/. 140",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "noche-especial",
+                        "slug": "3dias-2noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
-                        "titlePart1": "Escoge tu",
-                        "titlePart2": "Plato Favorito",
-                        "duration": "Con un precio Especial",
-                        "price": "",
-                        "lowText": "Para deleitar el paladar",
+                        "titlePart1": "4 días",
+                        "titlePart2": "3 noches",
+                        "duration": "Descanso Perfecto",
+                        "price": "S/. 210",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "plato-favorito",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
-                        "titlePart1": "Modo",
-                        "titlePart2": "Descanso",
-                        "duration": "Sin interrupciones ",
-                        "price": "",
-                        "lowText": "Como en ningún otro lugar",
-                        "buttonText": "Ver Más",
-                        "idPromo": 1,
-                        "href": "/promociones",
-                        "slug": "modo-descanso",
+                        "slug": "4dias-3noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
-                        "titlePart1": "Super Promo",
+                        "titlePart1": "Celebración Especial",
                         "titlePart2": "",
-                        "duration": "4 días + 3 noches",
+                        "duration": "Recuerdos inolvidables",
                         "price": "S/. 210",
                         "lowText": "Para tus vacaciones soñadas",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "super-promo",
+                        "slug": "celebracion-especial",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     }
                 ]
@@ -1063,8 +796,8 @@
                         "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
                         "altImg": "Habitación Simple Hotel Rancho Roma",
                         "title": "Suite Simple",
-                        "sizeM2": "20m2",
-                        "maxNumPeople": "2 adultos + 1 niño",
+                        "sizeM2": "",
+                        "maxNumPeople": "1 cama",
                         "href": "/habitaciones/suite-simple",
                         "featuredAmenities": [
                             {
@@ -1090,8 +823,8 @@
                         "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
                         "altImg": "Habitación Matrimonial Hotel Rancho Roma",
                         "title": "Suite Matrimonial",
-                        "sizeM2": "20m2",
-                        "maxNumPeople": "2 adultos + 1 niño",
+                        "sizeM2": "",
+                        "maxNumPeople": "1 cama matrimonial",
                         "href": "/habitaciones/suite-matrimonial",
                         "featuredAmenities": [
                             {
@@ -1117,8 +850,8 @@
                         "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
                         "altImg": "Habitación Doble Hotel Rancho Roma",
                         "title": "Suite Doble",
-                        "sizeM2": "20m2",
-                        "maxNumPeople": "2 adultos + 1 niño",
+                        "sizeM2": "",
+                        "maxNumPeople": "2 camas",
                         "href": "/habitaciones/suite-doble",
                         "featuredAmenities": [
                             {
@@ -1144,8 +877,8 @@
                         "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
                         "altImg": "Habitación Triple Hotel Rancho Roma",
                         "title": "Suite Triple",
-                        "sizeM2": "20m2",
-                        "maxNumPeople": "2 adultos + 1 niño",
+                        "sizeM2": "",
+                        "maxNumPeople": "3 camas",
                         "href": "/habitaciones/suite-triple",
                         "featuredAmenities": [
                             {
@@ -1204,12 +937,6 @@
                         "pixelsAnimation": 80
                     },
                     {
-                        "icon":"fa fa-solid fa-dumbbell",
-                        "textFirstPart": "Gimnasio",
-                        "typeAnimation": "down",
-                        "pixelsAnimation": 80
-                    },
-                    {
                         "icon":"fa fa-solid fa-table-tennis-paddle-ball",
                         "textFirstPart": "Sala de Juegos",
                         "typeAnimation": "down",
@@ -1235,7 +962,7 @@
                 "isAfterHeader": true,
                 "nameId": "#ourTravelsItinerary",
                 "subTitle": "Conoce",
-                "title": "NUESTRAS PROMOCIONES",
+                "title": "NUESTROS PAQUETES",
                 "priceDescription": "Desde:",
                 "loop": true,
                 "autoplay": false,
@@ -1249,54 +976,41 @@
                 "travels": [
                     {
                         "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.jpg",
-                        "titlePart1": "Una Noche",
-                        "titlePart2": "Especial",
-                        "duration": "1 Noche Inolvidable",
-                        "price": "",
-                        "lowText": "Para disfrutar en pareja",
+                        "titlePart1": "3 días",
+                        "titlePart2": "2 noches",
+                        "duration": "Fin de semana perfecto",
+                        "price": "S/. 140",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "noche-especial",
+                        "slug": "3dias-2noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/platoFavorito/imagenPromocion.jpg",
-                        "titlePart1": "Escoge tu",
-                        "titlePart2": "Plato Favorito",
-                        "duration": "Con un precio Especial",
-                        "price": "",
-                        "lowText": "Para deleitar el paladar",
+                        "titlePart1": "4 días",
+                        "titlePart2": "3 noches",
+                        "duration": "Descanso Perfecto",
+                        "price": "S/. 210",
+                        "lowText": "Por persona",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "plato-favorito",
-                        "altImg": "Promoción Reserva Anticipada Rancho Roma"
-                    },
-                    {
-                        "img": "/img/imagenesPromociones/modoDescanso/imagenPromocion.jpg",
-                        "titlePart1": "Modo",
-                        "titlePart2": "Descanso",
-                        "duration": "Sin interrupciones ",
-                        "price": "",
-                        "lowText": "Como en ningún otro lugar",
-                        "buttonText": "Ver Más",
-                        "idPromo": 1,
-                        "href": "/promociones",
-                        "slug": "modo-descanso",
+                        "slug": "4dias-3noches",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     },
                     {
                         "img": "/img/imagenesPromociones/superPromo/imagenPromocion.jpg",
-                        "titlePart1": "Super Promo",
+                        "titlePart1": "Celebración Especial",
                         "titlePart2": "",
-                        "duration": "4 días + 3 noches",
+                        "duration": "Recuerdos inolvidables",
                         "price": "S/. 210",
                         "lowText": "Para tus vacaciones soñadas",
                         "buttonText": "Ver Más",
                         "idPromo": 1,
                         "href": "/promociones",
-                        "slug": "super-promo",
+                        "slug": "celebracion-especial",
                         "altImg": "Promoción Reserva Anticipada Rancho Roma"
                     }
                 ]
@@ -1361,10 +1075,10 @@
                 "infoFromJsons": false,
 
                 "features": [
-                    {"text": "Cancha de Voley", "icon": "fa fa-solid fa-volleyball"},
-                    {"text": "Cancha de Fútbol", "icon": "fa fa-solid fa-futbol"},
+                    {"text": "Campo Deportivo", "icon": "fa fa-solid fa-futbol"},
                     {"text": "Juegos para niños", "icon": "fa fa-solid fa-child"},
-                    {"text": "Restaurante", "icon": "fa fa-solid fa-utensils"}
+                    {"text": "Restaurante", "icon": "fa fa-solid fa-utensils"},
+                    {"text": "Bar", "icon": "fa fa-solid fa-martini-glass"}
                 ],
 
                 "extraIcons": [
@@ -1538,7 +1252,361 @@
             "order": 7
         }
     ],
-    "pagesConsultPrice": [
+    "pagesInstalaciones": [
+        {
+            "title": "Portada",
+            "href": "#portadaInicio",
+            "pageName": "ImgWithMessage",
+            "showInMenu": false,
+            "data":{
+                "isMainH1": true,
+                "isAfterHeader": true,
+                "title": "NUESTRAS \n",
+                "highLightTitle": "Instalaciones",
+                "subTitle": "",
+                "highLightSubTitle": "",
+                "description": "",
+                "typeAnimationTitleSection": "left",
+                "pixelsAnimationTitleSection": 80,
+                "durationAnimationTitleSection": 1000,
+                "delayAnimationTitleSection": 0,
+                "darkenLeftSide": true,
+                "button":{
+
+                },
+                "img": "/img/imagenesInstalaciones/imagenPortada.webp"
+            },
+            "order": 2
+        },
+        {
+            "title": "Nuestra Información",
+            "href": "#listParrafsWithImgNosotros",
+            "pageName": "ListParrafsWithImg",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "durationAnimationItem": 1000,
+                "delayAnimationItem": 0,
+                "info": [
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Para refrescarte",
+                        "title": "PISCINA",
+                        "article": "Refréscate en nuestra piscina rodeada de vegetación, el lugar perfecto para relajarte bajo el sol de Tarapoto o disfrutar de un chapuzón en familia. Un espacio pensado para desconectarte del ajetreo diario y disfrutar de un momento de descanso junto a los tuyos.",
+                        "img": "/img/imagenesInstalaciones/piscina.webp",
+                        "buttonMoreInformation": "",
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 120
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Platos Gastronómicos",
+                        "title": "Restaurante / Bar",
+                        "article": "Disfruta de una variedad de platos preparados con dedicación y el sabor característico de la región en nuestro restaurante, o relájate con una bebida en nuestro bar mientras disfrutas del ambiente de Rancho Roma. El complemento perfecto para una estadía llena de buenos momentos junto a los tuyos.",
+                        "img": "/img/imagenesInstalaciones/restaurante.webp",
+                        "buttonMoreInformation": "",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Para tus niños",
+                        "title": "Sala Recreacional",
+                        "article": "Nuestra sala recreacional es el espacio ideal para compartir en familia o con amigos, ya sea para jugar, conversar o simplemente relajarte en un ambiente cómodo y acogedor. Un rincón pensado para disfrutar momentos de esparcimiento durante tu estadía en Rancho Roma.",
+                        "img": "/img/imagenesInstalaciones/salaRecreacional.webp",
+                        "buttonMoreInformation": "",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
+                    },
+                    {
+                        "isOneParraf": true,
+                        "subTitle": "Para una competencia sana",
+                        "title": "Campo Deportivo",
+                        "article": "Vive un momento diferente en nuestro campo deportivo, ideal para practicar tu deporte favorito, organizar un partido con amigos o simplemente mantenerte activo durante tu visita. Un espacio amplio al aire libre que forma parte de la experiencia completa que Rancho Roma tiene para ti.",
+                        "img": "/img/imagenesInstalaciones/campoDeportivo.webp",
+                        "buttonMoreInformation": "",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 120
+                    }
+                ]
+            },
+            "order": 3
+        }
+    ],
+    "pagesTerminosCondiciones": [
+        {
+            "title": "FAQ",
+            "href": "#frequentQuestionsInicio",
+            "pageName": "FrequentQuestions",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": true,
+                "title": "Términos y Condiciones 2026",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "durationAnimationQuestions": 1000,
+                "delayEachAnimationQuestion": 0,
+                "questions": [
+                    {
+                        "question": "Nuestra Ubicación",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Debe saber que estamos ubicados en el distrito de El Sauce, a 2 horas de la imponente ciudad de Tarapoto. Nuestro hotel resort está a orillas de la Laguna Azul, uno de los principales atractivos turísticos de la zona.",
+                            "EL Horario tope del pase del rio Huallaga para llegar al Distrito de El Sauce son las 18:00hrs, debe tener en cuenta si Usted tiene vuelos de llega o salida a Tarapoto en horas de la TARDE.",
+                            "Hotel Rancho Roma: Proveedora del servicio de hospedaje. CLIENTE: Pasajero que toma los servicios de Hotel Rancho Roma (mayor de edad). CHECK–IN: Proceso de registro de entrada del cliente en hotel antes de ingresar a la Habitación. CHECK-OUT: Proceso de registro de salida del cliente al momento de terminar de usar los servicios del hotel. NO-SHOW: Es la no presentación del pasajero en el hotel antes de las 17:00 horas del día previsto de llegada, sin comunicación previa por parte del cliente. RESERVA: Acuerdo entre Hotel Rancho Roma y el Cliente para reservar la(s) Suite (s) para las fechas solicitadas por el cliente en Hotel Rancho Roma. CARGO POR SERVICIOS: Recargo del 10% al consumo por servicios prestados de Hotel Rancho Roma. (Incluido en las tarifas año 2023) IMPUESTO GENERAL A LAS VENTAS (IGV): Impuesto correspondiente al 18% de la tarifa – Exonerado en la Amazonia según LEY N°27037"
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones Generales",
+                        "answer": "El Cliente al realizar la reserva declara haber sido informado y/o tenido acceso al contenido de la sección Preguntas Frecuentes consignados en nuestro sitio web las cuales forman parte de los términos del presente contrato. Así mismo acepta incondicionalmente los siguientes términos y condiciones. Ningún servidor o tercera persona, tiene la facultad de modificar o ampliar los términos de este contrato. Estos términos son un contrato entre usted y Proyectos E Inversiones Turísticas del Peru SAC. y los bienes y/o servicios serán brindados por Hotel Rancho Roma directamente, según corresponda. La razón social que finalmente facture será Proyectos E Inversiones Turísticas del Peru SAC.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "¿Cuánto tiempo tarda una importación desde China o otro lugar?",
+                        "answer": "El tiempo depende del tipo de transporte elegido. En caso de Transporte Marítimo, tarda aproximadamente entre 35 y 45 días. En caso de Transporte Aéreo, tarda aproximadamente 10 a 12 días. Nuestro equipo se encarga de coordinar todo el proceso logístico y te mantiene informado durante cada etapa del envío.",
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para el proceso de Check–in y Check-out",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Servicios Prohibidos. Rancho Roma pone en conocimiento, que los siguientes servicios están prohibidos por seguridad de nuestro personal y huéspedes: No está permitido el ingreso de alimentos y bebidas externas. No se permite el ingreso de mascotas. No está permitido hacer ruidos a partir de las 11:00 p. m. – 08:00 a. m. Todo daño a nuestras instalaciones, equipamientos, ropa blanca será responsabilidad del Huésped.",
+                            "Documento al momento del Check-in. Los huéspedes deberán presentar de manera obligatoria el documento de identidad o pasaporte o carnet de extranjería, vigentes. (Adultos, niños e infantes)",
+                            "Garantía de Alojamiento al momento del Check-in (Huésped): Indispensable presentar una TARJETA DE CRÉDITO al momento del Check-in para garantizar su estancia, a esta TARJETA DE CRÉDITO se le hará una pre autorización de S/. 1.00, en caso de no contar con TARJETA, se deberá hacer un desembolsó de S/. 300.00 en efectivo, (Garantía por SUITE) la cual será editada, según sus consumos o devuelta al momento del término de servicio siempre y cuando su estancia haya sido sin daños o perjuicios al HOTEL",
+                            "La hora de ingreso a nuestras instalaciones es a partir de la 3:00pm, haciendo reserva en nuestro RESTURANTE (Hasta la hora de su CHECK IN)",
+                            "Si desea ingresar antes de la 3:00pm, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona (Incluye Piscina principal) y podrá hacer reserva en nuestro RESTAURANTE. (Hasta la hora de su CHECK IN)",
+                            "Si desea disfrutar de nuestras instalaciones después de las 13:00hrs (Check Out) le invitamos a poner sus maletas en custodia en nuestra recepción, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona. Incluye Piscina principal – el tope de servicio es hasta las 15:00hrs"
+                        ],
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para la estadía en el hotel",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Contamos con almacén logístico en China, donde recibimos y verificamos tu mercadería antes del embarque. Además, gestionamos todo el proceso logístico y aduanero para garantizar que tu carga llegue a Perú de forma segura y organizada. Nuestro equipo te mantiene informado durante cada etapa hasta la entrega final.",
+                            "Se permite hasta un (1) niño (menor a 4 años) compartiendo habitación con dos adultos sin cargo extra en alojamiento. El desayuno del menor no está incluido en el precio y deberá ser cargado a la habitación.",
+                            "El desayuno Bufet incluido por habitación es considerado para dos personas, entre adultos o niños. Personas adicionales pagantes, incluye el servicio de desayuno.",
+                            "No contamos con camas adicionales, pone a disposición de sus clientes SUITE que cuentan con 2 Camas Queen y SUITE que cuentan con 3 Camas Queen para que el cliente pueda elegir. Personas adicionales en SUITE tiene un costo adicional y comparte camas.",
+                            "No es posible el juntar las camas de las Suites.",
+                            "Las Suites y áreas comunes, cuentan con instalaciones y condiciones de acceso para personas con necesidades especiales.",
+                            "De acuerdo a la Ley General para la Prevención y Control de Los Riesgos del Consumo de Tabaco, Ley Número 29517, está prohibido fumar en las habitaciones. En caso se verifique el incumplimiento por un huésped de lo especificado en el presente párrafo, se aplicará a dicho huésped una penalidad ascendente a $ 125.00 diarios.",
+                            "Contamos con un servicio de WiFi de 20MB – CORTESIA, la cual la pueden disfrutar en las áreas nobles como LOBBY, RESTAURANTE, PISCINA, MUELLE.",
+                            "Contamos con área de estacionamiento fuera de las instalaciones del hotel, por lo que no garantizamos plazas para ningún pasajero (sujeto a disponibilidad según llegada). Esta área cuenta con personal y cámara de seguridad las 24 horas.",
+                            "Ofrecemos una variedad de servicios adicionales (Tours)",
+                            "El hotel no se responsabiliza por la pérdida o dinero, joyas y/u otros objetos de valor dejados en la habitación. Rogamos a nuestros huéspedes dejar las puertas de sus habitaciones debidamente cerradas, así como utilizar las cajas de seguridad que se encuentran en sus habitaciones.",
+                            "Todos los objetos personales olvidados por nuestros huéspedes, permanecerán bajo depósito en el hotel por 90 días calendario. Vencido este plazo, el hotel podrá disponer de los mismos.",
+                            "Está prohibido el ingreso a las habitaciones de cualquier persona que no esté registrada en el hotel.",
+                            "En caso desee consumir bebidas alcohólicas adquiridas fuera del hotel, se aplicará una tarifa de descorche.",
+                            "Bella Terra Hoteles Resort & Spa está en contra del tráfico de especies protegidas.",
+                            "Está prohibida la tenencia y consumo de drogas alucinógenas dentro de las instalaciones del hotel.",
+                            "La explotación y el abuso sexual de menores de edad son castigados penal y civilmente conforme las disposiciones legales vigentes.",
+                            "Si desea extender su estadía, le pedimos que informe a la Recepción del hotel con al menos 24 horas de anticipación a su fecha de salida. La extensión dependerá de la disponibilidad de habitaciones."
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Motivos para ser Visitante No Grato",
+                        "answer": "Empezar es muy sencillo. Solo necesitas enviarnos la información de tu proveedor o del producto que deseas importar y nuestro equipo analizará los detalles para brindarte una cotización clara y asesorarte en el proceso. Te acompañaremos desde la coordinación con el proveedor hasta la entrega final de tu mercadería en Perú. Contáctanos por WhatsApp y te cotizamos de manera gratuita.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    }
+                ]
+            },
+            "order": 95
+        }
+    ],
+    "pagesPoliticasPrivacidad": [
+        {
+            "title": "FAQ",
+            "href": "#frequentQuestionsInicio",
+            "pageName": "FrequentQuestions",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": true,
+                "title": "Políticas de Privacidad",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "durationAnimationQuestions": 1000,
+                "delayEachAnimationQuestion": 0,
+                "questions": [
+                    {
+                        "question": "Nuestra Ubicación",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Debe saber que estamos ubicados en el distrito de El Sauce, a 2 horas de la imponente ciudad de Tarapoto. Nuestro hotel resort está a orillas de la Laguna Azul, uno de los principales atractivos turísticos de la zona.",
+                            "EL Horario tope del pase del rio Huallaga para llegar al Distrito de El Sauce son las 18:00hrs, debe tener en cuenta si Usted tiene vuelos de llega o salida a Tarapoto en horas de la TARDE.",
+                            "Hotel Rancho Roma: Proveedora del servicio de hospedaje. CLIENTE: Pasajero que toma los servicios de Hotel Rancho Roma (mayor de edad). CHECK–IN: Proceso de registro de entrada del cliente en hotel antes de ingresar a la Habitación. CHECK-OUT: Proceso de registro de salida del cliente al momento de terminar de usar los servicios del hotel. NO-SHOW: Es la no presentación del pasajero en el hotel antes de las 17:00 horas del día previsto de llegada, sin comunicación previa por parte del cliente. RESERVA: Acuerdo entre Hotel Rancho Roma y el Cliente para reservar la(s) Suite (s) para las fechas solicitadas por el cliente en Hotel Rancho Roma. CARGO POR SERVICIOS: Recargo del 10% al consumo por servicios prestados de Hotel Rancho Roma. (Incluido en las tarifas año 2023) IMPUESTO GENERAL A LAS VENTAS (IGV): Impuesto correspondiente al 18% de la tarifa – Exonerado en la Amazonia según LEY N°27037"
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones Generales",
+                        "answer": "El Cliente al realizar la reserva declara haber sido informado y/o tenido acceso al contenido de la sección Preguntas Frecuentes consignados en nuestro sitio web las cuales forman parte de los términos del presente contrato. Así mismo acepta incondicionalmente los siguientes términos y condiciones. Ningún servidor o tercera persona, tiene la facultad de modificar o ampliar los términos de este contrato. Estos términos son un contrato entre usted y Proyectos E Inversiones Turísticas del Peru SAC. y los bienes y/o servicios serán brindados por Hotel Rancho Roma directamente, según corresponda. La razón social que finalmente facture será Proyectos E Inversiones Turísticas del Peru SAC.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "¿Cuánto tiempo tarda una importación desde China o otro lugar?",
+                        "answer": "El tiempo depende del tipo de transporte elegido. En caso de Transporte Marítimo, tarda aproximadamente entre 35 y 45 días. En caso de Transporte Aéreo, tarda aproximadamente 10 a 12 días. Nuestro equipo se encarga de coordinar todo el proceso logístico y te mantiene informado durante cada etapa del envío.",
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para el proceso de Check–in y Check-out",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Servicios Prohibidos. Rancho Roma pone en conocimiento, que los siguientes servicios están prohibidos por seguridad de nuestro personal y huéspedes: No está permitido el ingreso de alimentos y bebidas externas. No se permite el ingreso de mascotas. No está permitido hacer ruidos a partir de las 11:00 p. m. – 08:00 a. m. Todo daño a nuestras instalaciones, equipamientos, ropa blanca será responsabilidad del Huésped.",
+                            "Documento al momento del Check-in. Los huéspedes deberán presentar de manera obligatoria el documento de identidad o pasaporte o carnet de extranjería, vigentes. (Adultos, niños e infantes)",
+                            "Garantía de Alojamiento al momento del Check-in (Huésped): Indispensable presentar una TARJETA DE CRÉDITO al momento del Check-in para garantizar su estancia, a esta TARJETA DE CRÉDITO se le hará una pre autorización de S/. 1.00, en caso de no contar con TARJETA, se deberá hacer un desembolsó de S/. 300.00 en efectivo, (Garantía por SUITE) la cual será editada, según sus consumos o devuelta al momento del término de servicio siempre y cuando su estancia haya sido sin daños o perjuicios al HOTEL",
+                            "La hora de ingreso a nuestras instalaciones es a partir de la 3:00pm, haciendo reserva en nuestro RESTURANTE (Hasta la hora de su CHECK IN)",
+                            "Si desea ingresar antes de la 3:00pm, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona (Incluye Piscina principal) y podrá hacer reserva en nuestro RESTAURANTE. (Hasta la hora de su CHECK IN)",
+                            "Si desea disfrutar de nuestras instalaciones después de las 13:00hrs (Check Out) le invitamos a poner sus maletas en custodia en nuestra recepción, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona. Incluye Piscina principal – el tope de servicio es hasta las 15:00hrs"
+                        ],
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para la estadía en el hotel",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Contamos con almacén logístico en China, donde recibimos y verificamos tu mercadería antes del embarque. Además, gestionamos todo el proceso logístico y aduanero para garantizar que tu carga llegue a Perú de forma segura y organizada. Nuestro equipo te mantiene informado durante cada etapa hasta la entrega final.",
+                            "Se permite hasta un (1) niño (menor a 4 años) compartiendo habitación con dos adultos sin cargo extra en alojamiento. El desayuno del menor no está incluido en el precio y deberá ser cargado a la habitación.",
+                            "El desayuno Bufet incluido por habitación es considerado para dos personas, entre adultos o niños. Personas adicionales pagantes, incluye el servicio de desayuno.",
+                            "No contamos con camas adicionales, pone a disposición de sus clientes SUITE que cuentan con 2 Camas Queen y SUITE que cuentan con 3 Camas Queen para que el cliente pueda elegir. Personas adicionales en SUITE tiene un costo adicional y comparte camas.",
+                            "No es posible el juntar las camas de las Suites.",
+                            "Las Suites y áreas comunes, cuentan con instalaciones y condiciones de acceso para personas con necesidades especiales.",
+                            "De acuerdo a la Ley General para la Prevención y Control de Los Riesgos del Consumo de Tabaco, Ley Número 29517, está prohibido fumar en las habitaciones. En caso se verifique el incumplimiento por un huésped de lo especificado en el presente párrafo, se aplicará a dicho huésped una penalidad ascendente a $ 125.00 diarios.",
+                            "Contamos con un servicio de WiFi de 20MB – CORTESIA, la cual la pueden disfrutar en las áreas nobles como LOBBY, RESTAURANTE, PISCINA, MUELLE.",
+                            "Contamos con área de estacionamiento fuera de las instalaciones del hotel, por lo que no garantizamos plazas para ningún pasajero (sujeto a disponibilidad según llegada). Esta área cuenta con personal y cámara de seguridad las 24 horas.",
+                            "Ofrecemos una variedad de servicios adicionales (Tours)",
+                            "El hotel no se responsabiliza por la pérdida o dinero, joyas y/u otros objetos de valor dejados en la habitación. Rogamos a nuestros huéspedes dejar las puertas de sus habitaciones debidamente cerradas, así como utilizar las cajas de seguridad que se encuentran en sus habitaciones.",
+                            "Todos los objetos personales olvidados por nuestros huéspedes, permanecerán bajo depósito en el hotel por 90 días calendario. Vencido este plazo, el hotel podrá disponer de los mismos.",
+                            "Está prohibido el ingreso a las habitaciones de cualquier persona que no esté registrada en el hotel.",
+                            "En caso desee consumir bebidas alcohólicas adquiridas fuera del hotel, se aplicará una tarifa de descorche.",
+                            "Bella Terra Hoteles Resort & Spa está en contra del tráfico de especies protegidas.",
+                            "Está prohibida la tenencia y consumo de drogas alucinógenas dentro de las instalaciones del hotel.",
+                            "La explotación y el abuso sexual de menores de edad son castigados penal y civilmente conforme las disposiciones legales vigentes.",
+                            "Si desea extender su estadía, le pedimos que informe a la Recepción del hotel con al menos 24 horas de anticipación a su fecha de salida. La extensión dependerá de la disponibilidad de habitaciones."
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Motivos para ser Visitante No Grato",
+                        "answer": "Empezar es muy sencillo. Solo necesitas enviarnos la información de tu proveedor o del producto que deseas importar y nuestro equipo analizará los detalles para brindarte una cotización clara y asesorarte en el proceso. Te acompañaremos desde la coordinación con el proveedor hasta la entrega final de tu mercadería en Perú. Contáctanos por WhatsApp y te cotizamos de manera gratuita.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    }
+                ]
+            },
+            "order": 95
+        }
+    ],
+    "pagesPreguntasFrecuentes": [
+        {
+            "title": "FAQ",
+            "href": "#frequentQuestionsInicio",
+            "pageName": "FrequentQuestions",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": true,
+                "title": "Preguntas Frecuentes",
+                "typeAnimationHeader": "down",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": 0,
+
+                "durationAnimationQuestions": 1000,
+                "delayEachAnimationQuestion": 0,
+                "questions": [
+                    {
+                        "question": "Nuestra Ubicación",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Debe saber que estamos ubicados en el distrito de El Sauce, a 2 horas de la imponente ciudad de Tarapoto. Nuestro hotel resort está a orillas de la Laguna Azul, uno de los principales atractivos turísticos de la zona.",
+                            "EL Horario tope del pase del rio Huallaga para llegar al Distrito de El Sauce son las 18:00hrs, debe tener en cuenta si Usted tiene vuelos de llega o salida a Tarapoto en horas de la TARDE.",
+                            "Hotel Rancho Roma: Proveedora del servicio de hospedaje. CLIENTE: Pasajero que toma los servicios de Hotel Rancho Roma (mayor de edad). CHECK–IN: Proceso de registro de entrada del cliente en hotel antes de ingresar a la Habitación. CHECK-OUT: Proceso de registro de salida del cliente al momento de terminar de usar los servicios del hotel. NO-SHOW: Es la no presentación del pasajero en el hotel antes de las 17:00 horas del día previsto de llegada, sin comunicación previa por parte del cliente. RESERVA: Acuerdo entre Hotel Rancho Roma y el Cliente para reservar la(s) Suite (s) para las fechas solicitadas por el cliente en Hotel Rancho Roma. CARGO POR SERVICIOS: Recargo del 10% al consumo por servicios prestados de Hotel Rancho Roma. (Incluido en las tarifas año 2023) IMPUESTO GENERAL A LAS VENTAS (IGV): Impuesto correspondiente al 18% de la tarifa – Exonerado en la Amazonia según LEY N°27037"
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones Generales",
+                        "answer": "El Cliente al realizar la reserva declara haber sido informado y/o tenido acceso al contenido de la sección Preguntas Frecuentes consignados en nuestro sitio web las cuales forman parte de los términos del presente contrato. Así mismo acepta incondicionalmente los siguientes términos y condiciones. Ningún servidor o tercera persona, tiene la facultad de modificar o ampliar los términos de este contrato. Estos términos son un contrato entre usted y Proyectos E Inversiones Turísticas del Peru SAC. y los bienes y/o servicios serán brindados por Hotel Rancho Roma directamente, según corresponda. La razón social que finalmente facture será Proyectos E Inversiones Turísticas del Peru SAC.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "¿Cuánto tiempo tarda una importación desde China o otro lugar?",
+                        "answer": "El tiempo depende del tipo de transporte elegido. En caso de Transporte Marítimo, tarda aproximadamente entre 35 y 45 días. En caso de Transporte Aéreo, tarda aproximadamente 10 a 12 días. Nuestro equipo se encarga de coordinar todo el proceso logístico y te mantiene informado durante cada etapa del envío.",
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para el proceso de Check–in y Check-out",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Servicios Prohibidos. Rancho Roma pone en conocimiento, que los siguientes servicios están prohibidos por seguridad de nuestro personal y huéspedes: No está permitido el ingreso de alimentos y bebidas externas. No se permite el ingreso de mascotas. No está permitido hacer ruidos a partir de las 11:00 p. m. – 08:00 a. m. Todo daño a nuestras instalaciones, equipamientos, ropa blanca será responsabilidad del Huésped.",
+                            "Documento al momento del Check-in. Los huéspedes deberán presentar de manera obligatoria el documento de identidad o pasaporte o carnet de extranjería, vigentes. (Adultos, niños e infantes)",
+                            "Garantía de Alojamiento al momento del Check-in (Huésped): Indispensable presentar una TARJETA DE CRÉDITO al momento del Check-in para garantizar su estancia, a esta TARJETA DE CRÉDITO se le hará una pre autorización de S/. 1.00, en caso de no contar con TARJETA, se deberá hacer un desembolsó de S/. 300.00 en efectivo, (Garantía por SUITE) la cual será editada, según sus consumos o devuelta al momento del término de servicio siempre y cuando su estancia haya sido sin daños o perjuicios al HOTEL",
+                            "La hora de ingreso a nuestras instalaciones es a partir de la 3:00pm, haciendo reserva en nuestro RESTURANTE (Hasta la hora de su CHECK IN)",
+                            "Si desea ingresar antes de la 3:00pm, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona (Incluye Piscina principal) y podrá hacer reserva en nuestro RESTAURANTE. (Hasta la hora de su CHECK IN)",
+                            "Si desea disfrutar de nuestras instalaciones después de las 13:00hrs (Check Out) le invitamos a poner sus maletas en custodia en nuestra recepción, deberá hacer un pago por derecho de nuestras instalaciones de S/.10.00 por persona. Incluye Piscina principal – el tope de servicio es hasta las 15:00hrs"
+                        ],
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Condiciones para la estadía en el hotel",
+                        "moreThanOneAnswer": true,
+                        "answer": [
+                            "Contamos con almacén logístico en China, donde recibimos y verificamos tu mercadería antes del embarque. Además, gestionamos todo el proceso logístico y aduanero para garantizar que tu carga llegue a Perú de forma segura y organizada. Nuestro equipo te mantiene informado durante cada etapa hasta la entrega final.",
+                            "Se permite hasta un (1) niño (menor a 4 años) compartiendo habitación con dos adultos sin cargo extra en alojamiento. El desayuno del menor no está incluido en el precio y deberá ser cargado a la habitación.",
+                            "El desayuno Bufet incluido por habitación es considerado para dos personas, entre adultos o niños. Personas adicionales pagantes, incluye el servicio de desayuno.",
+                            "No contamos con camas adicionales, pone a disposición de sus clientes SUITE que cuentan con 2 Camas Queen y SUITE que cuentan con 3 Camas Queen para que el cliente pueda elegir. Personas adicionales en SUITE tiene un costo adicional y comparte camas.",
+                            "No es posible el juntar las camas de las Suites.",
+                            "Las Suites y áreas comunes, cuentan con instalaciones y condiciones de acceso para personas con necesidades especiales.",
+                            "De acuerdo a la Ley General para la Prevención y Control de Los Riesgos del Consumo de Tabaco, Ley Número 29517, está prohibido fumar en las habitaciones. En caso se verifique el incumplimiento por un huésped de lo especificado en el presente párrafo, se aplicará a dicho huésped una penalidad ascendente a $ 125.00 diarios.",
+                            "Contamos con un servicio de WiFi de 20MB – CORTESIA, la cual la pueden disfrutar en las áreas nobles como LOBBY, RESTAURANTE, PISCINA, MUELLE.",
+                            "Contamos con área de estacionamiento fuera de las instalaciones del hotel, por lo que no garantizamos plazas para ningún pasajero (sujeto a disponibilidad según llegada). Esta área cuenta con personal y cámara de seguridad las 24 horas.",
+                            "Ofrecemos una variedad de servicios adicionales (Tours)",
+                            "El hotel no se responsabiliza por la pérdida o dinero, joyas y/u otros objetos de valor dejados en la habitación. Rogamos a nuestros huéspedes dejar las puertas de sus habitaciones debidamente cerradas, así como utilizar las cajas de seguridad que se encuentran en sus habitaciones.",
+                            "Todos los objetos personales olvidados por nuestros huéspedes, permanecerán bajo depósito en el hotel por 90 días calendario. Vencido este plazo, el hotel podrá disponer de los mismos.",
+                            "Está prohibido el ingreso a las habitaciones de cualquier persona que no esté registrada en el hotel.",
+                            "En caso desee consumir bebidas alcohólicas adquiridas fuera del hotel, se aplicará una tarifa de descorche.",
+                            "Bella Terra Hoteles Resort & Spa está en contra del tráfico de especies protegidas.",
+                            "Está prohibida la tenencia y consumo de drogas alucinógenas dentro de las instalaciones del hotel.",
+                            "La explotación y el abuso sexual de menores de edad son castigados penal y civilmente conforme las disposiciones legales vigentes.",
+                            "Si desea extender su estadía, le pedimos que informe a la Recepción del hotel con al menos 24 horas de anticipación a su fecha de salida. La extensión dependerá de la disponibilidad de habitaciones."
+                        ],
+                        "typeAnimation": "left",
+                        "pixelsAnimation": 80
+                    },
+                    {
+                        "question": "Motivos para ser Visitante No Grato",
+                        "answer": "Empezar es muy sencillo. Solo necesitas enviarnos la información de tu proveedor o del producto que deseas importar y nuestro equipo analizará los detalles para brindarte una cotización clara y asesorarte en el proceso. Te acompañaremos desde la coordinación con el proveedor hasta la entrega final de tu mercadería en Perú. Contáctanos por WhatsApp y te cotizamos de manera gratuita.",
+                        "typeAnimation": "right",
+                        "pixelsAnimation": 80
+                    }
+                ]
+            },
+            "order": 95
+        }
+    ],
+    "pagesLibroReclamaciones": [
         {
             "title": "Formulario Cotización",
             "href": "#formCotization",
@@ -1546,43 +1614,27 @@
             "showInMenu": false,
             "data":{
                 "isAfterHeader": true,
-                "width": "600px",
-                "title": "Solicitar una Cotización",
-                "description": "Para recibir una cotización, complete el siguiente formulario. Uno de nuestros representantes se pondrá en contacto con usted para entregarle la información que solicitó.",
+                "width": "700px",
+                "title": "Libro de Reclamaciones",
+                "description": "Este formulario permite registrar reclamos o quejas relacionados con los servicios brindados por el hotel. El proveedor dará respuesta en un plazo no mayor a quince (15) días hábiles.",
                 "fields": [
-                    { "name": "specifications", "type": "textarea", "placeholder": "Bríndenos más sobre los detalles de la maquinaria que busca", "maxLength": 500, "required": false, "hideWhenProductRef": true , "formLabel": "Especificaciones"},
                     { "name": "name", "type": "text", "placeholder": "Nombres y Apellidos", "maxLength": 50, "required": true, "formLabel": "Nombre"},
-                    { "name": "ruc", "type": "number", "placeholder": "RUC", "maxLength": 11, "exactLength": true, "required": true, "formLabel": "RUC"},
-                    { "name": "email", "type": "text", "placeholder": "Dirección de correo electrónico", "required": true, "formLabel": "Email"},
-                    { "name": "phone", "type": "tel", "placeholder": "Teléfono de la empresa", "required": true, "formLabel": "Telefono"},
-                    { "name": "nameCompany", "type": "text", "placeholder": "Nombre de la empresa", "required": true, "formLabel": "Nombre Empresa"},
+                    { "name": "direction", "type": "text", "placeholder": "Dirección", "required": true, "formLabel": "direccion"},
+                    { "name": "email", "type": "text", "placeholder": "Correo electrónico", "required": true, "formLabel": "Email"},
+                    { "name": "dni", "type": "number", "placeholder": "DNI", "maxLength": 8, "exactLength": true, "required": true, "formLabel": "DNI"},
+                    { "name": "phone", "type": "tel", "placeholder": "Teléfono Celular", "required": true, "formLabel": "Celular"},
                     {
                         "name": "purchasePeriod",
                         "type": "select",
-                        "label": "Plazo de compra",
-                        "formLabel": "Plazo",
-                        "defaultOption": "Por favor, escoge un plazo",
+                        "label": "Servicio Contratado",
+                        "formLabel": "Servicio Contratado",
+                        "defaultOption": "Por favor, escoge un servicio",
                         "required": true,
                         "options": [
-                            { "text": "En menos de una semana", "value": 1 },
-                            { "text": "1 - 3 meses", "value": 2 },
-                            { "text": "4 - 6 meses", "value": 3 },
-                            { "text": "7 - 9 meses", "value": 4 },
-                            { "text": "10 - 12 meses", "value": 5 },
-                            { "text": "12 - 24 meses", "value": 6 },
-                            { "text": "En más de 24 meses", "value": 7 }
-                        ]
-                    },
-                    {
-                        "name": "extraInfo",
-                        "type": "checkboxGroup",
-                        "label": "Escoja la información adicional que desea recibir",
-                        "formLabel": "Informacion Extra",
-                        "options": [
-                            { "text": "Opciones de financiamiento", "value": 1 },
-                            { "text": "Información de piezas", "value": 2 },
-                            { "text": "Opciones de servicio", "value": 3 },
-                            { "text": "Protección extendida", "value": 4 }
+                            { "text": "Habitación", "value": 1 },
+                            { "text": "Auditorio", "value": 2 },
+                            { "text": "Restaurante", "value": 3 },
+                            { "text": "Bar", "value": 4 }
                         ]
                     }
                 ],
