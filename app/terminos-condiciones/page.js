@@ -3,6 +3,18 @@ import ImgWithMessage from "@/components/imgWithMessage";
 import ListParrafsWithImg from "@/components/listParrafsWithImg";
 import FrequentQuestions from "@/components/frequentQuestions";
 
+export const metadata = {
+    title: "Términos y Condiciones",
+    description: "Términos y Condiciones de Rancho Roma",
+    alternates: {
+        canonical: "/terminos-condiciones",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
+
 export const TerminosCondiciones = () => {
     const pages = [];
     for (const page of JsonData.pagesTerminosCondiciones) {

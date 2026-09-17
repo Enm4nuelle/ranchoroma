@@ -1,49 +1,60 @@
 import JsonData from "../data/data.json";
-import FiltersJson from "../data/filters.json";
-import ProductsJson from "../data/products.json";
+import PromocionesJson from "../data/promociones.json";
+import RoomsJson from "../data/rooms.json"
 
 export default function sitemap() {
     const today = new Date().toISOString();
-    const baseUrl = JsonData.urlDomain.replace(/\/$/, "");
     let pagesActive = [];
+    
+    pagesActive.push({
+        url: JsonData.urlDomain,
+        lastModified: today,
+        changeFrequency: "weekly",
+        priority: 1,
+    });
 
-    for(let i = 0; i < FiltersJson.info.length; i++){
-        let idType = FiltersJson.info[i].idType;
+    pagesActive.push({
+        url: `${JsonData.urlDomain}promociones`,
+        lastModified: today,
+        changeFrequency: "weekly",
+        priority: 0.9,
+    });
+
+    for(let i = 0; i < PromocionesJson.promotions.length; i++){
         pagesActive.push({
-            url: `${baseUrl}${FiltersJson.info[i].href}`,
+            url: `${JsonData.urlDomain}promociones/${PromocionesJson.promotions[i].slug}`,
             lastModified: today,
             changeFrequency: "weekly",
             priority: 0.8,
         });
-        for(let j = 0; j < ProductsJson.maquinarias.length; j++){
-            if(idType === ProductsJson.maquinarias[j].idType){
-                pagesActive.push({
-                    url: `${baseUrl}${FiltersJson.info[i].href}/${ProductsJson.maquinarias[j].nameHref}`,
-                    lastModified: today,
-                    changeFrequency: "weekly",
-                    priority: 0.9,
-                });     
-            }
-        }
     }
 
-    pagesActive.unshift({
-        url: `${JsonData.urlDomain}productos`,
+    pagesActive.push({
+        url: `${JsonData.urlDomain}habitaciones`,
         lastModified: today,
         changeFrequency: "weekly",
-        priority: 0.8,
+        priority: 0.9,
     });
-    pagesActive.unshift({
-        url: JsonData.urlDomain,
+    for(let i = 0; i < RoomsJson.rooms.length; i++){
+        pagesActive.push({
+            url: `${JsonData.urlDomain}habitaciones/${RoomsJson.rooms[i].slug}`,
+            lastModified: today,
+            changeFrequency: "weekly",
+            priority: 0.8,
+        });
+    }
+
+    pagesActive.push({
+        url: `${JsonData.urlDomain}restaurante`,
         lastModified: today,
         changeFrequency: "weekly",
-        priority: 0.8,
+        priority: 0.9,
     });
     pagesActive.push({
-        url: `${JsonData.urlDomain}cotizacion`,
+        url: `${JsonData.urlDomain}instalaciones`,
         lastModified: today,
         changeFrequency: "weekly",
-        priority: 1.0,
+        priority: 0.9,
     });
     return pagesActive;
 }

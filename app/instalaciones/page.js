@@ -14,7 +14,29 @@ import ProductCatalog from "@/components/productCatalog";
 import NoFoundProductConsult from "@/components/noFoundProductConsult";
 import ListParrafsWithImg from "@/components/listParrafsWithImg";
 
+export const metadata = {
+    title: "Instalaciones",
+    description: "Conoce las instalaciones de Hotel Rancho Roma en Tarapoto: piscina, restaurante y bar, sala recreacional y campo deportivo para toda la familia.",
+    alternates: {
+        canonical: "/instalaciones",
+    },
+    openGraph: {
+        title: "Instalaciones | Rancho Roma",
+        description: "Piscina, restaurante y bar, sala recreacional y campo deportivo en la selva de Tarapoto.",
+        url: `${JsonData.urlDomain}instalaciones`,
+        images: [JsonData.ogImage],
+    },
+};
+
 export const Instalaciones = () => {
+    const breadcrumbInstalaciones = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Inicio", "item": JsonData.urlDomain },
+            { "@type": "ListItem", "position": 2, "name": "Instalaciones", "item": `${JsonData.urlDomain}instalaciones` }
+        ]
+    };
     const pages = [];
     for (const page of JsonData.pagesInstalaciones) {
         if (page.pageName === "ImgWithMessage"){
@@ -50,6 +72,10 @@ export const Instalaciones = () => {
     pages.sort((a, b) => a.order - b.order);
     return (
         <div>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbInstalaciones) }}
+            />
             {pages.map((p) => p.e)}
         </div>
     )

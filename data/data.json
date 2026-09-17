@@ -43,9 +43,8 @@
                     },
                     {
                         "text": "Restaurante",
-                        "href": "https://trackingwebsac.andessystems.com/e7vEMQr+IAMZbiM=/login",
-                        "sublinks": "",
-                        "anotherPage": true
+                        "href": "/restaurante",
+                        "sublinks": ""
                     },
                     {
                         "text": "Instalaciones",
@@ -268,19 +267,19 @@
                 "imgs": [
                     {
                         "src": "/img/imagenesInicio/imagenSobreNosotros1.webp",
-                        "altImg": "Foto Fuera Rancho Roma",
+                        "altImg": "Vista por Dron Rancho Roma",
                         "typeAnimation": "down",
                         "pixelsAnimation": 120
                     },
                     {
                         "src": "/img/imagenesInicio/imagenSobreNosotros3.webp",
-                        "altImg": "Foto Fuera Rancho Roma",
+                        "altImg": "Barquito Peque Peque Banchero Rancho Roma",
                         "typeAnimation": "right",
                         "pixelsAnimation": 120
                     },
                     {
                         "src": "/img/imagenesInicio/imagenSobreNosotros2.webp",
-                        "altImg": "Foto Fuera Rancho Roma",
+                        "altImg": "",
                         "typeAnimation": "right",
                         "pixelsAnimation": 120
                     }
@@ -311,6 +310,7 @@
                     {
                         "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
                         "altImg": "Habitación Simple Hotel Rancho Roma",
+                        "price": "S/. 100.00",
                         "title": "Suite Simple",
                         "slug": "suite-simple",
                         "featuredAmenities": [
@@ -331,6 +331,7 @@
                         "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
                         "altImg": "Habitación Matrimonial Hotel Rancho Roma",
                         "title": "Suite Matrimonial",
+                        "price": "S/. 180.00",
                         "slug": "suite-matrimonial",
                         "featuredAmenities": [
                             {
@@ -350,6 +351,7 @@
                         "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
                         "altImg": "Habitación Doble Hotel Rancho Roma",
                         "title": "Suite Doble",
+                        "price": "S/. 180.00",
                         "slug": "suite-doble",
                         "featuredAmenities": [
                             {
@@ -359,6 +361,10 @@
                             {
                                 "icon":"fa fa-solid fa-wind",
                                 "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-money-bill-1-wave",
+                                "text": "S/. 180"
                             }
                         ],
                         "idTypeRoom": 3,
@@ -369,6 +375,7 @@
                         "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
                         "altImg": "Suite Triple Hotel Rancho Roma",
                         "title": "Suite Triple",
+                        "price": "S/. 220.00",
                         "slug": "suite-triple",
                         "featuredAmenities": [
                             {
@@ -378,6 +385,10 @@
                             {
                                 "icon":"fa fa-solid fa-wind",
                                 "text": "Aire acondicionado"
+                            },
+                            {
+                                "icon":"fa fa-solid fa-money-bill-1-wave",
+                                "text": "S/. 220"
                             }
                         ],
                         "idTypeRoom": 4,
@@ -515,7 +526,7 @@
             "pageName": "InlineImgLink",
             "showInMenu": false,
             "data":{
-                "img": "/img/imagenesInicio/imagenRestauranteInline.jpg",
+                "img": "/img/imagenesInicio/imagenSobreNosotros3.webp",
                 "altImg": "Restaurante Rancho Roma",
                 "textLink": "Restaurante / Bar",
                 "href": "/restaurante"
@@ -763,7 +774,7 @@
                 "button":{
 
                 },
-                "img": "/img/imagenesHabitaciones/imagenPortada.jpg"
+                "img": "/img/imagenesHabitaciones/imagenPortada.webp"
             },
             "order": 2
         },
@@ -796,7 +807,7 @@
                         "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
                         "altImg": "Habitación Simple Hotel Rancho Roma",
                         "title": "Suite Simple",
-                        "sizeM2": "",
+                        "sizeM2": "S/. 100",
                         "maxNumPeople": "1 cama",
                         "href": "/habitaciones/suite-simple",
                         "featuredAmenities": [
@@ -823,7 +834,7 @@
                         "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
                         "altImg": "Habitación Matrimonial Hotel Rancho Roma",
                         "title": "Suite Matrimonial",
-                        "sizeM2": "",
+                        "sizeM2": "S/. 180",
                         "maxNumPeople": "1 cama matrimonial",
                         "href": "/habitaciones/suite-matrimonial",
                         "featuredAmenities": [
@@ -850,7 +861,7 @@
                         "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
                         "altImg": "Habitación Doble Hotel Rancho Roma",
                         "title": "Suite Doble",
-                        "sizeM2": "",
+                        "sizeM2": "S/. 180",
                         "maxNumPeople": "2 camas",
                         "href": "/habitaciones/suite-doble",
                         "featuredAmenities": [
@@ -877,7 +888,7 @@
                         "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
                         "altImg": "Habitación Triple Hotel Rancho Roma",
                         "title": "Suite Triple",
-                        "sizeM2": "",
+                        "sizeM2": "S/. 220",
                         "maxNumPeople": "3 camas",
                         "href": "/habitaciones/suite-triple",
                         "featuredAmenities": [
@@ -1045,6 +1056,7 @@
                 "isAfterHeader": false,
                 "title": "Características y Amenidades",
                 "infoFromJsons": true,
+                "labelPrice": " por noche",
 
                 "typeAnimationHeader": "left",
                 "pixelsAnimationHeader": 80,
@@ -1175,11 +1187,12 @@
                         "img": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp",
                         "altImg": "Habitación Simple Hotel Rancho Roma",
                         "title": "Suite Simple",
+                        "price": "S/. 100.00",
                         "slug": "suite-simple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
+                                "text": "1 Cama"
                             },
                             {
                                 "icon":"fa fa-solid fa-wind",
@@ -1194,6 +1207,7 @@
                         "img": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp",
                         "altImg": "Habitación Matrimonial Hotel Rancho Roma",
                         "title": "Suite Matrimonial",
+                        "price": "S/. 180.00",
                         "slug": "suite-matrimonial",
                         "featuredAmenities": [
                             {
@@ -1213,11 +1227,12 @@
                         "img": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp",
                         "altImg": "Habitación Doble Hotel Rancho Roma",
                         "title": "Suite Doble",
+                        "price": "S/. 180.00",
                         "slug": "suite-doble",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
+                                "text": "2 Camas"
                             },
                             {
                                 "icon":"fa fa-solid fa-wind",
@@ -1232,11 +1247,12 @@
                         "img": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp",
                         "altImg": "Suite Triple Hotel Rancho Roma",
                         "title": "Suite Triple",
+                        "price": "S/. 220.00",
                         "slug": "suite-triple",
                         "featuredAmenities": [
                             {
                                 "icon":"fa fa-solid fa-bed",
-                                "text": "1 Cama King Size"
+                                "text": "3 camas"
                             },
                             {
                                 "icon":"fa fa-solid fa-wind",
@@ -1636,18 +1652,373 @@
                             { "text": "Restaurante", "value": 3 },
                             { "text": "Bar", "value": 4 }
                         ]
-                    }
+                    },
+                    { "name": "detalle", "type": "textarea", "placeholder": "Por favor, describa claramente su queja", "required": true, "formLabel": "Detalle Reclamación"}
                 ],
                 "errorMessage": "Este campo es obligatorio.",
                 "errorMessageLength1stPart": "Por favor ingrese los ",
                 "errorMessageLength2ndPart": " dígitos correspondientes.",
-                "alertForm": "Al compartir su información, usted autoriza a ASPEM Maquinaria a procesar sus datos para satisfacer adecuadamente su solicitud. Dependiendo de su solicitud, es posible que tengamos que compartir sus datos con los distribuidores aplicables y los proveedores de servicios aplicables que operan. Cuidar de su información es una responsabilidad que nos tomamos muy en serio.",
+                "alertForm": "Al compartir su información, usted autoriza a Rancho Roma a procesar sus datos para satisfacer adecuadamente su solicitud. Dependiendo de su solicitud, es posible que tengamos que compartir sus datos con los distribuidores aplicables y los proveedores de servicios aplicables que operan. Cuidar de su información es una responsabilidad que nos tomamos muy en serio.",
                 "iconAlert": "fa fa-solid fa-triangle-exclamation",
                 "messageSuccess": "✅ ¡Listo! Apenas podamos nos pondremos en contacto contigo.",
                 "messageErrorSend": "❌ Hubo un error al registrar tu información, inténtalo más tarde.",
                 "buttonSendForm": "Enviar Información"
             },
             "order": 2
+        }
+    ],
+    "pagesRestaurante": [
+        {
+            "title": "Restaurante / Bar",
+            "href": "#portadaInicio",
+            "pageName": "ImgWithMessage",
+            "showInMenu": false,
+            "data":{
+                "isMainH1": true,
+                "isAfterHeader": true,
+                "title": "NUESTRO \n",
+                "highLightTitle": "Restaurante",
+                "subTitle": "",
+                "highLightSubTitle": "",
+                "description": "",
+                "typeAnimationTitleSection": "left",
+                "pixelsAnimationTitleSection": 80,
+                "durationAnimationTitleSection": 1000,
+                "delayAnimationTitleSection": 0,
+                "darkenLeftSide": true,
+                "button":{
+
+                },
+                "img": "/img/imagenesRestaurante/imagenPortada.webp",
+                "altImg": "Restaurante Rancho Roma"
+            },
+            "order": 2
+        },
+        {
+            "title": "Portada",
+            "href": "#downloadMenus",
+            "pageName": "DownloadMenus",
+            "showInMenu": false,
+            "data":{
+                "isAfterHeader": false,
+                "title": "NUESTRAS CARTAS",
+                "description": "Utilizamos como base los sabores de la selva del Perú, mezclándolos para darte el mejor platillo. Aseguramos que cada plato o cada cóctel que consumas, cautivará tu paladar.",
+                
+                "typeAnimationTitleSection": "left",
+                "pixelsAnimationTitleSection": 80,
+                "durationAnimationTitleSection": 1000,
+                "delayAnimationTitleSection": 0,
+
+                "typeAnimationButtons": "up",
+                "pixelsAnimationButtons": 80,
+                "durationAnimationButtons": 1000,
+                "delayAnimationButtons": 0,
+
+                "typeAnimationImg": "up",
+                "pixelsAnimationImg": 80,
+                "durationAnimationImg": 1000,
+                "delayAnimationImg": 0,
+
+                "buttons": [
+                    {
+                        "type": "secondary",
+                        "href": "/img/imagenesRestaurante/Carta del Restaurante de Rancho Roma.pdf",
+                        "text": "Ver Menú",
+                        "icon": "fa fa-solid fa-utensils"
+                    },
+                    {
+                        "type": "secondary",
+                        "href": "/img/imagenesRestaurante/Carta del Bar de Rancho Roma.pdf",
+                        "text": "Ver Cócteles",
+                        "icon": "fa fa-solid fa-martini-glass"
+                    }
+                ],
+                "img": "/img/imagenesRestaurante/chefPosando.webp",
+                "altImg": "Chef en Restaurante Rancho Roma"
+            },
+            "order": 3
+        },
+        {
+            "title": "Platos",
+            "href": "#carrouselRoomsPlatos",
+            "pageName": "CarrouselRooms",
+            "showInMenu": false,
+            "data":{
+                "nameId": "#ourTravelsInicio",
+                "title": "MEJORES PLATOS",
+                "subTitle": "Dale un vistazo a nuestros",
+                "priceDescription": "Desde:",
+                "delayAutoPlay": 4000,
+                "loop": true,
+                "autoplay": true,
+                "isDoneText": "Ya realizado",
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": "",
+                "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
+                "rooms": [
+                    {
+                        "img": "/img/imagenesRestaurante/barquitoBanchero.webp",
+                        "altImg": "Barquito Peque Peque Banchero Rancho Roma",
+                        "price": "S/. 150.00",
+                        "title": "Barquito Peque Peque Banchero",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/cevicheMixto.webp",
+                        "altImg": "Ceviche Mixto Rancho Roma",
+                        "price": "S/. 40.00",
+                        "title": "Ceviche Mixto",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/chicharronDePollo.webp",
+                        "altImg": "Chicharrón de Pollo Rancho Roma",
+                        "price": "S/. 25.00",
+                        "title": "Chicharrón de Pollo con Papas Fritas",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/chuletaDeCerdo.webp",
+                        "altImg": "Chuleta de Cerdo Rancho Roma",
+                        "price": "S/. 25.00",
+                        "title": "Chuleta de Cerdo con Papas Fritas",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/costillasAhumadas.webp",
+                        "altImg": "Costillas Ahumadas Rancho Roma",
+                        "price": "S/. 40.00",
+                        "title": "Costillas Ahumadas",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/lecheDeTigre.webp",
+                        "altImg": "Leche de Tigre Rancho Roma",
+                        "price": "S/. 25.00",
+                        "title": "Leche de Tigre",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/lomoSaltado.webp",
+                        "altImg": "Lomo Saltado Rancho Roma",
+                        "price": "S/. 40.00",
+                        "title": "Lomo Saltado",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/secoNorteno.webp",
+                        "altImg": "Seco Norteño Rancho Roma",
+                        "price": "S/. 40.00",
+                        "title": "Seco Norteño",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/tacachoCecina.webp",
+                        "altImg": "Tacacho con Cecina Rancho Roma",
+                        "price": "S/. 30.00",
+                        "title": "Tacacho con Cecina",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve rico? ¡Ven a nuestro restaurante a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "order": 4
+        },
+        {
+            "title": "Bar",
+            "href": "#carrouselRoomsBar",
+            "pageName": "CarrouselRooms",
+            "showInMenu": false,
+            "data":{
+                "nameId": "#ourTravelsInicio",
+                "title": "MEJORES CÓCTELES",
+                "subTitle": "Dale un vistazo a nuestros",
+                "priceDescription": "Desde:",
+                "delayAutoPlay": 4000,
+                "loop": true,
+                "autoplay": true,
+                "isDoneText": "Ya realizado",
+                "typeAnimationHeader": "left",
+                "pixelsAnimationHeader": 80,
+                "durationAnimationHeader": 1000,
+                "delayAnimationHeader": "",
+                "iconExpandImage": "fa-solid fa-up-right-and-down-left-from-center",
+                "rooms": [
+                    {
+                        "img": "/img/imagenesRestaurante/1.webp",
+                        "altImg": "Sex on the Beach Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Sex on the Beach",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/2.webp",
+                        "altImg": "Laguna Azul Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Laguna Azul",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/3.webp",
+                        "altImg": "Tequila Sunrise Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Tequila Sunrise",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/4.webp",
+                        "altImg": "Chilcano Rancho Roma",
+                        "price": "S/. 18.00",
+                        "title": "Chilcano",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/5.webp",
+                        "altImg": "Margarita Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Margarita",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/6.webp",
+                        "altImg": "Beso Negro Rancho Roma",
+                        "price": "S/. 25.00",
+                        "title": "Beso Negro",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/7.webp",
+                        "altImg": "Piña Colada Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Piña Colada",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/8.webp",
+                        "altImg": "Machu Picchu Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Machu Picchu",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    },
+                    {
+                        "img": "/img/imagenesRestaurante/9.webp",
+                        "altImg": "Daiquiri Rancho Roma",
+                        "price": "S/. 22.00",
+                        "title": "Daiquiri",
+                        "featuredAmenities": [
+                            {
+                                "icon":"fa fa-solid fa-utensils",
+                                "text": "¿Se ve bien? ¡Ven a nuestro bar a probarlo!",
+                                "href": "https://www.google.com/maps/dir/?api=1&destination=-6.5746662,-76.3310468"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "order": 5
         }
     ]
 }

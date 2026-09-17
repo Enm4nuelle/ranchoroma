@@ -4,6 +4,18 @@ import ListParrafsWithImg from "@/components/listParrafsWithImg";
 import FrequentQuestions from "@/components/frequentQuestions";
 import FormCotization from "@/components/formCotization";
 
+export const metadata = {
+    title: "Libro de Reclamaciones",
+    description: "Libro de Reclamaciones de Rancho Roma",
+    alternates: {
+        canonical: "/libro-reclamaciones",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
+
 export const LibroReclamaciones = () => {
     const pages = [];
     for (const page of JsonData.pagesLibroReclamaciones) {

@@ -5,6 +5,8 @@
             "slug": "3dias-2noches",
             "active": true,
             "title": "3 DÍAS - 2 NOCHES",
+            "price": "140",
+            "currency": "PEN",
             "description": "Disfruta una noche diferente en Rancho Roma y déjate sorprender por el encanto de nuestras instalaciones y vive una velada especial en Tarapoto.",
             "messageWhatsapp": "Hola, quisiera reservar mi habitación con la promoción 3 días - 2 Noches en el hotel Rancho Roma",
             "options": [
@@ -12,6 +14,7 @@
                     "title": "3 Días - 2 Noches",
                     "img": "/img/imagenesPromociones/nocheEspecial/opcion1.webp",
                     "altImg": "Promocion 3 días 2 noches Rancho Roma",
+                    "price": "S/. 140",
                     "courtesys": [],
                     "includes": [
                         "Alojamiento en Suite",
@@ -38,6 +41,8 @@
             "slug": "4dias-3noches",
             "active": true,
             "title": "4 DÍAS - 3 NOCHES",
+            "price": "210",
+            "currency": "PEN",
             "description": "Vive una escapada más larga en Rancho Roma y disfruta con calma de nuestras instalaciones, la tranquilidad de Tarapoto y momentos inolvidables junto a los tuyos.",
             "messageWhatsapp": "Hola, quisiera reservar mi habitación con la promoción 3 días - 2 Noches en el hotel Rancho Roma",
             "options": [
@@ -45,6 +50,7 @@
                     "title": "4 Días - 3 Noches",
                     "img": "/img/imagenesPromociones/platoFavorito/opcion1.webp",
                     "altImg": "Promocion 4 días 3 noches Rancho Roma",
+                    "price": "S/. 210",
                     "includes": [
                         "Alojamiento en Suite",
                         "Desayuno",
@@ -70,6 +76,8 @@
             "slug": "celebracion-especial",
             "active": true,
             "title": "CELEBRACIÓN ESPECIAL",
+            "price": "210",
+            "currency": "PEN",
             "description": "Convierte tu estadía en un momento inolvidable. Personaliza tu experiencia con decoración, vinos, pétalos de rosas y los detalles que hagan de tu celebración algo único en Rancho Roma.",
             "messageWhatsapp": "Hola, quisiera más información acerca de la promoción Celebración Especial en el hotel Rancho Roma",
             "options": [
@@ -77,6 +85,7 @@
                     "title": "Cumpleaños, Aniversarios, Pedidas de Mano y más",
                     "img": "/img/imagenesPromociones/superPromo/opcion1.webp",
                     "altImg": "Promoción Celebración Especial Rancho Roma",
+                    "price": "S/. 210",
                     "includes": [
                         "Decoración",
                         "Vinos",

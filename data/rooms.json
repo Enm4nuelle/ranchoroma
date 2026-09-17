@@ -5,13 +5,14 @@
             "active": true,
             "slug": "suite-simple",
             "title": "Suite Simple Rancho Roma",
+            "pricePerNight": "S/. 100",
             "imgs": [
                 {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion1.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion2.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteSimple/imagenHabitacion3.webp", "alt": "Habitación Suite Simple Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": ""},
+                {"text": "S/. 100"},
                 {"text": "Hasta 2 adultos y un niño"}
             ],
             "features": [
@@ -33,13 +34,14 @@
             "active": true,
             "slug": "suite-matrimonial",
             "title": "Suite Matrimonial Rancho Roma",
+            "pricePerNight": "S/. 180",
             "imgs": [
                 {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion1.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion2.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteMatrimonial/imagenHabitacion3.webp", "alt": "Habitación Suite Matrimonial Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": ""},
+                {"text": "S/. 180"},
                 {"text": "Hasta 2 adultos y un niño"}
             ],
             "features": [
@@ -61,13 +63,14 @@
             "active": true,
             "slug": "suite-doble",
             "title": "Suite Doble Rancho Roma",
+            "pricePerNight": "S/. 180",
             "imgs": [
                 {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion1.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion2.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"},
                 {"src": "/img/imagenesHabitaciones/suiteDoble/imagenHabitacion3.webp", "alt": "Habitación Suite Doble Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": ""},
+                {"text": "S/. 180"},
                 {"text": "Hasta 3 adultos y 2 niños"}
             ],
             "features": [
@@ -89,13 +92,13 @@
             "active": true,
             "slug": "suite-triple",
             "title": "Suite Triple Rancho Roma",
+            "pricePerNight": "S/. 220",
             "imgs": [
                 {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion1.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"},
-                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion2.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"},
-                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion3.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"}
+                {"src": "/img/imagenesHabitaciones/suiteTriple/imagenHabitacion2.webp", "alt": "Habitación Suite Triple Hotel Rancho Roma"}
             ],
             "basicInfo": [
-                {"text": ""},
+                {"text": "S/. 220"},
                 {"text": "Hasta 4 adultos y 3 niños"}
             ],
             "features": [

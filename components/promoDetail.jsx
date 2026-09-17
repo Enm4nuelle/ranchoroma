@@ -70,6 +70,9 @@ export const PromoDetail = (props) => {
                                                 {option.title}
                                             </h3>
                                         }
+                                        <p className="promoDetail-items-item-info-price">
+                                            <span>{props.data.labelPrice ?? "Precio: "}</span>{option.price}
+                                        </p>
                                         <div className="promoDetail-items-item-courtesy-container">
                                             {
                                                 (option.courtesys && option.courtesys.length > 0) ?

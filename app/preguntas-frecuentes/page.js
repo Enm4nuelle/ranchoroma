@@ -3,6 +3,18 @@ import ImgWithMessage from "@/components/imgWithMessage";
 import ListParrafsWithImg from "@/components/listParrafsWithImg";
 import FrequentQuestions from "@/components/frequentQuestions";
 
+export const metadata = {
+    title: "Preguntas Frecuentes",
+    description: "Preguntas Frecuentes de Rancho Roma",
+    alternates: {
+        canonical: "/preguntas-frecuentes",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
+
 export const PreguntasFrecuentes = () => {
     const pages = [];
     for (const page of JsonData.pagesPreguntasFrecuentes) {

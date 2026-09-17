@@ -48,9 +48,19 @@ export const CarrouselRooms = (props) => {
                     />
                 </div>
                 <div className="carrouselRooms-items-item-content">
-                    <h3 className="carrouselRooms-items-item-content-title">
-                        {room.title}
-                    </h3>
+                    <div className="carrouselRooms-items-item-content-title-container">
+                        <h3 className="carrouselRooms-items-item-content-title">
+                            {room.title}
+                        </h3>
+                        {
+                            room.price ?
+                            <p className="carrouselRooms-items-item-content-price">
+                                {room.price}
+                            </p>
+                            :
+                            ""
+                        }
+                    </div>
                     <div className="carrouselRooms-items-item-content-divider" aria-hidden="true"></div>
                 
                     <ul className="carrouselRooms-items-item-content-information">
@@ -58,22 +68,42 @@ export const CarrouselRooms = (props) => {
                             room.featuredAmenities?.map((amenity, index) => (
                                 <li key={index} className="carrouselRooms-items-item-content-information-item">
                                     <i className={"carrouselRooms-items-item-content-information-icon " + amenity.icon} aria-hidden="true"></i>
-                                    <p className="carrouselRooms-items-item-content-information-text">
-                                        {amenity.text}
-                                    </p>
+                                    {
+                                        amenity.href ?
+                                        <a
+                                            href={amenity.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="carrouselRooms-items-item-content-information-text"
+                                            style={{
+                                                textDecoration: "underline"
+                                            }}
+                                        >
+                                            {amenity.text}
+                                        </a>
+                                        :
+                                        <p className="carrouselRooms-items-item-content-information-text">
+                                            {amenity.text}
+                                        </p>
+                                    }
                                 </li>
                             ))
                         }
                     </ul>
-                    <div className="carrouselRooms-items-item-content-information">
-                        <Link
-                            href={href}
-                            className="carrouselRooms-items-item-content-information-link buttonPrimary"
-                            aria-label={`Ver detalles de ${room.title}`}
-                        >
-                            {room.buttonText}
-                        </Link>
-                    </div>
+                    {
+                        room.buttonText ?
+                        <div className="carrouselRooms-items-item-content-information">
+                            <Link
+                                href={href}
+                                className="carrouselRooms-items-item-content-information-link buttonPrimary"
+                                aria-label={`Ver detalles de ${room.title}`}
+                            >
+                                {room.buttonText}
+                            </Link>
+                        </div>
+                        :
+                        ""
+                    }
                 </div>
             </div>
         );

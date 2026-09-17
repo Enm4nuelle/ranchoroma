@@ -470,6 +470,9 @@
     --listFeatures-extraIcons-icon-color: #e69200;
     --listFeatures-extraIcons-label-color: #4e4646;
     --listFeatures-extraIcons-text-color: #4e4646;
+
+    --downloadMenus-title-color: #ffa733;
+    --downloadMenus-header-divider-color: #000000;
 }
 /*--------------------------------------------------------------
 # GENERAL
@@ -6627,6 +6630,11 @@ li {
     padding: 20px;
     background: var(--carrouselRooms-items-item-content-background-color);
 }
+.carrouselRooms-items-item-content-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .carrouselRooms-items-item-content-title{
     font-size: 20px;
     margin-bottom: 10px;
@@ -6670,6 +6678,9 @@ li {
 @media (max-width: 1080px) {
     .carrouselRooms-text-title{
         font-size: 38px;
+    }
+    .carrouselRooms-items-item-content-title-container{
+        flex-direction: column;
     }
 }
 @media (max-width: 768px) {
@@ -7091,6 +7102,12 @@ li {
 .promoDetail-items-item-info-duration span{
     color: var(--promoDetail-item-labels-color);
 }
+.promoDetail-items-item-info-price{
+    font-size: 22px;
+}
+.promoDetail-items-item-info-price span{
+    color: var(--promoDetail-item-labels-color);
+}
 .promoDetail-items-item-courtesy-text, .promoDetail-items-item-includes-text{
     margin-left: 20px;
     font-size: 15px;
@@ -7480,7 +7497,7 @@ li {
     transform: scale(1.03);
 }
 .imgWithLightBox-imgs-listImg-item-button-selected{
-    filter: brightness(1.5);
+    filter: brightness(1.1);
 }
 .imgWithLightBox-imgs-listImg-item-button-noSelected{
     filter: brightness(0.5);
@@ -7767,5 +7784,135 @@ li {
     }
     .bannerWithMessage-header{
         text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# DOWNLOADMENUS
+--------------------------------------------------------------*/
+.downloadMenus{
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.downloadMenus-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.downloadMenus-textPart{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.downloadMenus-textPart-text-title{
+    font-size: 55px;
+    line-height: 1.1;
+    text-shadow: 0 2px 4px rgba(0,0,0,.4);
+    color: var(--downloadMenus-title-color);
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.downloadMenus-textPart-text-description{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(56, 54, 54);
+    text-align: center;
+}
+.downloadMenus-textPart-text-divider{
+    width: 120px;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background: var(--downloadMenus-header-divider-color);
+    border-radius: 999px;
+    justify-self: center;
+}
+.downloadMenus-textPart-text-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 60px;
+}
+.downloadMenus-textPart-text-buttons-buttonDownload{
+    background-color: transparent;
+    font-size: 18px;
+    color: #000;
+}
+.downloadMenus-textPart-text-buttons-buttonDownload-icon{
+    margin-left: 15px;
+}
+.downloadMenus-textPart-text-buttons-buttonDownload:hover{
+    color: #fff;
+}
+
+.downloadMenus-img-container{
+    width: 35%;
+    height: 100%;
+    
+    max-height: 450px;
+}
+.downloadMenus-img-container{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    object-fit: cover;
+    max-height: 450px;
+}
+.downloadMenus-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    max-height: 450px;
+}
+@media (max-width: 1500px) {
+    .downloadMenus-textPart{
+        width: 50%;
+    }
+    .downloadMenus-img-container{
+        width: 50%;
+    }
+    .downloadMenus-textPart-text-buttons{
+        gap: 40px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .downloadMenus-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .downloadMenus-textPart{
+        width: 100%;
+    }
+    .downloadMenus-img-container{
+        width: 100%;
+        max-height: 350px;
+    }
+    .downloadMenus-img{
+        max-height: 350px;
+    }
+    .downloadMenus-textPart-text-buttons{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .downloadMenus-textPart-text-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .downloadMenus-textPart-text-title{
+        font-size: 38px;
     }
 }

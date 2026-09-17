@@ -27,6 +27,34 @@ import InlineImgLink from "@/components/inlineImgLink";
 import ScrollToHashOnLoad from "@/components/scrollToHashOnLoad";
 import ListRooms from "@/components/listRooms";
 
+export const metadata = {
+    title: "Inicio | Rancho Roma",
+    description: "Hotel Resort Rancho Roma: hospédate en la selva de Tarapoto con piscina, restaurante y suites cómodas. Vive la conexión con la naturaleza en Juan Guerra, San Martín.",
+    alternates: {
+        canonical: "/",
+    },
+    openGraph: {
+        title: "Rancho Roma | Conecta con la Selva",
+        description: "Hospédate en Hotel Rancho Roma, un espacio único para vivir la tranquilidad y conexión con la selva peruana. Piscina, restaurante y suites cómodas en Tarapoto.",
+        url: "/",
+        images: [
+            {
+                url: JsonData.ogImage,
+                width: 1200,
+                height: 630,
+                alt: "Hotel Rancho Roma",
+            },
+        ],
+        locale: "es_PE",
+        type: "website",
+    },
+    twitter: {
+        title: "Rancho Roma | Conecta con la Selva",
+        description: "Hospédate en Hotel Rancho Roma, un espacio único para vivir la tranquilidad y conexión con la selva peruana. Piscina, restaurante y suites cómodas en Tarapoto.",
+        images: [JsonData.ogImage],
+    },
+};
+
 export default function Home() {
 	const pages = [];
     for (const page of JsonData.pages) {

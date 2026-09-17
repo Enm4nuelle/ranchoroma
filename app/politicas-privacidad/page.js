@@ -3,6 +3,18 @@ import ImgWithMessage from "@/components/imgWithMessage";
 import ListParrafsWithImg from "@/components/listParrafsWithImg";
 import FrequentQuestions from "@/components/frequentQuestions";
 
+export const metadata = {
+    title: "Políticas de Privacidad",
+    description: "Políticas de Privacidad de Rancho Roma",
+    alternates: {
+        canonical: "/politicas-privacidad",
+    },
+    robots: {
+        index: true,
+        follow: true,
+    },
+};
+
 export const PoliticasPrivacidad = () => {
     const pages = [];
     for (const page of JsonData.pagesPoliticasPrivacidad) {

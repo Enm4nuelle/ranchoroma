@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ScrollAnimation from "./scrollAnimation";
@@ -45,15 +44,13 @@ export const ImgWithMessage = (props) => {
                         <p>Tu navegador no soporta videos HTML5.</p>
                     </video>
                 :
-                <Image
+                <img
                     src={props.data.img}
                     alt={props.data.altImg ?? "Imagen Hero"}
                     className="imgWithMessage-img"
-                    width={1920}
-                    height={800}
-                    priority={props.data.isAfterHeader}
+                    loading={props.data.isAfterHeader ? "eager" : "lazy"}
                     fetchPriority={props.data.isAfterHeader ? "high" : "auto"}
-                    sizes="100vw"
+                    decoding={props.data.isAfterHeader ? "sync" : "async"}
                 />
             }
             <div className="imgWithMessage-text">
