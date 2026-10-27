@@ -12,7 +12,7 @@
             "options": [
                 {
                     "title": "3 Días - 2 Noches",
-                    "img": "/img/imagenesPromociones/nocheEspecial/opcion1.webp",
+                    "img": "/img/imagenesPromociones/nocheEspecial/imagenPromocion.webp",
                     "altImg": "Promocion 3 días 2 noches Rancho Roma",
                     "price": "S/. 140",
                     "courtesys": [],
@@ -48,7 +48,7 @@
             "options": [
                 {
                     "title": "4 Días - 3 Noches",
-                    "img": "/img/imagenesPromociones/platoFavorito/opcion1.webp",
+                    "img": "/img/imagenesPromociones/platoFavorito/listaPromocion.webp",
                     "altImg": "Promocion 4 días 3 noches Rancho Roma",
                     "price": "S/. 210",
                     "includes": [
@@ -83,7 +83,7 @@
             "options": [
                 {
                     "title": "Cumpleaños, Aniversarios, Pedidas de Mano y más",
-                    "img": "/img/imagenesPromociones/superPromo/opcion1.webp",
+                    "img": "/img/imagenesPromociones/superPromo/imagenPromocion.webp",
                     "altImg": "Promoción Celebración Especial Rancho Roma",
                     "price": "S/. 210",
                     "includes": [

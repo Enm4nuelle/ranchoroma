@@ -135,52 +135,56 @@ export const FormCotization = (props) => {
     return (
         <section
             className={"formCotization " + (props.data.isAfterHeader ? "firstOnPageWithHeader" : "")}
-            style={{ "width": props.data.width ? `min(${props.data.width}, 90%)` : "90%" }}
         >
-            <div className="formCotization-header">
-                <h1 className="formCotization-header-title">{props.data.title}</h1>
-                <p className="formCotization-header-description">{props.data.description}</p>
-            </div>
-            {nameProduct && (
-                <ScrollAnimation animation="left" pixelsDisplacement={80} duration={1000}>
-                    <div className="formCotization-productReference-container">
-                        <div className="formCotization-productReference">
-                            <div className="formCotization-productReference-img-container">
-                                <img
-                                    src={urlImg}
-                                    alt={nameProduct}
-                                    className="formCotization-productReference-img"
-                                    loading="lazy"
-                                />
+            <div
+                className="formCotization-container"
+                style={{ "width": props.data.width ? `min(${props.data.width}, 90%)` : "90%" }}
+            >
+                <div className="formCotization-header">
+                    <h1 className="formCotization-header-title">{props.data.title}</h1>
+                    <p className="formCotization-header-description">{props.data.description}</p>
+                </div>
+                {nameProduct && (
+                    <ScrollAnimation animation="left" pixelsDisplacement={80} duration={1000}>
+                        <div className="formCotization-productReference-container">
+                            <div className="formCotization-productReference">
+                                <div className="formCotization-productReference-img-container">
+                                    <img
+                                        src={urlImg}
+                                        alt={nameProduct}
+                                        className="formCotization-productReference-img"
+                                        loading="lazy"
+                                    />
+                                </div>
+                                <span className="formCotization-productReference-name">{nameProduct}</span>
                             </div>
-                            <span className="formCotization-productReference-name">{nameProduct}</span>
                         </div>
-                    </div>
-                </ScrollAnimation>
-            )}
+                    </ScrollAnimation>
+                )}
 
-            <form className="formCotization-form" onSubmit={onSubmitForm}>
-                {visibleFields.map((field) => (
-                    <FormField
-                        key={field.name}
-                        field={{
-                            ...field,
-                            iconAlert: props.data.iconAlert,
-                            errorMessage: (field.exactLength ? (props.data.errorMessageLength1stPart + field.maxLength + props.data.errorMessageLength2ndPart)
-                                : props.data.errorMessage),
-                        }}
-                        value={values[field.name]}
-                        error={!!errors[field.name]}
-                        onChange={handleChange}
-                    />
-                ))}
+                <form className="formCotization-form" onSubmit={onSubmitForm}>
+                    {visibleFields.map((field) => (
+                        <FormField
+                            key={field.name}
+                            field={{
+                                ...field,
+                                iconAlert: props.data.iconAlert,
+                                errorMessage: (field.exactLength ? (props.data.errorMessageLength1stPart + field.maxLength + props.data.errorMessageLength2ndPart)
+                                    : props.data.errorMessage),
+                            }}
+                            value={values[field.name]}
+                            error={!!errors[field.name]}
+                            onChange={handleChange}
+                        />
+                    ))}
 
-                <p className="formCotization-form-textAlertForm">{props.data.alertForm}</p>
+                    <p className="formCotization-form-textAlertForm">{props.data.alertForm}</p>
 
-                <button className="filterProducts-mainPart-products-items-item-button">
-                    {props.data.buttonSendForm}
-                </button>
-            </form>
+                    <button className="filterProducts-mainPart-products-items-item-button">
+                        {props.data.buttonSendForm}
+                    </button>
+                </form>
+            </div>
         </section>
     )
 }
